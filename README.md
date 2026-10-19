@@ -11,26 +11,26 @@
 
 To run the entire replay, simulator, outcome judgment, and impact reporting pipeline from start to finish:
 
-```bash
+bash
 python src/cli.py run-all --pack one_user_one_agent_pack --out sample_run
-```
+
 
 Or using the standard Python 3.11 executable:
-```bash
+bash
 py -3.11 src/cli.py run-all --pack one_user_one_agent_pack --out sample_run
-```
+
 
 ### Running the Automated Test Suite (100% Pass)
-```bash
+bash
 py -3.11 tests/run_tests.py
-```
+
 *(Runs 17 unit and integration tests across idempotency, precedence rules, tool failures, rule corrections, and verifier safety with zero third-party dependencies).*
 
 ---
 
 ## Project Structure
 
-```
+
 stage-agent/
 ├── README.md                 # Setup, quickstart & replay instructions
 ├── ARCHITECTURE.md           # Ownership, planning, memory, verifier & trust boundaries
@@ -66,7 +66,7 @@ stage-agent/
 │   ├── impact_report.md      # Intention-to-Treat (ITT) evaluation & pilot critique
 │   └── final_report.md       # Full executive report & technical discussion prep
 └── one_user_one_agent_pack/  # Complete data pack & simulator
-```
+
 
 ---
 
@@ -87,22 +87,21 @@ The system implements the **7-Step Agent Loop**:
 ## CLI Commands Reference
 
 - **Full End-to-End Pipeline**:
-  ```bash
+  bash
   python src/cli.py run-all --pack one_user_one_agent_pack --out sample_run
   ```
 - **Replay Only**:
-  ```bash
+  bash
   python src/cli.py replay --pack one_user_one_agent_pack --out sample_run
   ```
 - **Simulator Only**:
-  ```bash
+  bash
   python src/cli.py simulate --pack one_user_one_agent_pack --actions sample_run/actions.jsonl --out sample_run/sim --seed oua-practice
   ```
 - **Judge Outcomes Only**:
-  ```bash
+  bash
   python src/cli.py judge --pack one_user_one_agent_pack --out sample_run
   ```
 - **Generate Reports Only**:
-  ```bash
+  bash
   python src/cli.py report --pack one_user_one_agent_pack --out sample_run
-  ```
