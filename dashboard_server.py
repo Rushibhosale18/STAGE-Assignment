@@ -10,7 +10,7 @@ import socketserver
 import urllib.parse
 from pathlib import Path
 
-PORT = 8000
+PORT = int(os.environ.get("PORT", 8000))
 BASE_DIR = Path(__file__).resolve().parent
 SAMPLE_RUN = BASE_DIR / "sample_run"
 PACK_DIR = BASE_DIR / "one_user_one_agent_pack"
@@ -1714,11 +1714,11 @@ class DashboardHandler(http.server.SimpleHTTPRequestHandler):
 
 
 def start_server():
-    server_address = ("127.0.0.1", PORT)
+    server_address = ("0.0.0.0", PORT)
     # Allow reuse address to prevent WinError 10048 address already in use
     socketserver.TCPServer.allow_reuse_address = True
     httpd = socketserver.TCPServer(server_address, DashboardHandler)
-    print("STAGE Dashboard & Video Player Hub is running at http://localhost:" + str(PORT))
+    print("STAGE Dashboard & Video Player Hub is running on port " + str(PORT))
     httpd.serve_forever()
 
 
