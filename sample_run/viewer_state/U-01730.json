@@ -1,0 +1,80 @@
+{
+  "user_id": "U-01730",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-20T15:19:16.501Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-05-06T07:22:11.085Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:38:41.128Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:38:41.128Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:38:41.128Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:38:41.128Z"
+    },
+    "signup_at": {
+      "value": "2025-05-06T07:22:11.085Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-05-06T07:22:11.085Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:93da5ced-7e94-4263-b3cb-77dc07566e0a",
+      "received_at": "2026-09-20T15:19:16.501Z",
+      "occurred_at": "2026-09-20T15:19:16.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-13",
+    "2026-09-20"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-20T15:17:13.749Z",
+  "last_play_started_at": "2026-09-13T07:50:16.623Z",
+  "series_progress": {
+    "roti-d1": {
+      "last_watched_at": "2026-09-13T07:50:16.623Z",
+      "last_episode_id": "roti-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

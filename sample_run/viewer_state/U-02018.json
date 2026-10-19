@@ -1,0 +1,98 @@
+{
+  "user_id": "U-02018",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-23T13:07:57.092Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-02-04T11:30:57.069Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:07:20.589Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:07:20.589Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:07:20.589Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:07:20.589Z"
+    },
+    "signup_at": {
+      "value": "2025-02-04T11:30:57.069Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-02-04T11:30:57.069Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:c5633191-0250-4eb7-8d4e-b602a54a133f",
+      "received_at": "2026-09-23T13:07:57.092Z",
+      "occurred_at": "2026-09-23T13:07:55.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T15:05:50.811Z",
+    "deadline": "2026-10-04T15:05:50.811Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-12",
+    "2026-09-18",
+    "2026-09-23"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-23T13:07:38.031Z",
+  "last_play_started_at": "2026-09-07T15:19:43.426Z",
+  "series_progress": {
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-07T15:19:43.426Z",
+      "last_episode_id": "hama-chudibha-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

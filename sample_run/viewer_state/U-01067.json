@@ -1,0 +1,75 @@
+{
+  "user_id": "U-01067",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T10:45:40.085Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2024-10-17T03:52:16.172Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-12T14:26:03.806Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:28:16.130Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:28:16.130Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:28:16.130Z"
+    },
+    "signup_at": {
+      "value": "2024-10-17T03:52:16.172Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-10-17T03:52:16.172Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:34802e59-cc89-4de3-992b-053ac2315248",
+      "received_at": "2026-09-26T10:45:40.085Z",
+      "occurred_at": "2026-09-26T10:45:38.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 33,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-11",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-26"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-26T10:44:50.802Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

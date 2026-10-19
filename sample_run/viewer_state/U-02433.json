@@ -1,0 +1,89 @@
+{
+  "user_id": "U-02433",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T07:47:34.293Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d7",
+  "app_dialect": "d7",
+  "preferred_language": "hin",
+  "signup_at": "2026-04-30T14:54:37.984Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-19T12:19:54.072Z"
+    },
+    "preferred_dialect": {
+      "value": "d7",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:46:46.435Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:46:46.435Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:46:46.435Z"
+    },
+    "signup_at": {
+      "value": "2026-04-30T14:54:37.984Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-04-30T14:54:37.984Z"
+    },
+    "app_dialect": {
+      "value": "d7",
+      "source": "event:1aa9967f-c809-4305-b52b-5840a24675fc",
+      "received_at": "2026-09-26T07:47:34.293Z",
+      "occurred_at": "2026-09-26T07:47:33.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-09",
+    "2026-09-11",
+    "2026-09-13",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-26"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-26T07:47:18.234Z",
+  "last_play_started_at": "2026-09-19T10:04:17.163Z",
+  "series_progress": {
+    "nipi-maniba-d2": {
+      "last_watched_at": "2026-09-17T13:17:46.703Z",
+      "last_episode_id": "nipi-maniba-d2-s1e1",
+      "completed_episodes": []
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-19T12:02:57.906Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 6,
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

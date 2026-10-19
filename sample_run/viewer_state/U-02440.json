@@ -1,0 +1,100 @@
+{
+  "user_id": "U-02440",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T12:06:12.299Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2025-03-28T10:40:54.118Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:34:33.956Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:34:33.956Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:34:33.956Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:34:33.956Z"
+    },
+    "signup_at": {
+      "value": "2025-03-28T10:40:54.118Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-28T10:40:54.118Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:8d373e3f-ea95-4101-bf3c-d7e8313ab46f",
+      "received_at": "2026-09-27T12:06:12.299Z",
+      "occurred_at": "2026-09-27T11:16:54.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T04:39:37.112Z",
+    "deadline": "2026-10-04T04:39:37.112Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 36,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-08",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-27"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-27T12:06:01.885Z",
+  "last_play_started_at": "2026-09-04T10:53:26.863Z",
+  "series_progress": {
+    "gidha-sudhako-d1": {
+      "last_watched_at": "2026-09-04T10:53:26.863Z",
+      "last_episode_id": "gidha-sudhako-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,95 @@
+{
+  "user_id": "U-03803",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-12T18:09:32.157Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-06-26T03:44:32.892Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:06:57.913Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:06:57.913Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:06:57.913Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:06:57.913Z"
+    },
+    "signup_at": {
+      "value": "2025-06-26T03:44:32.892Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-06-26T03:44:32.892Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:3cf81275-1077-429c-8254-9a767308baa3",
+      "received_at": "2026-09-12T18:09:32.157Z",
+      "occurred_at": "2026-09-12T18:09:31.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T01:05:20.202Z",
+    "deadline": "2026-10-04T01:05:20.202Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-11"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-11T12:09:32.044Z",
+  "last_play_started_at": "2026-09-11T12:12:01.653Z",
+  "series_progress": {
+    "tidha-dakachu-d1": {
+      "last_watched_at": "2026-09-11T12:12:01.653Z",
+      "last_episode_id": "tidha-dakachu-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,73 @@
+{
+  "user_id": "U-01993",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-18T05:26:05.210Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-02-05T02:49:01.638Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:53:49.441Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:53:49.441Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:53:49.441Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:53:49.441Z"
+    },
+    "signup_at": {
+      "value": "2026-02-05T02:49:01.638Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-02-05T02:49:01.638Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:d5c40af5-a16e-43a5-9328-48aa04c27b0f",
+      "received_at": "2026-09-18T05:26:05.210Z",
+      "occurred_at": "2026-09-18T05:26:05.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-11",
+    "2026-09-15",
+    "2026-09-18"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-18T05:26:05.210Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

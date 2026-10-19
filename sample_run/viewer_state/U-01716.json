@@ -1,0 +1,151 @@
+{
+  "user_id": "U-01716",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T16:09:32.262Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2025-04-09T19:42:11.312Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-13T23:24:24.396Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:50:52.087Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:50:52.087Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:50:52.087Z"
+    },
+    "signup_at": {
+      "value": "2025-04-09T19:42:11.312Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-04-09T19:42:11.312Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:dd21f568-23ce-4f83-a4fc-11993952017d",
+      "received_at": "2026-09-29T16:09:32.262Z",
+      "occurred_at": "2026-09-29T16:09:32.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:24:38.757Z",
+    "deadline": "2026-10-04T07:24:38.757Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:tero-koja-d2:unwatched_episodes",
+      "series_progress:tero-koja-d2:last_watched:2026-09-01T18:54:38.853Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series tero-koja-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "tero-koja-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 78,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-29"
+  ],
+  "total_plays_started": 36,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-29T16:07:28.170Z",
+  "last_play_started_at": "2026-09-29T16:08:47.664Z",
+  "series_progress": {
+    "tero-koja-d2": {
+      "last_watched_at": "2026-09-01T18:54:38.853Z",
+      "last_episode_id": "tero-koja-d2-s1e1",
+      "completed_episodes": []
+    },
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-29T16:08:47.664Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e2",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1"
+      ]
+    },
+    "neba-d2": {
+      "last_watched_at": "2026-09-05T17:34:57.294Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": [
+        "neba-d2-s1e1"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-17T13:45:41.522Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": []
+    },
+    "gibha-bhalomo-d2": {
+      "last_watched_at": "2026-09-14T07:36:57.321Z",
+      "last_episode_id": "gibha-bhalomo-d2-s1e1",
+      "completed_episodes": []
+    },
+    "kolani-mari-d2": {
+      "last_watched_at": "2026-09-20T07:28:41.818Z",
+      "last_episode_id": "kolani-mari-d2-s1e1",
+      "completed_episodes": []
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-21T12:56:20.388Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Crime": 6,
+    "Family": 15,
+    "Devotional": 6,
+    "Action": 12,
+    "Romance": 12,
+    "Drama": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

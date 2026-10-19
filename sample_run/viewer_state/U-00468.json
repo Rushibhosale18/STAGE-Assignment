@@ -1,0 +1,69 @@
+{
+  "user_id": "U-00468",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-09T16:54:11.533Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d4",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2025-11-27T17:06:00.050Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:38:25.946Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:38:25.946Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:38:25.946Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:38:25.946Z"
+    },
+    "signup_at": {
+      "value": "2025-11-27T17:06:00.050Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-11-27T17:06:00.050Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:87b3b7a0-7d2d-4c78-8985-92427ec33360",
+      "received_at": "2026-09-09T16:54:11.533Z",
+      "occurred_at": "2026-09-09T16:54:10.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 3,
+  "distinct_active_ist_days": [
+    "2026-09-03"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-03T14:09:02.046Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

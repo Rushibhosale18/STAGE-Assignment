@@ -1,0 +1,107 @@
+{
+  "user_id": "U-03810",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T02:48:40.715Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-04-08T15:26:46.835Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:40:25.186Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:40:25.186Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:40:25.186Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:40:25.186Z"
+    },
+    "signup_at": {
+      "value": "2026-04-08T15:26:46.835Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-04-08T15:26:46.835Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:6888632e-7f7f-42c7-a64a-9abfc18132a9",
+      "received_at": "2026-09-29T02:48:40.715Z",
+      "occurred_at": "2026-09-26T23:08:47.765Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 48,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 18,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-29T02:48:10.971Z",
+  "last_play_started_at": "2026-09-28T06:58:13.243Z",
+  "series_progress": {
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-26T12:46:24.562Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e4",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1",
+        "dhapipa-gini-d2-s1e3",
+        "dhapipa-gini-d2-s1e2",
+        "dhapipa-gini-d2-s1e4"
+      ]
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-24T15:57:10.948Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": []
+    },
+    "tela-sagi-d2": {
+      "last_watched_at": "2026-09-28T06:58:13.243Z",
+      "last_episode_id": "tela-sagi-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Family": 12,
+    "Romance": 6,
+    "Devotional": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

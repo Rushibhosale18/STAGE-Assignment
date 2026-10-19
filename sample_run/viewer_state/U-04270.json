@@ -1,0 +1,69 @@
+{
+  "user_id": "U-04270",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-17T09:39:57.469Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-05-26T10:01:50.676Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:13:22.180Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:13:22.180Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:13:22.180Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:13:22.180Z"
+    },
+    "signup_at": {
+      "value": "2026-05-26T10:01:50.676Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-05-26T10:01:50.676Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:1a0ecf45-cf62-40e6-88ad-1255828d612b",
+      "received_at": "2026-09-17T09:39:57.469Z",
+      "occurred_at": "2026-09-17T09:39:55.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 3,
+  "distinct_active_ist_days": [
+    "2026-09-17"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-17T09:39:29.293Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

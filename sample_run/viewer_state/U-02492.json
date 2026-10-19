@@ -1,0 +1,136 @@
+{
+  "user_id": "U-02492",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T17:19:16.180Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2025-09-26T05:39:48.352Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-08T05:57:33.914Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:48:21.154Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:48:21.154Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:48:21.154Z"
+    },
+    "signup_at": {
+      "value": "2025-09-26T05:39:48.352Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-09-26T05:39:48.352Z"
+    },
+    "app_dialect": {
+      "value": "NA",
+      "source": "event:fa284132-8a1b-4b47-adb1-193334734672",
+      "received_at": "2026-09-15T10:14:55.655Z",
+      "occurred_at": "2026-09-15T10:14:55.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T03:08:30.358Z",
+    "deadline": "2026-10-04T03:08:30.358Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:piropa-moguti-d2:unwatched_episodes",
+      "series_progress:piropa-moguti-d2:last_watched:2026-09-05T16:42:39.730Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series piropa-moguti-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "piropa-moguti-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-10",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-25",
+    "2026-09-27"
+  ],
+  "total_plays_started": 24,
+  "total_episodes_completed": 15,
+  "last_app_open_at": "2026-09-27T17:19:02.939Z",
+  "last_play_started_at": "2026-09-22T16:47:08.967Z",
+  "series_progress": {
+    "piropa-moguti-d2": {
+      "last_watched_at": "2026-09-05T16:42:39.730Z",
+      "last_episode_id": "piropa-moguti-d2-s1e1",
+      "completed_episodes": []
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-10T05:50:03.365Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": []
+    },
+    "nipi-maniba-d2": {
+      "last_watched_at": "2026-09-15T09:20:24.968Z",
+      "last_episode_id": "nipi-maniba-d2-s1e1",
+      "completed_episodes": [
+        "nipi-maniba-d2-s1e1"
+      ]
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-13T10:44:22.048Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    },
+    "gima-bhadaba-d1": {
+      "last_watched_at": "2026-09-22T16:49:52.461Z",
+      "last_episode_id": "gima-bhadaba-d1-s1e3",
+      "completed_episodes": [
+        "gima-bhadaba-d1-s1e1",
+        "gima-bhadaba-d1-s1e2",
+        "gima-bhadaba-d1-s1e3"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Drama": 3,
+    "Romance": 3,
+    "Devotional": 21,
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

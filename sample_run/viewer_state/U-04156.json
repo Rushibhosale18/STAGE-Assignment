@@ -1,0 +1,92 @@
+{
+  "user_id": "U-04156",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T15:33:20.820Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-01-02T01:38:01.999Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:10:30.001Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:10:30.001Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:10:30.001Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:10:30.001Z"
+    },
+    "signup_at": {
+      "value": "2025-01-02T01:38:01.999Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-01-02T01:38:01.999Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:dfa721eb-e606-4c52-b499-2a58bc96df81",
+      "received_at": "2026-09-28T15:33:20.820Z",
+      "occurred_at": "2026-09-28T15:33:20.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 39,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-16",
+    "2026-09-19",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-28T15:32:11.276Z",
+  "last_play_started_at": "2026-09-08T11:38:42.664Z",
+  "series_progress": {
+    "hala-d1": {
+      "last_watched_at": "2026-09-04T17:05:25.996Z",
+      "last_episode_id": "hala-d1-s1e1",
+      "completed_episodes": []
+    },
+    "gima-bhadaba-d1": {
+      "last_watched_at": "2026-09-08T11:38:42.664Z",
+      "last_episode_id": "gima-bhadaba-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Family": 3,
+    "Crime": 3,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,70 @@
+{
+  "user_id": "U-00393",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-10T06:11:02.720Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2026-07-02T00:48:12.824Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:28:02.149Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:28:02.149Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:28:02.149Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:28:02.149Z"
+    },
+    "signup_at": {
+      "value": "2026-07-02T00:48:12.824Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-07-02T00:48:12.824Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:cce5237f-b7ab-40d7-a7c5-95b017bb0a60",
+      "received_at": "2026-09-10T06:11:02.720Z",
+      "occurred_at": "2026-09-10T06:11:02.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 6,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-10"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-10T06:10:48.475Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

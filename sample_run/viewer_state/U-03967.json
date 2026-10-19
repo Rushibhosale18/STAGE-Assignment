@@ -1,0 +1,125 @@
+{
+  "user_id": "U-03967",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T16:29:18.703Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-04-17T11:33:33.091Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-12T01:20:58.593Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:36:00.824Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:36:00.824Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:36:00.824Z"
+    },
+    "signup_at": {
+      "value": "2025-04-17T11:33:33.091Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-04-17T11:33:33.091Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:7044902b-ab38-4d3d-ab0d-82224e9433cb",
+      "received_at": "2026-09-30T16:29:18.703Z",
+      "occurred_at": "2026-09-30T16:29:17.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:24:57.251Z",
+    "deadline": "2026-10-04T16:24:57.251Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bhaja-moguba-d2:unwatched_episodes",
+      "series_progress:bhaja-moguba-d2:last_watched:2026-09-25T09:17:09.732Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bhaja-moguba-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bhaja-moguba-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-12",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 36,
+  "total_episodes_completed": 15,
+  "last_app_open_at": "2026-09-30T16:02:11.445Z",
+  "last_play_started_at": "2026-09-30T16:03:34.784Z",
+  "series_progress": {
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-29T16:33:15.614Z",
+      "last_episode_id": "guka-kosusa-d2-s1e3",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1",
+        "guka-kosusa-d2-s1e2"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-30T16:29:18.703Z",
+      "last_episode_id": "molo-d2-s1e2",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2"
+      ]
+    },
+    "bhaja-moguba-d2": {
+      "last_watched_at": "2026-09-25T09:17:09.732Z",
+      "last_episode_id": "bhaja-moguba-d2-s1e1",
+      "completed_episodes": [
+        "bhaja-moguba-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 33,
+    "Devotional": 18,
+    "Action": 15,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

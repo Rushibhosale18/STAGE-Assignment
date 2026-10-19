@@ -1,0 +1,102 @@
+{
+  "user_id": "U-01376",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T09:34:08.228Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2025-12-30T09:06:09.568Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-01T20:27:57.490Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:21:06.572Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:21:06.572Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:21:06.572Z"
+    },
+    "signup_at": {
+      "value": "2025-12-30T09:06:09.568Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-12-30T09:06:09.568Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:9ba04398-7069-48d1-a5ef-37d2a81fc260",
+      "received_at": "2026-09-29T09:34:08.228Z",
+      "occurred_at": "2026-09-29T09:34:06.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T17:03:08.472Z",
+    "deadline": "2026-10-04T17:03:08.472Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-19",
+    "2026-09-25",
+    "2026-09-29"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-29T09:33:47.977Z",
+  "last_play_started_at": "2026-09-25T06:26:38.371Z",
+  "series_progress": {
+    "rigu-d5": {
+      "last_watched_at": "2026-09-19T15:18:27.909Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": []
+    },
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-25T06:26:38.371Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 6,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

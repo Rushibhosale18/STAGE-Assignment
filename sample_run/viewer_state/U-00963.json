@@ -1,0 +1,89 @@
+{
+  "user_id": "U-00963",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T01:24:16.399Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d6",
+  "app_dialect": "d6",
+  "preferred_language": "hin",
+  "signup_at": "2026-03-10T22:47:53.399Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-01T22:39:37.188Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:24:03.322Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:24:03.322Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:24:03.322Z"
+    },
+    "signup_at": {
+      "value": "2026-03-10T22:47:53.399Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-03-10T22:47:53.399Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:cf341a69-453c-4432-9738-f3754bf45c63",
+      "received_at": "2026-09-26T01:24:16.399Z",
+      "occurred_at": "2026-09-26T01:24:14.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-12",
+    "2026-09-26"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-26T01:20:42.383Z",
+  "last_play_started_at": "2026-09-26T01:22:25.165Z",
+  "series_progress": {
+    "vaka-vachu-d6": {
+      "last_watched_at": "2026-09-01T15:14:46.566Z",
+      "last_episode_id": "vaka-vachu-d6-s1e1",
+      "completed_episodes": []
+    },
+    "chupi-gugi-d6": {
+      "last_watched_at": "2026-09-26T01:24:16.399Z",
+      "last_episode_id": "chupi-gugi-d6-s1e1",
+      "completed_episodes": [
+        "chupi-gugi-d6-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 3,
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

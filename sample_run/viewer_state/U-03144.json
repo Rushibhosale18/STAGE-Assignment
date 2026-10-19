@@ -1,0 +1,90 @@
+{
+  "user_id": "U-03144",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T17:29:44.960Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2026-08-01T19:33:59.249Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:41:01.543Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:41:01.543Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:41:01.543Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:41:01.543Z"
+    },
+    "signup_at": {
+      "value": "2026-08-01T19:33:59.249Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-01T19:33:59.249Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:b62bbcbd-7c94-42dc-9a94-ef9ecd07e23c",
+      "received_at": "2026-09-26T17:29:44.960Z",
+      "occurred_at": "2026-09-26T17:29:43.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-06",
+    "2026-09-23",
+    "2026-09-26"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-26T17:29:41.621Z",
+  "last_play_started_at": "2026-09-26T16:39:12.736Z",
+  "series_progress": {
+    "yakani-panine-d1": {
+      "last_watched_at": "2026-09-03T08:19:26.145Z",
+      "last_episode_id": "yakani-panine-d1-s1e1",
+      "completed_episodes": []
+    },
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-26T16:41:58.614Z",
+      "last_episode_id": "hama-chudibha-d1-s1e1",
+      "completed_episodes": [
+        "hama-chudibha-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 3,
+    "Romance": 3,
+    "Comedy": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,96 @@
+{
+  "user_id": "U-02291",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-24T16:39:42.256Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-04-24T04:43:41.407Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-19T17:15:28.088Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:26:30.232Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:26:30.232Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:26:30.232Z"
+    },
+    "signup_at": {
+      "value": "2025-04-24T04:43:41.407Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-04-24T04:43:41.407Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:f1869881-0e8b-4e16-bc52-a790de00b370",
+      "received_at": "2026-09-24T16:39:42.256Z",
+      "occurred_at": "2026-09-19T12:49:41.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-09-30T23:46:03.780Z",
+    "deadline": "2026-10-03T23:46:03.780Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-09",
+    "2026-09-13",
+    "2026-09-19",
+    "2026-09-24"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-24T16:39:12.592Z",
+  "last_play_started_at": "2026-09-09T02:52:04.818Z",
+  "series_progress": {
+    "molo-d2": {
+      "last_watched_at": "2026-09-09T02:52:04.818Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

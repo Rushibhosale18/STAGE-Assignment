@@ -1,0 +1,83 @@
+{
+  "user_id": "U-02760",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-22T14:12:15.121Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "en",
+  "signup_at": "2026-05-06T02:19:21.012Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:18:52.389Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:18:52.389Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:18:52.389Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:18:52.389Z"
+    },
+    "signup_at": {
+      "value": "2026-05-06T02:19:21.012Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-05-06T02:19:21.012Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:5836e7c0-d7f4-40cc-b043-6d12b471ac39",
+      "received_at": "2026-09-22T14:12:15.121Z",
+      "occurred_at": "2026-09-22T14:12:14.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-15",
+    "2026-09-22"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-22T14:12:01.384Z",
+  "last_play_started_at": "2026-09-15T15:43:29.296Z",
+  "series_progress": {
+    "nada-sada-d4": {
+      "last_watched_at": "2026-09-15T17:13:41.551Z",
+      "last_episode_id": "nada-sada-d4-s1e1",
+      "completed_episodes": [
+        "nada-sada-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

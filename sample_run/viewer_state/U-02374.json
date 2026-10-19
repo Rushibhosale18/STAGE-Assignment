@@ -1,0 +1,147 @@
+{
+  "user_id": "U-02374",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T14:24:31.699Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-06-16T05:45:28.996Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-01T20:47:20.259Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:59:38.355Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:59:38.355Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:59:38.355Z"
+    },
+    "signup_at": {
+      "value": "2025-06-16T05:45:28.996Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-06-16T05:45:28.996Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:e105eae2-c5f6-4b81-987e-99c3154e65d0",
+      "received_at": "2026-09-27T14:24:31.699Z",
+      "occurred_at": "2026-09-27T14:24:31.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:13:03.018Z",
+    "deadline": "2026-10-04T07:13:03.018Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:hama-chudibha-d1:unwatched_episodes",
+      "series_progress:hama-chudibha-d1:last_watched:2026-09-27T14:22:33.462Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series hama-chudibha-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "hama-chudibha-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-12",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-27"
+  ],
+  "total_plays_started": 45,
+  "total_episodes_completed": 27,
+  "last_app_open_at": "2026-09-27T14:21:02.447Z",
+  "last_play_started_at": "2026-09-27T14:22:33.462Z",
+  "series_progress": {
+    "raja-badi-d1": {
+      "last_watched_at": "2026-09-02T10:42:11.177Z",
+      "last_episode_id": "raja-badi-d1-s1e1",
+      "completed_episodes": [
+        "raja-badi-d1-s1e1"
+      ]
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-25T22:22:49.332Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-17T03:34:11.827Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    },
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-27T14:22:33.462Z",
+      "last_episode_id": "hama-chudibha-d1-s1e2",
+      "completed_episodes": [
+        "hama-chudibha-d1-s1e1"
+      ]
+    },
+    "rina-d1": {
+      "last_watched_at": "2026-09-24T15:47:44.675Z",
+      "last_episode_id": "rina-d1-s1e2",
+      "completed_episodes": [
+        "rina-d1-s1e1"
+      ]
+    },
+    "hate-d1": {
+      "last_watched_at": "2026-09-26T16:23:59.604Z",
+      "last_episode_id": "hate-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Devotional": 12,
+    "Thriller": 36,
+    "Drama": 18,
+    "Action": 6,
+    "Comedy": 12,
+    "Family": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

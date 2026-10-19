@@ -1,0 +1,40 @@
+{
+  "user_id": "U-03901",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-25T13:04:51.901Z",
+  "subscription_status": "never",
+  "preferred_dialect": null,
+  "app_dialect": "d1",
+  "preferred_language": null,
+  "signup_at": null,
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": null,
+  "facts": {
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:566c5fc0-763d-4cd5-b541-875e0a2f768a",
+      "received_at": "2026-09-25T13:04:51.901Z",
+      "occurred_at": "2026-09-25T13:04:50.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 9,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-25"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-25T13:04:44.434Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

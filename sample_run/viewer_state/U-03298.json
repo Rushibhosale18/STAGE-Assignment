@@ -1,0 +1,138 @@
+{
+  "user_id": "U-03298",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T00:06:11.224Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2025-09-30T10:21:22.373Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-23T06:29:32.780Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:48:10.311Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:48:10.311Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:48:10.311Z"
+    },
+    "signup_at": {
+      "value": "2025-09-30T10:21:22.373Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-09-30T10:21:22.373Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:1e375635-d4ac-444d-aba5-6d9215595aa7",
+      "received_at": "2026-09-30T00:06:11.224Z",
+      "occurred_at": "2026-09-29T17:21:53.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T23:38:20.154Z",
+    "deadline": "2026-10-03T23:38:20.154Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bala-naja-d2:unwatched_episodes",
+      "series_progress:bala-naja-d2:last_watched:2026-09-27T19:31:12.061Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bala-naja-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bala-naja-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 90,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-07",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 36,
+  "total_episodes_completed": 18,
+  "last_app_open_at": "2026-09-30T00:06:06.224Z",
+  "last_play_started_at": "2026-09-29T13:28:00.058Z",
+  "series_progress": {
+    "bala-naja-d2": {
+      "last_watched_at": "2026-09-27T19:31:12.061Z",
+      "last_episode_id": "bala-naja-d2-s1e3",
+      "completed_episodes": [
+        "bala-naja-d2-s1e1",
+        "bala-naja-d2-s1e2",
+        "bala-naja-d2-s1e3"
+      ]
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-22T13:28:44.355Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": []
+    },
+    "nipi-maniba-d2": {
+      "last_watched_at": "2026-09-16T15:34:43.266Z",
+      "last_episode_id": "nipi-maniba-d2-s1e1",
+      "completed_episodes": [
+        "nipi-maniba-d2-s1e1"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-29T13:53:45.436Z",
+      "last_episode_id": "molo-d2-s1e2",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 18,
+    "Devotional": 27,
+    "Romance": 15,
+    "Action": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

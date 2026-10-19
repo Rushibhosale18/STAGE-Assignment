@@ -1,0 +1,81 @@
+{
+  "user_id": "U-01444",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-25T17:58:33.946Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-17T19:21:33.486Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-17T19:34:02.013Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:57:11.652Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:57:11.652Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:57:11.652Z"
+    },
+    "signup_at": {
+      "value": "2026-09-17T19:21:33.486Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-17T19:21:33.486Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:e0f37acc-d9d2-49d7-a6c0-e84f2429b300",
+      "received_at": "2026-09-25T17:58:33.946Z",
+      "occurred_at": "2026-09-25T17:58:31.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 9,
+  "distinct_active_ist_days": [
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-25"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-25T17:56:46.442Z",
+  "last_play_started_at": "2026-09-25T17:57:46.477Z",
+  "series_progress": {
+    "tiya-bhamaro-d1": {
+      "last_watched_at": "2026-09-25T17:57:46.477Z",
+      "last_episode_id": "tiya-bhamaro-d1-s1e2",
+      "completed_episodes": [
+        "tiya-bhamaro-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 6,
+    "Action": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

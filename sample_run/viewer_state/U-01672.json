@@ -1,0 +1,111 @@
+{
+  "user_id": "U-01672",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T13:07:33.545Z",
+  "subscription_status": "never",
+  "preferred_dialect": "",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-11T08:23:18.243Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:32:07.029Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:32:07.029Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:32:07.029Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:32:07.029Z"
+    },
+    "signup_at": {
+      "value": "2026-09-11T08:23:18.243Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-11T08:23:18.243Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:1ea8567f-e174-4146-b331-59572e57e83e",
+      "received_at": "2026-09-29T13:07:33.545Z",
+      "occurred_at": "2026-09-29T13:07:33.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T12:04:21.025Z",
+    "deadline": "2026-10-04T12:04:21.025Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:pima-pana-d3:unwatched_episodes",
+      "series_progress:pima-pana-d3:last_watched:2026-09-11T13:48:46.507Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series pima-pana-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "pima-pana-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 33,
+  "distinct_active_ist_days": [
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-29T13:07:10.083Z",
+  "last_play_started_at": "2026-09-12T16:22:59.675Z",
+  "series_progress": {
+    "pima-pana-d3": {
+      "last_watched_at": "2026-09-11T13:48:46.507Z",
+      "last_episode_id": "pima-pana-d3-s1e1",
+      "completed_episodes": []
+    },
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-12T16:26:41.698Z",
+      "last_episode_id": "yane-tegi-d3-s1e1",
+      "completed_episodes": [
+        "yane-tegi-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Family": 3,
+    "Thriller": 3,
+    "Crime": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "user_id": "U-01817",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T13:15:39.090Z",
+  "subscription_status": "never",
+  "preferred_dialect": "",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-15T05:51:27.407Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:33:30.863Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:33:30.863Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:33:30.863Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:33:30.863Z"
+    },
+    "signup_at": {
+      "value": "2026-09-15T05:51:27.407Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-15T05:51:27.407Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:d31c7b89-74cd-4058-b123-39fcc652eb98",
+      "received_at": "2026-09-30T13:15:39.090Z",
+      "occurred_at": "2026-09-30T13:15:37.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-15",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-30T13:15:26.130Z",
+  "last_play_started_at": "2026-09-22T11:55:35.296Z",
+  "series_progress": {
+    "rasuya-moni-d6": {
+      "last_watched_at": "2026-09-22T11:55:35.296Z",
+      "last_episode_id": "rasuya-moni-d6-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Devotional": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

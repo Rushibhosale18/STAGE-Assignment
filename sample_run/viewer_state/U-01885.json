@@ -1,0 +1,151 @@
+{
+  "user_id": "U-01885",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T15:06:51.474Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "en",
+  "signup_at": "2024-12-07T13:34:33.640Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-16T23:02:02.607Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:14:06.574Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:14:06.574Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:14:06.574Z"
+    },
+    "signup_at": {
+      "value": "2024-12-07T13:34:33.640Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-07T13:34:33.640Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:eeb8e3c3-d3c5-4df4-bdb9-650e3f560ef8",
+      "received_at": "2026-09-27T15:06:51.474Z",
+      "occurred_at": "2026-09-27T15:06:49.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:37:32.685Z",
+    "deadline": "2026-10-04T06:37:32.685Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:nisu-sapapa-d4:unwatched_episodes",
+      "series_progress:nisu-sapapa-d4:last_watched:2026-09-26T11:08:42.247Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series nisu-sapapa-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "nisu-sapapa-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 69,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-26",
+    "2026-09-27"
+  ],
+  "total_plays_started": 51,
+  "total_episodes_completed": 30,
+  "last_app_open_at": "2026-09-27T15:04:24.321Z",
+  "last_play_started_at": "2026-09-27T15:05:51.240Z",
+  "series_progress": {
+    "nada-sada-d4": {
+      "last_watched_at": "2026-09-02T18:28:10.250Z",
+      "last_episode_id": "nada-sada-d4-s1e1",
+      "completed_episodes": [
+        "nada-sada-d4-s1e1"
+      ]
+    },
+    "tidaka-koni-d4": {
+      "last_watched_at": "2026-09-20T12:42:42.481Z",
+      "last_episode_id": "tidaka-koni-d4-s1e1",
+      "completed_episodes": [
+        "tidaka-koni-d4-s1e1"
+      ]
+    },
+    "nisu-sapapa-d4": {
+      "last_watched_at": "2026-09-26T11:08:42.247Z",
+      "last_episode_id": "nisu-sapapa-d4-s1e4",
+      "completed_episodes": [
+        "nisu-sapapa-d4-s1e1",
+        "nisu-sapapa-d4-s1e2",
+        "nisu-sapapa-d4-s1e3",
+        "nisu-sapapa-d4-s1e4"
+      ]
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-11T15:43:15.176Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-13T11:42:40.050Z",
+      "last_episode_id": "bagi-baya-d4-s1e1",
+      "completed_episodes": [
+        "bagi-baya-d4-s1e1"
+      ]
+    },
+    "baba-yarachu-d4": {
+      "last_watched_at": "2026-09-27T15:05:51.240Z",
+      "last_episode_id": "baba-yarachu-d4-s1e2",
+      "completed_episodes": [
+        "baba-yarachu-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 18,
+    "Crime": 36,
+    "Family": 24,
+    "Drama": 3,
+    "Romance": 3,
+    "Thriller": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

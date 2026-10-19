@@ -1,0 +1,115 @@
+{
+  "user_id": "U-04071",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T12:52:31.690Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-01-31T23:44:30.127Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-20T02:18:38.288Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:31:03.453Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:31:03.453Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:31:03.453Z"
+    },
+    "signup_at": {
+      "value": "2025-01-31T23:44:30.127Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-01-31T23:44:30.127Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:60f7e64b-4f7d-482f-8088-cb6d23153eb3",
+      "received_at": "2026-09-30T12:52:31.690Z",
+      "occurred_at": "2026-09-30T12:52:29.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 30,
+  "total_episodes_completed": 27,
+  "last_app_open_at": "2026-09-30T12:51:36.148Z",
+  "last_play_started_at": "2026-09-30T05:21:18.975Z",
+  "series_progress": {
+    "gisachu-techu-d2": {
+      "last_watched_at": "2026-09-29T19:14:28.145Z",
+      "last_episode_id": "gisachu-techu-d2-s1e3",
+      "completed_episodes": [
+        "gisachu-techu-d2-s1e1",
+        "gisachu-techu-d2-s1e2",
+        "gisachu-techu-d2-s1e3"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-30T05:41:34.904Z",
+      "last_episode_id": "molo-d2-s1e5",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2",
+        "molo-d2-s1e3",
+        "molo-d2-s1e4",
+        "molo-d2-s1e5"
+      ]
+    },
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-26T13:59:31.111Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e1",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 12,
+    "Action": 18,
+    "Romance": 18
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

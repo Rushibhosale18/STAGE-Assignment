@@ -1,0 +1,84 @@
+{
+  "user_id": "U-02485",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T13:23:24.082Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-08-27T23:31:26.386Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:02:09.039Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:02:09.039Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:02:09.039Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:02:09.039Z"
+    },
+    "signup_at": {
+      "value": "2025-08-27T23:31:26.386Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-08-27T23:31:26.386Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:2e6a0b74-45fc-46a6-a535-ae3dc30b3a3c",
+      "received_at": "2026-09-28T13:23:24.082Z",
+      "occurred_at": "2026-09-28T13:23:23.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 33,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-11",
+    "2026-09-13",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-28"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-28T13:23:13.236Z",
+  "last_play_started_at": "2026-09-28T13:21:21.036Z",
+  "series_progress": {
+    "gibha-lamopa-d1": {
+      "last_watched_at": "2026-09-28T13:21:21.036Z",
+      "last_episode_id": "gibha-lamopa-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Family": 3,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

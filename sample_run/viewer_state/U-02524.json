@@ -1,0 +1,71 @@
+{
+  "user_id": "U-02524",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-23T20:38:17.380Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-04-04T20:35:59.463Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:26:39.738Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:26:39.738Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:26:39.738Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:26:39.738Z"
+    },
+    "signup_at": {
+      "value": "2026-04-04T20:35:59.463Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-04-04T20:35:59.463Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:d3c023c2-f613-43d9-a7a7-d9f6f4f2cd01",
+      "received_at": "2026-09-23T20:38:17.380Z",
+      "occurred_at": "2026-09-19T16:08:07.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 9,
+  "distinct_active_ist_days": [
+    "2026-09-14",
+    "2026-09-20",
+    "2026-09-24"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-23T20:37:47.738Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

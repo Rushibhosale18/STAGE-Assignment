@@ -1,0 +1,95 @@
+{
+  "user_id": "U-04692",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T06:39:55.852Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "en",
+  "signup_at": "2024-12-01T09:47:46.477Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:05:21.934Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:05:21.934Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:05:21.934Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:05:21.934Z"
+    },
+    "signup_at": {
+      "value": "2024-12-01T09:47:46.477Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-01T09:47:46.477Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:849cb55e-935e-433d-9367-6ab18f7d1679",
+      "received_at": "2026-09-27T06:39:55.852Z",
+      "occurred_at": "2026-09-27T06:39:54.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 30,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-07",
+    "2026-09-12",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-27"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-27T06:39:07.244Z",
+  "last_play_started_at": "2026-09-23T06:32:22.971Z",
+  "series_progress": {
+    "tidha-dakachu-d1": {
+      "last_watched_at": "2026-09-23T06:32:22.971Z",
+      "last_episode_id": "tidha-dakachu-d1-s1e2",
+      "completed_episodes": [
+        "tidha-dakachu-d1-s1e1"
+      ]
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-05T15:09:32.975Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 12,
+    "Family": 9,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

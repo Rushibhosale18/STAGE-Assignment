@@ -1,0 +1,115 @@
+{
+  "user_id": "U-01555",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T14:29:18.188Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2024-12-21T09:52:51.604Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-08T06:18:29.906Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:58:51.768Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:58:51.768Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:58:51.768Z"
+    },
+    "signup_at": {
+      "value": "2024-12-21T09:52:51.604Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-21T09:52:51.604Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:0c1ed521-5c49-4ea5-8fa4-c16b20884a4d",
+      "received_at": "2026-09-27T14:29:18.188Z",
+      "occurred_at": "2026-09-27T14:29:17.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "try_new_release_7d",
+    "goal_id": "G08",
+    "name": "try_new_release_7d",
+    "started_at": "2026-10-01T16:50:02.577Z",
+    "deadline": "2026-10-08T16:50:02.577Z",
+    "window_hours": 168,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "state:subscription_status:active"
+    ],
+    "assumptions": [
+      "Active subscriber will appreciate fresh catalogue releases."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 42,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-10",
+    "2026-09-13",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-26",
+    "2026-09-27"
+  ],
+  "total_plays_started": 36,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-27T12:38:27.327Z",
+  "last_play_started_at": "2026-09-27T12:38:53.997Z",
+  "series_progress": {
+    "raloja-d1": {
+      "last_watched_at": "2026-09-26T10:59:36.318Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-27T14:29:18.188Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 24,
+    "Action": 24,
+    "Drama": 12,
+    "Thriller": 12
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

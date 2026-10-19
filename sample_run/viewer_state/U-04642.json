@@ -1,0 +1,161 @@
+{
+  "user_id": "U-04642",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T04:49:41.267Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "NA",
+  "preferred_language": "hin",
+  "signup_at": "2026-08-17T08:31:22.747Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-21T10:34:18.738Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:06:51.577Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:06:51.577Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:06:51.577Z"
+    },
+    "signup_at": {
+      "value": "2026-08-17T08:31:22.747Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-17T08:31:22.747Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:72c1449c-7e1d-48f1-a5cf-5798c2d7e7ca",
+      "received_at": "2026-09-30T04:49:41.267Z",
+      "occurred_at": "2026-09-30T04:49:38.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T10:59:03.202Z",
+    "deadline": "2026-10-04T10:59:03.202Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:kova-sako-d5:unwatched_episodes",
+      "series_progress:kova-sako-d5:last_watched:2026-09-18T07:50:41.977Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series kova-sako-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "kova-sako-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 63,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-27",
+    "2026-09-30"
+  ],
+  "total_plays_started": 45,
+  "total_episodes_completed": 33,
+  "last_app_open_at": "2026-09-30T02:41:24.762Z",
+  "last_play_started_at": "2026-09-30T02:43:36.553Z",
+  "series_progress": {
+    "rigu-d5": {
+      "last_watched_at": "2026-09-15T15:53:41.070Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": [
+        "rigu-d5-s1e1"
+      ]
+    },
+    "kova-sako-d5": {
+      "last_watched_at": "2026-09-18T07:50:41.977Z",
+      "last_episode_id": "kova-sako-d5-s1e5",
+      "completed_episodes": [
+        "kova-sako-d5-s1e1",
+        "kova-sako-d5-s1e2",
+        "kova-sako-d5-s1e4",
+        "kova-sako-d5-s1e3",
+        "kova-sako-d5-s1e5"
+      ]
+    },
+    "gima-bhadaba-d1": {
+      "last_watched_at": "2026-09-18T13:17:01.265Z",
+      "last_episode_id": "gima-bhadaba-d1-s1e1",
+      "completed_episodes": []
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-20T13:37:03.591Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "kopibha-niya-d1": {
+      "last_watched_at": "2026-09-22T06:55:55.322Z",
+      "last_episode_id": "kopibha-niya-d1-s1e1",
+      "completed_episodes": [
+        "kopibha-niya-d1-s1e1"
+      ]
+    },
+    "bagugu-gigupi-d1": {
+      "last_watched_at": "2026-09-23T17:15:09.090Z",
+      "last_episode_id": "bagugu-gigupi-d1-s1e1",
+      "completed_episodes": [
+        "bagugu-gigupi-d1-s1e1"
+      ]
+    },
+    "hate-d1": {
+      "last_watched_at": "2026-09-27T17:39:36.889Z",
+      "last_episode_id": "hate-d1-s1e1",
+      "completed_episodes": []
+    },
+    "roti-d1": {
+      "last_watched_at": "2026-09-30T04:49:41.267Z",
+      "last_episode_id": "roti-d1-s1e1",
+      "completed_episodes": [
+        "roti-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Comedy": 15,
+    "Family": 21,
+    "Devotional": 24,
+    "Drama": 6,
+    "Thriller": 3,
+    "Romance": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

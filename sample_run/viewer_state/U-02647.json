@@ -1,0 +1,118 @@
+{
+  "user_id": "U-02647",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-10-01T09:31:31.093Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2026-08-23T16:07:04.602Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-11T08:05:19.690Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:04:07.555Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:04:07.555Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:04:07.555Z"
+    },
+    "signup_at": {
+      "value": "2026-08-23T16:07:04.602Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-23T16:07:04.602Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:d1e8b771-69ef-45f8-bc9d-8eb90d68eef1",
+      "received_at": "2026-10-01T09:31:31.093Z",
+      "occurred_at": "2026-09-25T05:20:55.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T12:02:16.548Z",
+    "deadline": "2026-10-04T12:02:16.548Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 27,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-09",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-19",
+    "2026-09-27",
+    "2026-09-29",
+    "2026-10-01"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-10-01T09:30:28.506Z",
+  "last_play_started_at": "2026-09-27T15:36:07.289Z",
+  "series_progress": {
+    "hate-d1": {
+      "last_watched_at": "2026-09-13T18:27:35.676Z",
+      "last_episode_id": "hate-d1-s1e1",
+      "completed_episodes": []
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-14T17:47:48.721Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": []
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-19T07:06:48.217Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": []
+    },
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-27T15:36:07.289Z",
+      "last_episode_id": "hama-chudibha-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 6,
+    "Devotional": 6,
+    "Drama": 3,
+    "Thriller": 6,
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

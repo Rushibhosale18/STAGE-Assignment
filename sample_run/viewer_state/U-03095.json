@@ -1,0 +1,140 @@
+{
+  "user_id": "U-03095",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T15:08:22.633Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "en",
+  "signup_at": "2026-08-09T16:30:59.706Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-12T00:11:51.926Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:24:23.599Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:24:23.599Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:24:23.599Z"
+    },
+    "signup_at": {
+      "value": "2026-08-09T16:30:59.706Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-09T16:30:59.706Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:55ccb8e2-aa81-4008-b360-0378ea3c89d9",
+      "received_at": "2026-09-30T15:08:22.633Z",
+      "occurred_at": "2026-09-30T15:08:22.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:47:37.888Z",
+    "deadline": "2026-10-04T04:47:37.888Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:haja-d3:unwatched_episodes",
+      "series_progress:haja-d3:last_watched:2026-09-05T12:25:23.705Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series haja-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "haja-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 54,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-26",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 33,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-30T15:07:58.191Z",
+  "last_play_started_at": "2026-09-23T11:01:44.203Z",
+  "series_progress": {
+    "haja-d3": {
+      "last_watched_at": "2026-09-05T12:25:23.705Z",
+      "last_episode_id": "haja-d3-s1e1",
+      "completed_episodes": []
+    },
+    "jakasa-dapi-d3": {
+      "last_watched_at": "2026-09-23T11:32:06.910Z",
+      "last_episode_id": "jakasa-dapi-d3-s1e4",
+      "completed_episodes": [
+        "jakasa-dapi-d3-s1e1",
+        "jakasa-dapi-d3-s1e2",
+        "jakasa-dapi-d3-s1e3",
+        "jakasa-dapi-d3-s1e4"
+      ]
+    },
+    "sane-d3": {
+      "last_watched_at": "2026-09-12T11:56:07.248Z",
+      "last_episode_id": "sane-d3-s1e1",
+      "completed_episodes": [
+        "sane-d3-s1e1"
+      ]
+    },
+    "ririgi-d3": {
+      "last_watched_at": "2026-09-20T09:24:54.260Z",
+      "last_episode_id": "ririgi-d3-s1e1",
+      "completed_episodes": [
+        "ririgi-d3-s1e1"
+      ]
+    },
+    "rate-java-d3": {
+      "last_watched_at": "2026-09-22T04:34:30.544Z",
+      "last_episode_id": "rate-java-d3-s1e1",
+      "completed_episodes": [
+        "rate-java-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 3,
+    "Crime": 18,
+    "Comedy": 9,
+    "Devotional": 3,
+    "Drama": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

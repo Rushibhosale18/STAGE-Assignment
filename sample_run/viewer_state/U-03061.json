@@ -1,0 +1,92 @@
+{
+  "user_id": "U-03061",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T07:03:05.902Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-08-03T13:55:22.970Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:27:44.483Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:27:44.483Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:27:44.483Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:27:44.483Z"
+    },
+    "signup_at": {
+      "value": "2026-08-03T13:55:22.970Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-03T13:55:22.970Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:6e79867f-1a0c-410e-9271-e15105941944",
+      "received_at": "2026-09-29T07:03:05.902Z",
+      "occurred_at": "2026-09-29T07:03:04.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 33,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-08",
+    "2026-09-14",
+    "2026-09-24",
+    "2026-09-29"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-29T06:58:25.693Z",
+  "last_play_started_at": "2026-09-29T07:00:21.551Z",
+  "series_progress": {
+    "diti-kochu-d5": {
+      "last_watched_at": "2026-09-01T07:26:39.697Z",
+      "last_episode_id": "diti-kochu-d5-s1e1",
+      "completed_episodes": []
+    },
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-29T07:03:05.902Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e2",
+      "completed_episodes": [
+        "gubava-gihaya-d5-s1e1",
+        "gubava-gihaya-d5-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Crime": 3,
+    "Devotional": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

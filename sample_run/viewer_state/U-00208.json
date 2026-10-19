@@ -1,0 +1,94 @@
+{
+  "user_id": "U-00208",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-10-01T14:46:56.265Z",
+  "subscription_status": "never",
+  "preferred_dialect": "",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-25T17:48:33.787Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:49:56.217Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:49:56.217Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:49:56.217Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:49:56.217Z"
+    },
+    "signup_at": {
+      "value": "2026-09-25T17:48:33.787Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-25T17:48:33.787Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:c876d955-983b-4471-8cd9-9bc1c6bf2959",
+      "received_at": "2026-10-01T14:46:56.265Z",
+      "occurred_at": "2026-09-27T04:51:57.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T14:10:32.611Z",
+    "deadline": "2026-10-04T14:10:32.611Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 9,
+  "distinct_active_ist_days": [
+    "2026-09-25",
+    "2026-09-27",
+    "2026-10-01"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-10-01T14:46:17.729Z",
+  "last_play_started_at": "2026-09-25T17:50:46.368Z",
+  "series_progress": {
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-25T17:50:46.368Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,116 @@
+{
+  "user_id": "U-00452",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T14:42:47.927Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-08-08T06:10:41.175Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-11T16:43:05.549Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:58:35.034Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:58:35.034Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:58:35.034Z"
+    },
+    "signup_at": {
+      "value": "2025-08-08T06:10:41.175Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-08-08T06:10:41.175Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:1f7e1e58-f776-4696-84f8-ea30b0498208",
+      "received_at": "2026-09-29T14:42:47.927Z",
+      "occurred_at": "2026-09-29T14:42:46.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-20",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 42,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-29T14:41:45.591Z",
+  "last_play_started_at": "2026-09-29T13:44:17.776Z",
+  "series_progress": {
+    "dira-kova-d2": {
+      "last_watched_at": "2026-09-29T13:47:02.338Z",
+      "last_episode_id": "dira-kova-d2-s1e4",
+      "completed_episodes": [
+        "dira-kova-d2-s1e1",
+        "dira-kova-d2-s1e2",
+        "dira-kova-d2-s1e3",
+        "dira-kova-d2-s1e4"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-28T13:32:17.375Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": [
+        "molo-d2-s1e1"
+      ]
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-28T10:06:01.974Z",
+      "last_episode_id": "guka-kosusa-d2-s1e2",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1"
+      ]
+    },
+    "nipi-maniba-d2": {
+      "last_watched_at": "2026-09-29T03:19:51.399Z",
+      "last_episode_id": "nipi-maniba-d2-s1e1",
+      "completed_episodes": [
+        "nipi-maniba-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Comedy": 18,
+    "Drama": 18,
+    "Action": 9,
+    "Romance": 21,
+    "Devotional": 15
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,138 @@
+{
+  "user_id": "U-01705",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T20:32:18.821Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d5",
+  "preferred_language": "en",
+  "signup_at": "2025-12-12T19:20:06.735Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-22T09:27:27.125Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:07:09.416Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:07:09.416Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:07:09.416Z"
+    },
+    "signup_at": {
+      "value": "2025-12-12T19:20:06.735Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-12-12T19:20:06.735Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:1624da82-7b1b-4368-a0a0-5c13dd01d9d2",
+      "received_at": "2026-09-29T20:32:18.821Z",
+      "occurred_at": "2026-09-29T20:32:16.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 69,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 54,
+  "total_episodes_completed": 18,
+  "last_app_open_at": "2026-09-29T20:28:59.712Z",
+  "last_play_started_at": "2026-09-29T20:31:18.840Z",
+  "series_progress": {
+    "lodi-d5": {
+      "last_watched_at": "2026-09-01T10:47:58.460Z",
+      "last_episode_id": "lodi-d5-s1e1",
+      "completed_episodes": []
+    },
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-29T20:31:18.840Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e5",
+      "completed_episodes": [
+        "gubava-gihaya-d5-s1e1",
+        "gubava-gihaya-d5-s1e2",
+        "gubava-gihaya-d5-s1e3",
+        "gubava-gihaya-d5-s1e4"
+      ]
+    },
+    "bharika-lodama-d5": {
+      "last_watched_at": "2026-09-15T10:01:15.314Z",
+      "last_episode_id": "bharika-lodama-d5-s1e1",
+      "completed_episodes": []
+    },
+    "haya-kani-d5": {
+      "last_watched_at": "2026-09-17T06:47:47.595Z",
+      "last_episode_id": "haya-kani-d5-s1e1",
+      "completed_episodes": [
+        "haya-kani-d5-s1e1"
+      ]
+    },
+    "jamo-hasa-d5": {
+      "last_watched_at": "2026-09-20T14:29:10.347Z",
+      "last_episode_id": "jamo-hasa-d5-s1e1",
+      "completed_episodes": []
+    },
+    "mone-d5": {
+      "last_watched_at": "2026-09-23T23:34:01.027Z",
+      "last_episode_id": "mone-d5-s1e1",
+      "completed_episodes": []
+    },
+    "rigu-d5": {
+      "last_watched_at": "2026-09-26T16:43:16.169Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": [
+        "rigu-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 3,
+    "Thriller": 3,
+    "Devotional": 42,
+    "Drama": 3,
+    "Romance": 9,
+    "Crime": 3,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

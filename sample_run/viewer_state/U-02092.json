@@ -1,0 +1,131 @@
+{
+  "user_id": "U-02092",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T16:24:46.369Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2024-10-05T12:36:20.454Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-02T12:15:32.130Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:10:34.006Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:10:34.006Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:10:34.006Z"
+    },
+    "signup_at": {
+      "value": "2024-10-05T12:36:20.454Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-10-05T12:36:20.454Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:9a97f29a-43c8-446d-b86f-612afcb2029b",
+      "received_at": "2026-09-30T16:24:46.369Z",
+      "occurred_at": "2026-09-30T16:24:46.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T08:18:16.846Z",
+    "deadline": "2026-10-04T08:18:16.846Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:guka-kosusa-d2:unwatched_episodes",
+      "series_progress:guka-kosusa-d2:last_watched:2026-09-25T02:37:18.582Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series guka-kosusa-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "guka-kosusa-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 69,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 27,
+  "total_episodes_completed": 15,
+  "last_app_open_at": "2026-09-30T16:24:36.194Z",
+  "last_play_started_at": "2026-09-28T06:32:36.471Z",
+  "series_progress": {
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-25T02:37:18.582Z",
+      "last_episode_id": "guka-kosusa-d2-s1e2",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1",
+        "guka-kosusa-d2-s1e2"
+      ]
+    },
+    "tela-sagi-d2": {
+      "last_watched_at": "2026-09-28T08:06:27.950Z",
+      "last_episode_id": "tela-sagi-d2-s1e1",
+      "completed_episodes": [
+        "tela-sagi-d2-s1e1"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-27T17:03:15.767Z",
+      "last_episode_id": "molo-d2-s1e2",
+      "completed_episodes": [
+        "molo-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 27,
+    "Devotional": 21,
+    "Action": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,80 @@
+{
+  "user_id": "U-04383",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T17:35:41.941Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2024-12-18T22:17:01.802Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:02:44.269Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:02:44.269Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:02:44.269Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:02:44.269Z"
+    },
+    "signup_at": {
+      "value": "2024-12-18T22:17:01.802Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-18T22:17:01.802Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:edd3553e-d35e-4159-a362-9dc7830953ac",
+      "received_at": "2026-09-28T17:35:41.941Z",
+      "occurred_at": "2026-09-28T17:35:39.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-28"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-28T17:21:17.424Z",
+  "last_play_started_at": "2026-09-28T17:23:40.687Z",
+  "series_progress": {
+    "dikagi-giti-d1": {
+      "last_watched_at": "2026-09-28T17:23:40.687Z",
+      "last_episode_id": "dikagi-giti-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,80 @@
+{
+  "user_id": "U-04422",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-20T19:41:03.097Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2026-01-18T08:26:44.096Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-11T00:32:22.815Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:30:23.478Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:30:23.478Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:30:23.478Z"
+    },
+    "signup_at": {
+      "value": "2026-01-18T08:26:44.096Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-01-18T08:26:44.096Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:76d3067f-4148-4155-8857-7d4753e10167",
+      "received_at": "2026-09-20T19:41:03.097Z",
+      "occurred_at": "2026-09-16T00:55:25.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 6,
+  "distinct_active_ist_days": [
+    "2026-09-07",
+    "2026-09-21"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-20T19:37:35.525Z",
+  "last_play_started_at": "2026-09-20T19:38:17.642Z",
+  "series_progress": {
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-20T19:41:03.097Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 3,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,74 @@
+{
+  "user_id": "U-04983",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-21T14:12:47.518Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-10-09T13:20:16.889Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:12:21.636Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:12:21.636Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:12:21.636Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:12:21.636Z"
+    },
+    "signup_at": {
+      "value": "2025-10-09T13:20:16.889Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-10-09T13:20:16.889Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:724e4961-de75-4de0-b5ed-64d48ea33cd9",
+      "received_at": "2026-09-21T14:12:47.518Z",
+      "occurred_at": "2026-09-21T14:12:46.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-06",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-13",
+    "2026-09-21"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-21T14:12:44.907Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

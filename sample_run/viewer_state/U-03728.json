@@ -1,0 +1,125 @@
+{
+  "user_id": "U-03728",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T00:25:13.031Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-08-05T14:20:17.571Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-03T05:52:17.995Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:35:28.831Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:35:28.831Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:35:28.831Z"
+    },
+    "signup_at": {
+      "value": "2025-08-05T14:20:17.571Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-08-05T14:20:17.571Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:4350e807-cdde-4590-99a2-5305ce9949da",
+      "received_at": "2026-09-30T00:25:13.031Z",
+      "occurred_at": "2026-09-30T00:25:12.800Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "try_new_release_7d",
+    "goal_id": "G08",
+    "name": "try_new_release_7d",
+    "started_at": "2026-10-01T08:26:22.379Z",
+    "deadline": "2026-10-08T08:26:22.379Z",
+    "window_hours": 168,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "state:subscription_status:active"
+    ],
+    "assumptions": [
+      "Active subscriber will appreciate fresh catalogue releases."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 63,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-30"
+  ],
+  "total_plays_started": 33,
+  "total_episodes_completed": 27,
+  "last_app_open_at": "2026-09-30T00:20:50.717Z",
+  "last_play_started_at": "2026-09-30T00:21:32.889Z",
+  "series_progress": {
+    "molo-d2": {
+      "last_watched_at": "2026-09-14T13:55:04.562Z",
+      "last_episode_id": "molo-d2-s1e7",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2",
+        "molo-d2-s1e3",
+        "molo-d2-s1e4",
+        "molo-d2-s1e6",
+        "molo-d2-s1e5",
+        "molo-d2-s1e7"
+      ]
+    },
+    "rigu-dhadi-d2": {
+      "last_watched_at": "2026-09-30T00:25:13.031Z",
+      "last_episode_id": "rigu-dhadi-d2-s1e2",
+      "completed_episodes": [
+        "rigu-dhadi-d2-s1e1",
+        "rigu-dhadi-d2-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 33,
+    "Romance": 21,
+    "Comedy": 12
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

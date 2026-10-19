@@ -1,0 +1,79 @@
+{
+  "user_id": "U-00861",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-07T18:14:09.119Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "en",
+  "signup_at": "2026-06-25T22:34:27.354Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:29:31.495Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:29:31.495Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:29:31.495Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:29:31.495Z"
+    },
+    "signup_at": {
+      "value": "2026-06-25T22:34:27.354Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-06-25T22:34:27.354Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:bc247c96-242c-4f90-9b84-c260f85f258f",
+      "received_at": "2026-09-07T18:14:09.119Z",
+      "occurred_at": "2026-09-07T18:14:07.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-07"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-07T18:13:55.219Z",
+  "last_play_started_at": "2026-09-02T14:52:22.069Z",
+  "series_progress": {
+    "tidha-dakachu-d1": {
+      "last_watched_at": "2026-09-02T14:52:22.069Z",
+      "last_episode_id": "tidha-dakachu-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

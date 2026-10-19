@@ -1,0 +1,85 @@
+{
+  "user_id": "U-04785",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-24T18:11:35.100Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-24T16:52:11.852Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:59:19.279Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:59:19.279Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:59:19.279Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:59:19.279Z"
+    },
+    "signup_at": {
+      "value": "2026-09-24T16:52:11.852Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-24T16:52:11.852Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:c5e8c69b-83db-4221-aedf-fb29b3fd2d7f",
+      "received_at": "2026-09-24T18:11:35.100Z",
+      "occurred_at": "2026-09-25T14:31:50.719Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_play_24h",
+    "goal_id": "G01",
+    "name": "first_play_24h",
+    "started_at": "2026-10-01T05:16:28.715Z",
+    "deadline": "2026-10-02T05:16:28.715Z",
+    "window_hours": 24,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "profile:signup_at:2026-09-24T16:52:11.852Z",
+      "events:total_plays:0"
+    ],
+    "assumptions": [
+      "Viewer is newly onboarded and looking for initial content."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 6,
+  "distinct_active_ist_days": [
+    "2026-09-24"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-24T18:11:28.189Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

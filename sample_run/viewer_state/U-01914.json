@@ -1,0 +1,85 @@
+{
+  "user_id": "U-01914",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T11:40:55.340Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d4",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-12-05T23:36:35.602Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:25:46.236Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:25:46.236Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:25:46.236Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:25:46.236Z"
+    },
+    "signup_at": {
+      "value": "2025-12-05T23:36:35.602Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-12-05T23:36:35.602Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:ca66520a-5c61-4be4-9a21-8a339fa38076",
+      "received_at": "2026-09-29T11:40:55.340Z",
+      "occurred_at": "2026-09-29T11:40:53.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-08",
+    "2026-09-29"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-29T11:37:33.044Z",
+  "last_play_started_at": "2026-09-29T11:39:23.810Z",
+  "series_progress": {
+    "neba-d2": {
+      "last_watched_at": "2026-09-08T18:00:40.843Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": []
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-29T11:39:23.810Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Crime": 3,
+    "Devotional": 6,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

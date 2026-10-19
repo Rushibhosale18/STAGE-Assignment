@@ -1,0 +1,80 @@
+{
+  "user_id": "U-04065",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-22T15:06:31.798Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d5",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2024-11-13T13:53:14.399Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:39:58.194Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:39:58.194Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:39:58.194Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:39:58.194Z"
+    },
+    "signup_at": {
+      "value": "2024-11-13T13:53:14.399Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-11-13T13:53:14.399Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:a2ef7e31-471a-44db-84cd-699a6f621ff8",
+      "received_at": "2026-09-22T15:06:31.798Z",
+      "occurred_at": "2026-09-19T05:28:44.761Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-06",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-22"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-22T15:06:18.250Z",
+  "last_play_started_at": "2026-09-06T08:18:25.459Z",
+  "series_progress": {
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-06T08:18:25.459Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,87 @@
+{
+  "user_id": "U-02284",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-16T08:08:27.772Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2024-11-04T20:13:52.517Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:18:06.878Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:18:06.878Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:18:06.878Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:18:06.878Z"
+    },
+    "signup_at": {
+      "value": "2024-11-04T20:13:52.517Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-11-04T20:13:52.517Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:fd702c80-2e5e-4c21-b329-6aa8e867e9d0",
+      "received_at": "2026-09-16T08:08:27.772Z",
+      "occurred_at": "2026-09-16T08:08:26.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 27,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-07",
+    "2026-09-15",
+    "2026-09-16"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-16T08:05:38.422Z",
+  "last_play_started_at": "2026-09-15T07:51:47.799Z",
+  "series_progress": {
+    "diti-kochu-d5": {
+      "last_watched_at": "2026-09-15T07:54:34.098Z",
+      "last_episode_id": "diti-kochu-d5-s1e4",
+      "completed_episodes": [
+        "diti-kochu-d5-s1e1",
+        "diti-kochu-d5-s1e2",
+        "diti-kochu-d5-s1e3",
+        "diti-kochu-d5-s1e4"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 12,
+    "Crime": 12
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

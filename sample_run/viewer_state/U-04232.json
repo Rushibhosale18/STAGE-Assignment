@@ -1,0 +1,58 @@
+{
+  "user_id": "U-04232",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-10-01T05:06:02.185Z",
+  "subscription_status": "never",
+  "preferred_dialect": null,
+  "app_dialect": "d3",
+  "preferred_language": null,
+  "signup_at": "2026-10-01T05:06:02.185Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": null,
+  "facts": {
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:8645f70c-0129-4c97-9c70-5ec3420ada47",
+      "received_at": "2026-10-01T05:06:02.185Z",
+      "occurred_at": "2026-10-01T05:06:00.897Z"
+    },
+    "signup_at": {
+      "value": "2026-10-01T05:06:02.185Z",
+      "source": "event:8645f70c-0129-4c97-9c70-5ec3420ada47:signup_completed",
+      "received_at": "2026-10-01T05:06:02.185Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_play_24h",
+    "goal_id": "G01",
+    "name": "first_play_24h",
+    "started_at": "2026-10-01T05:06:39.335Z",
+    "deadline": "2026-10-02T05:06:39.335Z",
+    "window_hours": 24,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "profile:signup_at:2026-10-01T05:06:02.185Z",
+      "events:total_plays:0"
+    ],
+    "assumptions": [
+      "Viewer is newly onboarded and looking for initial content."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 0,
+  "distinct_active_ist_days": [],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": null,
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

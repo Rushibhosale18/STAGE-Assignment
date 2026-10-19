@@ -1,0 +1,108 @@
+{
+  "user_id": "U-02814",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T13:40:20.470Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d1",
+  "preferred_language": "en",
+  "signup_at": "2026-02-12T22:03:48.224Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:01:06.626Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:01:06.626Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:01:06.626Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:01:06.626Z"
+    },
+    "signup_at": {
+      "value": "2026-02-12T22:03:48.224Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-02-12T22:03:48.224Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:f810438b-2430-4337-a2a0-7390367feedd",
+      "received_at": "2026-09-26T13:40:20.470Z",
+      "occurred_at": "2026-09-26T13:40:19.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T17:01:37.155Z",
+    "deadline": "2026-10-04T17:01:37.155Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:tidha-dakachu-d1:unwatched_episodes",
+      "series_progress:tidha-dakachu-d1:last_watched:2026-09-10T16:01:01.110Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series tidha-dakachu-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "tidha-dakachu-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-10",
+    "2026-09-13",
+    "2026-09-25",
+    "2026-09-26"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-26T13:39:54.563Z",
+  "last_play_started_at": "2026-09-25T05:20:48.806Z",
+  "series_progress": {
+    "tidha-dakachu-d1": {
+      "last_watched_at": "2026-09-10T16:01:01.110Z",
+      "last_episode_id": "tidha-dakachu-d1-s1e1",
+      "completed_episodes": [
+        "tidha-dakachu-d1-s1e1"
+      ]
+    },
+    "patena-d1": {
+      "last_watched_at": "2026-09-25T05:23:34.697Z",
+      "last_episode_id": "patena-d1-s1e1",
+      "completed_episodes": [
+        "patena-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 6,
+    "Family": 3,
+    "Crime": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

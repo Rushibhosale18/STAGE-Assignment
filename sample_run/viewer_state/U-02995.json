@@ -1,0 +1,151 @@
+{
+  "user_id": "U-02995",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T18:11:55.586Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d5",
+  "preferred_language": "en",
+  "signup_at": "2025-02-18T20:21:45.009Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-24T00:25:51.260Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:07:53.636Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:07:53.636Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:07:53.636Z"
+    },
+    "signup_at": {
+      "value": "2025-02-18T20:21:45.009Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-02-18T20:21:45.009Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:57771183-0b8d-431e-b866-ef7057facaac",
+      "received_at": "2026-09-30T18:11:55.586Z",
+      "occurred_at": "2026-09-30T18:11:55.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 105,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 57,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-30T18:11:32.414Z",
+  "last_play_started_at": "2026-09-28T18:45:30.668Z",
+  "series_progress": {
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-21T19:55:11.648Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-20T06:41:23.817Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    },
+    "gidha-sudhako-d1": {
+      "last_watched_at": "2026-09-03T13:12:28.772Z",
+      "last_episode_id": "gidha-sudhako-d1-s1e1",
+      "completed_episodes": []
+    },
+    "hapibha-d1": {
+      "last_watched_at": "2026-09-09T14:36:36.300Z",
+      "last_episode_id": "hapibha-d1-s1e1",
+      "completed_episodes": []
+    },
+    "gune-halo-d1": {
+      "last_watched_at": "2026-09-10T11:08:50.153Z",
+      "last_episode_id": "gune-halo-d1-s1e1",
+      "completed_episodes": []
+    },
+    "suja-d1": {
+      "last_watched_at": "2026-09-13T16:00:32.217Z",
+      "last_episode_id": "suja-d1-s1e1",
+      "completed_episodes": []
+    },
+    "tidha-dakachu-d1": {
+      "last_watched_at": "2026-09-19T04:39:37.259Z",
+      "last_episode_id": "tidha-dakachu-d1-s1e1",
+      "completed_episodes": []
+    },
+    "jamo-hasa-d5": {
+      "last_watched_at": "2026-09-28T05:33:49.536Z",
+      "last_episode_id": "jamo-hasa-d5-s1e3",
+      "completed_episodes": [
+        "jamo-hasa-d5-s1e1",
+        "jamo-hasa-d5-s1e2"
+      ]
+    },
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-28T18:48:16.086Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e1",
+      "completed_episodes": [
+        "gubava-gihaya-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 21,
+    "Thriller": 15,
+    "Devotional": 18,
+    "Action": 24,
+    "Romance": 12,
+    "Crime": 12,
+    "Family": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

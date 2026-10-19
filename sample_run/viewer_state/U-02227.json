@@ -1,0 +1,81 @@
+{
+  "user_id": "U-02227",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T01:29:28.117Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-03-03T05:16:45.862Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:16:37.044Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:16:37.044Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:16:37.044Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:16:37.044Z"
+    },
+    "signup_at": {
+      "value": "2026-03-03T05:16:45.862Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-03-03T05:16:45.862Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:4b0096fd-7e37-4e1c-bbf5-ad8e6f4f6b33",
+      "received_at": "2026-09-28T01:29:28.117Z",
+      "occurred_at": "2026-09-28T01:29:26.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-13",
+    "2026-09-26",
+    "2026-09-28"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-28T01:29:07.484Z",
+  "last_play_started_at": "2026-09-13T06:04:14.755Z",
+  "series_progress": {
+    "piropa-moguti-d2": {
+      "last_watched_at": "2026-09-13T06:04:14.755Z",
+      "last_episode_id": "piropa-moguti-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,98 @@
+{
+  "user_id": "U-04825",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-10-01T07:40:32.239Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d7",
+  "preferred_language": "hin",
+  "signup_at": "2025-02-04T15:47:48.175Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-10-01T07:40:32.239Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:47:21.110Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:47:21.110Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:47:21.110Z"
+    },
+    "signup_at": {
+      "value": "2025-02-04T15:47:48.175Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-02-04T15:47:48.175Z"
+    },
+    "app_dialect": {
+      "value": "d7",
+      "source": "event:19459b34-097d-49b2-9f1d-eece72667f0b",
+      "received_at": "2026-10-01T07:40:32.239Z",
+      "occurred_at": "2026-10-01T07:40:32.239Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_paid_7d",
+    "goal_id": "G05",
+    "name": "first_paid_7d",
+    "started_at": "2026-10-01T07:38:15.001Z",
+    "deadline": "2026-10-08T07:38:15.001Z",
+    "window_hours": 168,
+    "success_event": "purchase_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "state:subscription_status:never"
+    ],
+    "assumptions": [
+      "Free user requires high-intent conversion prompt."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-06",
+    "2026-09-10",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-24"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-24T14:20:29.424Z",
+  "last_play_started_at": "2026-09-17T05:57:48.783Z",
+  "series_progress": {
+    "roti-d1": {
+      "last_watched_at": "2026-09-17T08:03:51.257Z",
+      "last_episode_id": "roti-d1-s1e1",
+      "completed_episodes": [
+        "roti-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

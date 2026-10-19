@@ -1,0 +1,81 @@
+{
+  "user_id": "U-03053",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T15:49:26.029Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2026-04-28T02:32:46.422Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:26:16.806Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:26:16.806Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:26:16.806Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:26:16.806Z"
+    },
+    "signup_at": {
+      "value": "2026-04-28T02:32:46.422Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-04-28T02:32:46.422Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:718180d8-d6ef-4c3f-9a9b-02442e946cab",
+      "received_at": "2026-09-30T15:49:26.029Z",
+      "occurred_at": "2026-09-30T15:49:24.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-07",
+    "2026-09-16",
+    "2026-09-30"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-30T15:48:57.453Z",
+  "last_play_started_at": "2026-09-16T18:30:28.136Z",
+  "series_progress": {
+    "hapibha-d1": {
+      "last_watched_at": "2026-09-16T18:33:15.128Z",
+      "last_episode_id": "hapibha-d1-s1e1",
+      "completed_episodes": [
+        "hapibha-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

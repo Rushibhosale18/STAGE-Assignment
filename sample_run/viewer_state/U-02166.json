@@ -1,0 +1,106 @@
+{
+  "user_id": "U-02166",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T05:46:15.356Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2024-11-07T23:42:16.792Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:27:32.327Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:27:32.327Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:27:32.327Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:27:32.327Z"
+    },
+    "signup_at": {
+      "value": "2024-11-07T23:42:16.792Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-11-07T23:42:16.792Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:3b8869f3-14fa-4102-b7c1-c08304581bd4",
+      "received_at": "2026-09-27T05:46:15.356Z",
+      "occurred_at": "2026-09-27T05:46:14.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:46:14.906Z",
+    "deadline": "2026-10-04T04:46:14.906Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:molo-d2:unwatched_episodes",
+      "series_progress:molo-d2:last_watched:2026-09-08T07:17:58.280Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series molo-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "molo-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-08",
+    "2026-09-16",
+    "2026-09-21",
+    "2026-09-27"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-27T05:45:57.257Z",
+  "last_play_started_at": "2026-09-21T12:59:00.055Z",
+  "series_progress": {
+    "molo-d2": {
+      "last_watched_at": "2026-09-08T07:17:58.280Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": []
+    },
+    "bhaja-moguba-d2": {
+      "last_watched_at": "2026-09-21T13:02:40.529Z",
+      "last_episode_id": "bhaja-moguba-d2-s1e1",
+      "completed_episodes": [
+        "bhaja-moguba-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Romance": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

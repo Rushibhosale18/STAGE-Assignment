@@ -1,0 +1,81 @@
+{
+  "user_id": "U-04487",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T16:04:17.679Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2025-01-28T20:59:48.674Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:03:18.960Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:03:18.960Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:03:18.960Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:03:18.960Z"
+    },
+    "signup_at": {
+      "value": "2025-01-28T20:59:48.674Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-01-28T20:59:48.674Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:f51a50d2-b667-4335-bf19-3be3060ce865",
+      "received_at": "2026-09-28T16:04:17.679Z",
+      "occurred_at": "2026-09-28T16:04:16.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 24,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-15",
+    "2026-09-28"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-28T16:02:54.991Z",
+  "last_play_started_at": "2026-09-28T16:04:17.679Z",
+  "series_progress": {
+    "rigu-d5": {
+      "last_watched_at": "2026-09-28T16:04:17.679Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

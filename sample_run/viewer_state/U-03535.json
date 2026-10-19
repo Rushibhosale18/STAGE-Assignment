@@ -1,0 +1,148 @@
+{
+  "user_id": "U-03535",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T09:04:06.636Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2026-05-08T03:59:31.026Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-29T02:45:06.710Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:14:51.906Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:14:51.906Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:14:51.906Z"
+    },
+    "signup_at": {
+      "value": "2026-05-08T03:59:31.026Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-05-08T03:59:31.026Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:a85eccda-d0b0-4ae2-b018-14adb8461e6e",
+      "received_at": "2026-09-30T09:04:06.636Z",
+      "occurred_at": "2026-09-30T09:04:05.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:31:11.115Z",
+    "deadline": "2026-10-04T06:31:11.115Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:tepa-lagi-d3:unwatched_episodes",
+      "series_progress:tepa-lagi-d3:last_watched:2026-09-02T05:45:53.514Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series tepa-lagi-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "tepa-lagi-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 75,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-11",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 36,
+  "total_episodes_completed": 24,
+  "last_app_open_at": "2026-09-30T09:01:59.158Z",
+  "last_play_started_at": "2026-09-30T09:03:07.069Z",
+  "series_progress": {
+    "tepa-lagi-d3": {
+      "last_watched_at": "2026-09-02T05:45:53.514Z",
+      "last_episode_id": "tepa-lagi-d3-s1e1",
+      "completed_episodes": []
+    },
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-28T06:54:19.267Z",
+      "last_episode_id": "yane-tegi-d3-s1e6",
+      "completed_episodes": [
+        "yane-tegi-d3-s1e1",
+        "yane-tegi-d3-s1e2",
+        "yane-tegi-d3-s1e3",
+        "yane-tegi-d3-s1e4",
+        "yane-tegi-d3-s1e5",
+        "yane-tegi-d3-s1e6"
+      ]
+    },
+    "sane-d3": {
+      "last_watched_at": "2026-09-06T11:39:01.047Z",
+      "last_episode_id": "sane-d3-s1e1",
+      "completed_episodes": [
+        "sane-d3-s1e1"
+      ]
+    },
+    "ririgi-d3": {
+      "last_watched_at": "2026-09-20T10:22:06.125Z",
+      "last_episode_id": "ririgi-d3-s1e1",
+      "completed_episodes": []
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-30T09:03:07.069Z",
+      "last_episode_id": "yatite-roloda-d3-s1e2",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Thriller": 21,
+    "Crime": 21,
+    "Comedy": 3,
+    "Devotional": 3,
+    "Romance": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

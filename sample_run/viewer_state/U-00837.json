@@ -1,0 +1,112 @@
+{
+  "user_id": "U-00837",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T13:02:37.354Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-10-12T14:15:02.072Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-03T09:02:08.662Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:22:03.362Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:22:03.362Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:22:03.362Z"
+    },
+    "signup_at": {
+      "value": "2025-10-12T14:15:02.072Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-10-12T14:15:02.072Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:aa9a8bc1-b92b-4689-9437-91677a8ded3b",
+      "received_at": "2026-09-30T13:02:37.354Z",
+      "occurred_at": "2026-09-30T13:02:36.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "reactivate_lapsed_14d",
+    "goal_id": "G06",
+    "name": "reactivate_lapsed_14d",
+    "started_at": "2026-10-01T01:19:04.999Z",
+    "deadline": "2026-10-15T01:19:04.999Z",
+    "window_hours": 336,
+    "success_event": "purchase_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "state:subscription_status:lapsed"
+    ],
+    "assumptions": [
+      "Lapsed subscriber needs a fresh content hook to renew."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 36,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 18,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-30T12:53:00.320Z",
+  "last_play_started_at": "2026-09-30T12:54:36.708Z",
+  "series_progress": {
+    "neba-d2": {
+      "last_watched_at": "2026-09-03T17:02:00.797Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": [
+        "neba-d2-s1e1"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-30T12:54:36.708Z",
+      "last_episode_id": "molo-d2-s1e3",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Crime": 3,
+    "Devotional": 3,
+    "Action": 15,
+    "Romance": 15
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

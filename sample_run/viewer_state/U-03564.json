@@ -1,0 +1,92 @@
+{
+  "user_id": "U-03564",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T19:45:12.520Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-24T09:51:16.592Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-09T04:39:51.496Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:53:27.006Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:53:27.006Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:53:27.006Z"
+    },
+    "signup_at": {
+      "value": "2026-09-24T09:51:16.592Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-24T09:51:16.592Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:19d101c7-3d7c-4f49-9a47-badf33523fee",
+      "received_at": "2026-09-30T19:45:12.520Z",
+      "occurred_at": "2026-09-29T06:08:24.800Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 24,
+  "distinct_active_ist_days": [
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
+  ],
+  "total_plays_started": 18,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-30T19:40:11.719Z",
+  "last_play_started_at": "2026-09-30T19:41:30.950Z",
+  "series_progress": {
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-30T19:45:12.520Z",
+      "last_episode_id": "hama-chudibha-d1-s1e2",
+      "completed_episodes": [
+        "hama-chudibha-d1-s1e1",
+        "hama-chudibha-d1-s1e2"
+      ]
+    },
+    "gima-bhadaba-d1": {
+      "last_watched_at": "2026-09-29T16:14:17.020Z",
+      "last_episode_id": "gima-bhadaba-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 15,
+    "Thriller": 15,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

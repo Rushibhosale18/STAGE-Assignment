@@ -1,0 +1,95 @@
+{
+  "user_id": "U-00513",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-20T16:38:08.248Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d6",
+  "app_dialect": "d6",
+  "preferred_language": "hin",
+  "signup_at": "2025-02-28T19:59:39.485Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:22:37.670Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:22:37.670Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:22:37.670Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:22:37.670Z"
+    },
+    "signup_at": {
+      "value": "2025-02-28T19:59:39.485Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-02-28T19:59:39.485Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:dde4934b-c424-4f9b-adf6-fc9a4ca63d35",
+      "received_at": "2026-09-20T16:38:08.248Z",
+      "occurred_at": "2026-09-20T06:21:00.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 27,
+  "distinct_active_ist_days": [
+    "2026-09-07",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-18",
+    "2026-09-20"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-20T16:37:19.994Z",
+  "last_play_started_at": "2026-09-20T02:57:54.384Z",
+  "series_progress": {
+    "sajachu-jabha-d6": {
+      "last_watched_at": "2026-09-14T05:55:13.293Z",
+      "last_episode_id": "sajachu-jabha-d6-s1e1",
+      "completed_episodes": []
+    },
+    "yagi-dagi-d6": {
+      "last_watched_at": "2026-09-20T01:49:14.055Z",
+      "last_episode_id": "yagi-dagi-d6-s1e1",
+      "completed_episodes": []
+    },
+    "piri-jama-d6": {
+      "last_watched_at": "2026-09-20T04:25:19.118Z",
+      "last_episode_id": "piri-jama-d6-s1e1",
+      "completed_episodes": [
+        "piri-jama-d6-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 3,
+    "Comedy": 9,
+    "Romance": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

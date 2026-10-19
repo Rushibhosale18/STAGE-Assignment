@@ -1,0 +1,80 @@
+{
+  "user_id": "U-04569",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T17:43:00.327Z",
+  "subscription_status": "active",
+  "preferred_dialect": null,
+  "app_dialect": "d4",
+  "preferred_language": null,
+  "signup_at": null,
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": null,
+  "facts": {
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:0f23feec-7af9-4cd4-a872-c4af8c1515ca",
+      "received_at": "2026-09-29T17:43:00.327Z",
+      "occurred_at": "2026-09-29T17:42:59.000Z"
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-08T05:55:46.536Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 48,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-08",
+    "2026-09-11",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-29"
+  ],
+  "total_plays_started": 27,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-29T17:39:43.299Z",
+  "last_play_started_at": "2026-09-29T17:40:59.933Z",
+  "series_progress": {
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-29T08:30:18.072Z",
+      "last_episode_id": "bagi-baya-d4-s1e3",
+      "completed_episodes": [
+        "bagi-baya-d4-s1e1",
+        "bagi-baya-d4-s1e2",
+        "bagi-baya-d4-s1e3"
+      ]
+    },
+    "loba-d4": {
+      "last_watched_at": "2026-09-29T17:40:59.933Z",
+      "last_episode_id": "loba-d4-s1e2",
+      "completed_episodes": [
+        "loba-d4-s1e1"
+      ]
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-21T16:12:07.246Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Romance": 21,
+    "Action": 6,
+    "Drama": 6,
+    "Family": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

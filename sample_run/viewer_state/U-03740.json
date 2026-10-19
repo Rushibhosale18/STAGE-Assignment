@@ -1,0 +1,82 @@
+{
+  "user_id": "U-03740",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-25T15:03:07.446Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "en",
+  "signup_at": "2026-05-31T07:26:27.789Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:17:47.775Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:17:47.775Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:17:47.775Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:17:47.775Z"
+    },
+    "signup_at": {
+      "value": "2026-05-31T07:26:27.789Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-05-31T07:26:27.789Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:4bda9fbc-5a06-4a12-91a8-bfe95a7e7643",
+      "received_at": "2026-09-25T15:03:07.446Z",
+      "occurred_at": "2026-09-25T15:03:07.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-08",
+    "2026-09-16",
+    "2026-09-20",
+    "2026-09-25"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-25T14:31:26.752Z",
+  "last_play_started_at": "2026-09-25T14:33:08.504Z",
+  "series_progress": {
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-25T14:33:08.504Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Drama": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,137 @@
+{
+  "user_id": "U-04179",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T04:08:05.233Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d6",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2026-07-27T01:17:08.615Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-14T03:19:34.877Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:30:54.265Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:30:54.265Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:30:54.265Z"
+    },
+    "signup_at": {
+      "value": "2026-07-27T01:17:08.615Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-07-27T01:17:08.615Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:144b7342-f965-4eac-ac57-7ae164ca1981",
+      "received_at": "2026-09-30T04:08:05.233Z",
+      "occurred_at": "2026-09-30T04:08:04.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T03:01:29.559Z",
+    "deadline": "2026-10-04T03:01:29.559Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:digi-mone-d3:unwatched_episodes",
+      "series_progress:digi-mone-d3:last_watched:2026-09-01T11:21:16.091Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series digi-mone-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "digi-mone-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 30,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-30T04:07:50.801Z",
+  "last_play_started_at": "2026-09-26T14:02:12.785Z",
+  "series_progress": {
+    "digi-mone-d3": {
+      "last_watched_at": "2026-09-01T11:21:16.091Z",
+      "last_episode_id": "digi-mone-d3-s1e1",
+      "completed_episodes": []
+    },
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-13T14:32:31.089Z",
+      "last_episode_id": "yane-tegi-d3-s1e1",
+      "completed_episodes": [
+        "yane-tegi-d3-s1e1"
+      ]
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-02T20:54:43.225Z",
+      "last_episode_id": "yatite-roloda-d3-s1e1",
+      "completed_episodes": []
+    },
+    "jakasa-dapi-d3": {
+      "last_watched_at": "2026-09-24T01:52:52.530Z",
+      "last_episode_id": "jakasa-dapi-d3-s1e3",
+      "completed_episodes": [
+        "jakasa-dapi-d3-s1e1",
+        "jakasa-dapi-d3-s1e2"
+      ]
+    },
+    "rate-java-d3": {
+      "last_watched_at": "2026-09-26T15:43:23.346Z",
+      "last_episode_id": "rate-java-d3-s1e1",
+      "completed_episodes": [
+        "rate-java-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 6,
+    "Drama": 6,
+    "Thriller": 12,
+    "Crime": 21,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

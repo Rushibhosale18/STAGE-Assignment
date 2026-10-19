@@ -1,0 +1,110 @@
+{
+  "user_id": "U-01815",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-10-01T04:55:36.078Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2026-03-30T19:01:43.843Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-14T17:55:37.769Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:18:06.508Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:18:06.508Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:18:06.508Z"
+    },
+    "signup_at": {
+      "value": "2026-03-30T19:01:43.843Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-03-30T19:01:43.843Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:bdccad5a-47b6-46d2-838e-8e096193c16f",
+      "received_at": "2026-10-01T04:55:36.078Z",
+      "occurred_at": "2026-09-22T18:43:24.800Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T17:10:16.750Z",
+    "deadline": "2026-10-04T17:10:16.750Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:rira-hari-d1:unwatched_episodes",
+      "series_progress:rira-hari-d1:last_watched:2026-09-16T01:23:50.471Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series rira-hari-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "rira-hari-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 33,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-26",
+    "2026-09-30",
+    "2026-10-01"
+  ],
+  "total_plays_started": 15,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-10-01T04:14:07.575Z",
+  "last_play_started_at": "2026-10-01T04:15:06.662Z",
+  "series_progress": {
+    "rira-hari-d1": {
+      "last_watched_at": "2026-09-16T01:23:50.471Z",
+      "last_episode_id": "rira-hari-d1-s1e1",
+      "completed_episodes": []
+    },
+    "bagugu-gigupi-d1": {
+      "last_watched_at": "2026-10-01T04:55:36.078Z",
+      "last_episode_id": "bagugu-gigupi-d1-s1e1",
+      "completed_episodes": [
+        "bagugu-gigupi-d1-s1e2",
+        "bagugu-gigupi-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 15,
+    "Drama": 12
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

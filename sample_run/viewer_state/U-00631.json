@@ -1,0 +1,81 @@
+{
+  "user_id": "U-00631",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T06:28:52.611Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d6",
+  "app_dialect": "d6",
+  "preferred_language": "hin",
+  "signup_at": "2025-08-17T00:13:41.299Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:12:28.132Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:12:28.132Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:12:28.132Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:12:28.132Z"
+    },
+    "signup_at": {
+      "value": "2025-08-17T00:13:41.299Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-08-17T00:13:41.299Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:15cee5ec-1021-44df-b4d1-4c3d84dc731d",
+      "received_at": "2026-09-26T06:28:52.611Z",
+      "occurred_at": "2026-09-26T06:28:51.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-11",
+    "2026-09-16",
+    "2026-09-25",
+    "2026-09-26"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-26T06:28:25.219Z",
+  "last_play_started_at": "2026-09-15T20:19:02.998Z",
+  "series_progress": {
+    "dhala-nebha-d6": {
+      "last_watched_at": "2026-09-15T20:19:02.998Z",
+      "last_episode_id": "dhala-nebha-d6-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Drama": 3,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

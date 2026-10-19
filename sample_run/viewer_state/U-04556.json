@@ -1,0 +1,131 @@
+{
+  "user_id": "U-04556",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T15:32:18.387Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2024-12-13T00:17:01.734Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-10T18:04:50.605Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:57:25.134Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:57:25.134Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:57:25.134Z"
+    },
+    "signup_at": {
+      "value": "2024-12-13T00:17:01.734Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-13T00:17:01.734Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:28a7388d-f605-4feb-9515-4fc1c3583bc5",
+      "received_at": "2026-09-30T15:32:18.387Z",
+      "occurred_at": "2026-09-30T15:31:00.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:06:44.687Z",
+    "deadline": "2026-10-04T06:06:44.687Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:molo-d2:unwatched_episodes",
+      "series_progress:molo-d2:last_watched:2026-09-05T10:14:25.505Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series molo-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "molo-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-14",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 30,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-30T15:31:53.237Z",
+  "last_play_started_at": "2026-09-29T07:30:24.532Z",
+  "series_progress": {
+    "molo-d2": {
+      "last_watched_at": "2026-09-05T10:14:25.505Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": []
+    },
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-26T11:42:40.806Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e2",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1"
+      ]
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-22T00:45:25.303Z",
+      "last_episode_id": "guka-kosusa-d2-s1e2",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1",
+        "guka-kosusa-d2-s1e2"
+      ]
+    },
+    "gisachu-techu-d2": {
+      "last_watched_at": "2026-09-29T07:30:24.532Z",
+      "last_episode_id": "gisachu-techu-d2-s1e2",
+      "completed_episodes": [
+        "gisachu-techu-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Romance": 12,
+    "Family": 18,
+    "Devotional": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

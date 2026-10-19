@@ -1,0 +1,83 @@
+{
+  "user_id": "U-00832",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T14:21:04.748Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d6",
+  "preferred_language": "hin",
+  "signup_at": "2026-04-15T06:31:38.653Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:34:47.508Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:34:47.508Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:34:47.508Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:34:47.508Z"
+    },
+    "signup_at": {
+      "value": "2026-04-15T06:31:38.653Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-04-15T06:31:38.653Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:97467a26-6040-414b-b356-7f3b3b16f366",
+      "received_at": "2026-09-26T14:21:04.748Z",
+      "occurred_at": "2026-09-26T14:21:04.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-17",
+    "2026-09-26"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-26T14:20:52.844Z",
+  "last_play_started_at": "2026-09-07T16:37:53.452Z",
+  "series_progress": {
+    "gibha-bhalomo-d2": {
+      "last_watched_at": "2026-09-07T16:40:40.555Z",
+      "last_episode_id": "gibha-bhalomo-d2-s1e1",
+      "completed_episodes": [
+        "gibha-bhalomo-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,150 @@
+{
+  "user_id": "U-01474",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T01:45:22.874Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2024-11-07T22:01:20.097Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-25T21:31:33.102Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:47:01.758Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:47:01.758Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:47:01.758Z"
+    },
+    "signup_at": {
+      "value": "2024-11-07T22:01:20.097Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-11-07T22:01:20.097Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:73515377-af05-4eb4-900c-ae8e1fd12a71",
+      "received_at": "2026-09-30T01:45:22.874Z",
+      "occurred_at": "2026-09-30T01:45:22.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:44:50.588Z",
+    "deadline": "2026-10-04T15:44:50.588Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:yane-tegi-d3:unwatched_episodes",
+      "series_progress:yane-tegi-d3:last_watched:2026-09-12T16:00:41.278Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series yane-tegi-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "yane-tegi-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 87,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 63,
+  "total_episodes_completed": 30,
+  "last_app_open_at": "2026-09-30T01:44:52.381Z",
+  "last_play_started_at": "2026-09-28T17:02:52.883Z",
+  "series_progress": {
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-12T16:00:41.278Z",
+      "last_episode_id": "yane-tegi-d3-s1e1",
+      "completed_episodes": []
+    },
+    "jakasa-dapi-d3": {
+      "last_watched_at": "2026-09-27T10:57:53.197Z",
+      "last_episode_id": "jakasa-dapi-d3-s1e4",
+      "completed_episodes": [
+        "jakasa-dapi-d3-s1e2",
+        "jakasa-dapi-d3-s1e1",
+        "jakasa-dapi-d3-s1e3",
+        "jakasa-dapi-d3-s1e4"
+      ]
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-28T17:02:52.883Z",
+      "last_episode_id": "yatite-roloda-d3-s1e6",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1",
+        "yatite-roloda-d3-s1e2",
+        "yatite-roloda-d3-s1e3",
+        "yatite-roloda-d3-s1e4",
+        "yatite-roloda-d3-s1e5"
+      ]
+    },
+    "tepa-lagi-d3": {
+      "last_watched_at": "2026-09-15T17:31:06.793Z",
+      "last_episode_id": "tepa-lagi-d3-s1e1",
+      "completed_episodes": [
+        "tepa-lagi-d3-s1e1"
+      ]
+    },
+    "digi-mone-d3": {
+      "last_watched_at": "2026-09-20T15:45:53.450Z",
+      "last_episode_id": "digi-mone-d3-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Thriller": 9,
+    "Crime": 33,
+    "Romance": 27,
+    "Action": 3,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,139 @@
+{
+  "user_id": "U-04332",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T09:48:54.931Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-02-25T03:53:16.417Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-29T07:26:45.597Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:14:06.562Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:14:06.562Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:14:06.562Z"
+    },
+    "signup_at": {
+      "value": "2026-02-25T03:53:16.417Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-02-25T03:53:16.417Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:a5f6e4a8-190c-4803-8bad-d073a954c842",
+      "received_at": "2026-09-29T09:48:54.931Z",
+      "occurred_at": "2026-09-29T09:48:52.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:53:51.630Z",
+    "deadline": "2026-10-04T05:53:51.630Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:tichumo-d4:unwatched_episodes",
+      "series_progress:tichumo-d4:last_watched:2026-09-01T14:29:41.967Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series tichumo-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "tichumo-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 69,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 48,
+  "total_episodes_completed": 30,
+  "last_app_open_at": "2026-09-29T09:44:08.844Z",
+  "last_play_started_at": "2026-09-29T09:46:08.817Z",
+  "series_progress": {
+    "tichumo-d4": {
+      "last_watched_at": "2026-09-01T14:29:41.967Z",
+      "last_episode_id": "tichumo-d4-s1e1",
+      "completed_episodes": []
+    },
+    "netisa-d4": {
+      "last_watched_at": "2026-09-10T11:20:46.513Z",
+      "last_episode_id": "netisa-d4-s1e1",
+      "completed_episodes": [
+        "netisa-d4-s1e1"
+      ]
+    },
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-29T09:48:54.931Z",
+      "last_episode_id": "bagi-baya-d4-s1e4",
+      "completed_episodes": [
+        "bagi-baya-d4-s1e1",
+        "bagi-baya-d4-s1e2",
+        "bagi-baya-d4-s1e3",
+        "bagi-baya-d4-s1e4"
+      ]
+    },
+    "radi-d4": {
+      "last_watched_at": "2026-09-13T07:27:08.343Z",
+      "last_episode_id": "radi-d4-s1e4",
+      "completed_episodes": [
+        "radi-d4-s1e1",
+        "radi-d4-s1e2",
+        "radi-d4-s1e3",
+        "radi-d4-s1e4"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 48,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

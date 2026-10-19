@@ -1,0 +1,85 @@
+{
+  "user_id": "U-03978",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T15:26:59.682Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-08-16T13:55:24.999Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:55:06.832Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:55:06.832Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:55:06.832Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:55:06.832Z"
+    },
+    "signup_at": {
+      "value": "2026-08-16T13:55:24.999Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-16T13:55:24.999Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:34ef2e05-87a1-4184-a702-0410e4b82563",
+      "received_at": "2026-09-30T15:26:59.682Z",
+      "occurred_at": "2026-09-29T17:22:04.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 27,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-30T15:25:31.699Z",
+  "last_play_started_at": "2026-09-17T16:57:40.634Z",
+  "series_progress": {
+    "nipi-maniba-d2": {
+      "last_watched_at": "2026-09-17T18:39:46.854Z",
+      "last_episode_id": "nipi-maniba-d2-s1e1",
+      "completed_episodes": [
+        "nipi-maniba-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

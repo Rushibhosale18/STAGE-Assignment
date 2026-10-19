@@ -1,0 +1,111 @@
+{
+  "user_id": "U-00400",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T18:01:05.305Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-01-20T10:01:58.430Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:05:28.666Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:05:28.666Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:05:28.666Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:05:28.666Z"
+    },
+    "signup_at": {
+      "value": "2025-01-20T10:01:58.430Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-01-20T10:01:58.430Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:e05fadd0-e02f-4922-a49b-f57c2a7386f0",
+      "received_at": "2026-09-29T18:01:05.305Z",
+      "occurred_at": "2026-09-29T18:01:04.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:46:41.640Z",
+    "deadline": "2026-10-04T04:46:41.640Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bagugu-gigupi-d1:unwatched_episodes",
+      "series_progress:bagugu-gigupi-d1:last_watched:2026-09-13T16:28:04.887Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bagugu-gigupi-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bagugu-gigupi-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-29T18:00:37.025Z",
+  "last_play_started_at": "2026-09-28T16:22:47.739Z",
+  "series_progress": {
+    "bagugu-gigupi-d1": {
+      "last_watched_at": "2026-09-13T16:28:04.887Z",
+      "last_episode_id": "bagugu-gigupi-d1-s1e3",
+      "completed_episodes": [
+        "bagugu-gigupi-d1-s1e1",
+        "bagugu-gigupi-d1-s1e2"
+      ]
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-28T18:13:12.985Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 12,
+    "Romance": 9,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

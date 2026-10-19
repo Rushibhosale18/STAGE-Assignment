@@ -1,0 +1,109 @@
+{
+  "user_id": "U-00311",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T04:48:31.467Z",
+  "subscription_status": "active",
+  "preferred_dialect": "",
+  "app_dialect": "d6",
+  "preferred_language": "en",
+  "signup_at": "2026-09-07T08:42:05.824Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-07T08:49:33.681Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:00:48.365Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:00:48.365Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:00:48.365Z"
+    },
+    "signup_at": {
+      "value": "2026-09-07T08:42:05.824Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-07T08:42:05.824Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:134c079e-47bf-475e-9218-ba60d9d4e790",
+      "received_at": "2026-09-29T04:48:31.467Z",
+      "occurred_at": "2026-09-29T04:48:29.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 54,
+  "distinct_active_ist_days": [
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-29"
+  ],
+  "total_plays_started": 15,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-29T04:48:23.507Z",
+  "last_play_started_at": "2026-09-29T03:21:14.935Z",
+  "series_progress": {
+    "pima-pana-d3": {
+      "last_watched_at": "2026-09-11T15:21:45.770Z",
+      "last_episode_id": "pima-pana-d3-s1e1",
+      "completed_episodes": []
+    },
+    "sane-d3": {
+      "last_watched_at": "2026-09-14T15:39:31.595Z",
+      "last_episode_id": "sane-d3-s1e1",
+      "completed_episodes": [
+        "sane-d3-s1e1"
+      ]
+    },
+    "rate-java-d3": {
+      "last_watched_at": "2026-09-20T07:27:14.247Z",
+      "last_episode_id": "rate-java-d3-s1e1",
+      "completed_episodes": []
+    },
+    "rasuya-moni-d6": {
+      "last_watched_at": "2026-09-29T03:21:14.935Z",
+      "last_episode_id": "rasuya-moni-d6-s1e2",
+      "completed_episodes": [
+        "rasuya-moni-d6-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Family": 3,
+    "Comedy": 6,
+    "Drama": 3,
+    "Devotional": 6,
+    "Thriller": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

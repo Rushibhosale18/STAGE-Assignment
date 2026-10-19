@@ -1,0 +1,118 @@
+{
+  "user_id": "U-01415",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T10:25:45.489Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-12-15T12:09:00.346Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-04T14:49:45.710Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:49:41.152Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:49:41.152Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:49:41.152Z"
+    },
+    "signup_at": {
+      "value": "2025-12-15T12:09:00.346Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-12-15T12:09:00.346Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:c4296122-89fb-41a2-9de0-12789a3677c9",
+      "received_at": "2026-09-29T10:25:45.489Z",
+      "occurred_at": "2026-09-24T15:21:48.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:39:52.232Z",
+    "deadline": "2026-10-04T06:39:52.232Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:molo-d2:unwatched_episodes",
+      "series_progress:molo-d2:last_watched:2026-09-23T09:18:43.317Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series molo-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "molo-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 84,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-05",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-13",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-29"
+  ],
+  "total_plays_started": 30,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-29T10:25:17.161Z",
+  "last_play_started_at": "2026-09-23T09:02:49.472Z",
+  "series_progress": {
+    "molo-d2": {
+      "last_watched_at": "2026-09-23T09:18:43.317Z",
+      "last_episode_id": "molo-d2-s1e4",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2",
+        "molo-d2-s1e3",
+        "molo-d2-s1e4"
+      ]
+    },
+    "tela-sagi-d2": {
+      "last_watched_at": "2026-09-20T13:58:47.926Z",
+      "last_episode_id": "tela-sagi-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 27,
+    "Romance": 30,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

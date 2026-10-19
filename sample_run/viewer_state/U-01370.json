@@ -1,0 +1,131 @@
+{
+  "user_id": "U-01370",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T08:21:38.153Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-09-18T20:45:42.164Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-21T06:41:15.692Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:01:25.395Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:01:25.395Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:01:25.395Z"
+    },
+    "signup_at": {
+      "value": "2025-09-18T20:45:42.164Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-09-18T20:45:42.164Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:8df4eb49-c302-484e-9188-15c37e79a3ab",
+      "received_at": "2026-09-30T08:21:38.153Z",
+      "occurred_at": "2026-09-30T03:03:35.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:44:56.784Z",
+    "deadline": "2026-10-04T15:44:56.784Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:kone-jaja-d1:unwatched_episodes",
+      "series_progress:kone-jaja-d1:last_watched:2026-09-16T23:55:11.368Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series kone-jaja-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "kone-jaja-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 45,
+  "distinct_active_ist_days": [
+    "2026-09-10",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-25",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 27,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-30T08:18:42.234Z",
+  "last_play_started_at": "2026-09-30T08:20:09.297Z",
+  "series_progress": {
+    "kone-jaja-d1": {
+      "last_watched_at": "2026-09-16T23:55:11.368Z",
+      "last_episode_id": "kone-jaja-d1-s1e1",
+      "completed_episodes": []
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-29T16:10:57.099Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": []
+    },
+    "roti-d1": {
+      "last_watched_at": "2026-09-20T14:02:47.879Z",
+      "last_episode_id": "roti-d1-s1e1",
+      "completed_episodes": []
+    },
+    "tidha-dakachu-d1": {
+      "last_watched_at": "2026-09-27T09:53:49.855Z",
+      "last_episode_id": "tidha-dakachu-d1-s1e3",
+      "completed_episodes": [
+        "tidha-dakachu-d1-s1e1",
+        "tidha-dakachu-d1-s1e2",
+        "tidha-dakachu-d1-s1e3"
+      ]
+    },
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-30T08:20:09.297Z",
+      "last_episode_id": "hama-chudibha-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 9,
+    "Crime": 3,
+    "Drama": 9,
+    "Thriller": 12,
+    "Family": 12,
+    "Action": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

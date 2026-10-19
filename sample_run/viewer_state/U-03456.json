@@ -1,0 +1,135 @@
+{
+  "user_id": "U-03456",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T03:48:52.124Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-09-27T16:39:26.001Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-14T17:19:18.909Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:57:11.580Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:57:11.580Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:57:11.580Z"
+    },
+    "signup_at": {
+      "value": "2025-09-27T16:39:26.001Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-09-27T16:39:26.001Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:56cd1a38-1cf6-469a-ae11-b97a2c7f6bd2",
+      "received_at": "2026-09-29T03:48:52.124Z",
+      "occurred_at": "2026-09-29T03:48:50.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T19:02:31.758Z",
+    "deadline": "2026-10-03T19:02:31.758Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:hama-chudibha-d1:unwatched_episodes",
+      "series_progress:hama-chudibha-d1:last_watched:2026-09-19T14:23:29.182Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series hama-chudibha-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "hama-chudibha-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 63,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-26",
+    "2026-09-29"
+  ],
+  "total_plays_started": 36,
+  "total_episodes_completed": 18,
+  "last_app_open_at": "2026-09-29T03:48:25.846Z",
+  "last_play_started_at": "2026-09-22T16:49:09.673Z",
+  "series_progress": {
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-22T15:37:55.491Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-19T14:23:29.182Z",
+      "last_episode_id": "hama-chudibha-d1-s1e3",
+      "completed_episodes": [
+        "hama-chudibha-d1-s1e1",
+        "hama-chudibha-d1-s1e2",
+        "hama-chudibha-d1-s1e3"
+      ]
+    },
+    "raja-badi-d1": {
+      "last_watched_at": "2026-09-13T00:34:31.237Z",
+      "last_episode_id": "raja-badi-d1-s1e1",
+      "completed_episodes": []
+    },
+    "bagugu-gigupi-d1": {
+      "last_watched_at": "2026-09-22T16:49:09.673Z",
+      "last_episode_id": "bagugu-gigupi-d1-s1e2",
+      "completed_episodes": [
+        "bagugu-gigupi-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 24,
+    "Thriller": 30,
+    "Comedy": 9,
+    "Devotional": 3,
+    "Romance": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

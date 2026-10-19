@@ -1,0 +1,79 @@
+{
+  "user_id": "U-03323",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-15T06:37:59.494Z",
+  "subscription_status": "never",
+  "preferred_dialect": "",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-15T06:12:47.696Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:29:47.012Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:29:47.012Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:29:47.012Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:29:47.012Z"
+    },
+    "signup_at": {
+      "value": "2026-09-15T06:12:47.696Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-15T06:12:47.696Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:485db0a6-782f-4ba2-8004-a8895563cbc2",
+      "received_at": "2026-09-15T06:37:59.494Z",
+      "occurred_at": "2026-09-15T06:37:57.696Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 3,
+  "distinct_active_ist_days": [
+    "2026-09-15"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-15T06:13:09.175Z",
+  "last_play_started_at": "2026-09-15T06:15:00.059Z",
+  "series_progress": {
+    "ririgi-d3": {
+      "last_watched_at": "2026-09-15T06:37:59.494Z",
+      "last_episode_id": "ririgi-d3-s1e1",
+      "completed_episodes": [
+        "ririgi-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

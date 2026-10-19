@@ -1,0 +1,85 @@
+{
+  "user_id": "U-00510",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T07:33:51.542Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-07-29T12:16:13.098Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:41:20.279Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:41:20.279Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:41:20.279Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:41:20.279Z"
+    },
+    "signup_at": {
+      "value": "2026-07-29T12:16:13.098Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-07-29T12:16:13.098Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:86763266-6b20-4f2d-8496-ab1a7005ce4b",
+      "received_at": "2026-09-30T07:33:51.542Z",
+      "occurred_at": "2026-09-30T07:33:51.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-22",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-30T07:32:12.255Z",
+  "last_play_started_at": "2026-09-28T05:03:18.053Z",
+  "series_progress": {
+    "sadha-d2": {
+      "last_watched_at": "2026-09-28T05:29:04.483Z",
+      "last_episode_id": "sadha-d2-s1e1",
+      "completed_episodes": [
+        "sadha-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

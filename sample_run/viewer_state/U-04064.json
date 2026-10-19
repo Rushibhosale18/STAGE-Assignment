@@ -1,0 +1,107 @@
+{
+  "user_id": "U-04064",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T09:41:11.726Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d6",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2025-07-08T02:10:21.587Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-02T22:31:06.844Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:04:30.375Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:04:30.375Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:04:30.375Z"
+    },
+    "signup_at": {
+      "value": "2025-07-08T02:10:21.587Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-07-08T02:10:21.587Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:7281b95d-8349-4c69-81d7-77eb53fd3286",
+      "received_at": "2026-09-28T09:41:11.726Z",
+      "occurred_at": "2026-09-28T09:41:09.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T12:20:29.799Z",
+    "deadline": "2026-10-04T12:20:29.799Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:gineni-d4:unwatched_episodes",
+      "series_progress:gineni-d4:last_watched:2026-09-27T13:08:19.323Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series gineni-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "gineni-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 24,
+  "distinct_active_ist_days": [
+    "2026-09-09",
+    "2026-09-15",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-27",
+    "2026-09-28"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-28T09:40:25.220Z",
+  "last_play_started_at": "2026-09-27T13:08:19.323Z",
+  "series_progress": {
+    "lapa-mavada-d4": {
+      "last_watched_at": "2026-09-24T09:16:13.320Z",
+      "last_episode_id": "lapa-mavada-d4-s1e1",
+      "completed_episodes": [
+        "lapa-mavada-d4-s1e1"
+      ]
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-27T13:08:19.323Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Drama": 9,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

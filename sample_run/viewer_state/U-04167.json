@@ -1,0 +1,169 @@
+{
+  "user_id": "U-04167",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T20:16:50.538Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "NA",
+  "preferred_language": "hin",
+  "signup_at": "2025-11-15T00:53:16.015Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-29T16:04:08.329Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:36:03.326Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:36:03.326Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:36:03.326Z"
+    },
+    "signup_at": {
+      "value": "2025-11-15T00:53:16.015Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-11-15T00:53:16.015Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:d761cac6-68da-4756-ae7c-6a3ef0d48584",
+      "received_at": "2026-09-30T20:16:50.538Z",
+      "occurred_at": "2026-09-24T05:20:36.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:53:51.102Z",
+    "deadline": "2026-10-04T16:53:51.102Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:yatite-roloda-d3:unwatched_episodes",
+      "series_progress:yatite-roloda-d3:last_watched:2026-09-20T04:39:39.694Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series yatite-roloda-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "yatite-roloda-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 99,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-10-01"
+  ],
+  "total_plays_started": 69,
+  "total_episodes_completed": 48,
+  "last_app_open_at": "2026-09-30T20:13:15.609Z",
+  "last_play_started_at": "2026-09-30T20:14:59.536Z",
+  "series_progress": {
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-20T04:39:39.694Z",
+      "last_episode_id": "yatite-roloda-d3-s1e3",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1",
+        "yatite-roloda-d3-s1e2",
+        "yatite-roloda-d3-s1e3"
+      ]
+    },
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-28T02:20:44.742Z",
+      "last_episode_id": "yane-tegi-d3-s1e7",
+      "completed_episodes": [
+        "yane-tegi-d3-s1e1",
+        "yane-tegi-d3-s1e2",
+        "yane-tegi-d3-s1e3",
+        "yane-tegi-d3-s1e4",
+        "yane-tegi-d3-s1e5",
+        "yane-tegi-d3-s1e6",
+        "yane-tegi-d3-s1e7"
+      ]
+    },
+    "pima-pana-d3": {
+      "last_watched_at": "2026-09-25T12:19:57.443Z",
+      "last_episode_id": "pima-pana-d3-s1e3",
+      "completed_episodes": [
+        "pima-pana-d3-s1e1",
+        "pima-pana-d3-s1e2"
+      ]
+    },
+    "ririgi-d3": {
+      "last_watched_at": "2026-09-24T03:12:34.331Z",
+      "last_episode_id": "ririgi-d3-s1e1",
+      "completed_episodes": [
+        "ririgi-d3-s1e1"
+      ]
+    },
+    "jakasa-dapi-d3": {
+      "last_watched_at": "2026-09-14T16:08:12.482Z",
+      "last_episode_id": "jakasa-dapi-d3-s1e1",
+      "completed_episodes": [
+        "jakasa-dapi-d3-s1e2",
+        "jakasa-dapi-d3-s1e1"
+      ]
+    },
+    "yadha-kopa-d3": {
+      "last_watched_at": "2026-09-22T14:42:52.811Z",
+      "last_episode_id": "yadha-kopa-d3-s1e1",
+      "completed_episodes": []
+    },
+    "lomobha-moni-d3": {
+      "last_watched_at": "2026-09-30T20:16:50.538Z",
+      "last_episode_id": "lomobha-moni-d3-s1e1",
+      "completed_episodes": [
+        "lomobha-moni-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 12,
+    "Thriller": 36,
+    "Crime": 33,
+    "Action": 15,
+    "Family": 9,
+    "Devotional": 6,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

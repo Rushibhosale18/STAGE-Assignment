@@ -1,0 +1,85 @@
+{
+  "user_id": "U-00973",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T05:17:22.594Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2024-12-21T17:21:36.054Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:01:47.444Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:01:47.444Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:01:47.444Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:01:47.444Z"
+    },
+    "signup_at": {
+      "value": "2024-12-21T17:21:36.054Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-21T17:21:36.054Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:f7b0a385-7b99-4b87-baea-56a2919d0e44",
+      "received_at": "2026-09-26T05:17:22.594Z",
+      "occurred_at": "2026-09-26T05:15:27.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-13",
+    "2026-09-18",
+    "2026-09-24",
+    "2026-09-26"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-26T05:16:42.549Z",
+  "last_play_started_at": "2026-09-18T11:50:04.974Z",
+  "series_progress": {
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-18T11:52:51.951Z",
+      "last_episode_id": "yane-tegi-d3-s1e2",
+      "completed_episodes": [
+        "yane-tegi-d3-s1e1",
+        "yane-tegi-d3-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 6,
+    "Crime": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

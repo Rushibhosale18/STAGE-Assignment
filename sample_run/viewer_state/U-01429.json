@@ -1,0 +1,108 @@
+{
+  "user_id": "U-01429",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-10-01T09:25:54.987Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2025-11-26T03:31:23.384Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-10-01T09:25:54.987Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:32:58.531Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:32:58.531Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:32:58.531Z"
+    },
+    "signup_at": {
+      "value": "2025-11-26T03:31:23.384Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-11-26T03:31:23.384Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:6a24e107-1cf3-4360-901d-2038e0f2b3d7",
+      "received_at": "2026-10-01T09:25:54.987Z",
+      "occurred_at": "2026-10-01T09:25:54.987Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T09:23:50.303Z",
+    "deadline": "2026-10-04T09:23:50.303Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:koha-kagite-d4:unwatched_episodes",
+      "series_progress:koha-kagite-d4:last_watched:2026-09-25T09:29:09.344Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series koha-kagite-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "koha-kagite-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-25"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-25T09:23:26.446Z",
+  "last_play_started_at": "2026-09-25T09:26:25.438Z",
+  "series_progress": {
+    "koha-kagite-d4": {
+      "last_watched_at": "2026-09-25T09:29:09.344Z",
+      "last_episode_id": "koha-kagite-d4-s1e2",
+      "completed_episodes": [
+        "koha-kagite-d4-s1e1",
+        "koha-kagite-d4-s1e2"
+      ]
+    },
+    "yaha-nava-d4": {
+      "last_watched_at": "2026-09-04T13:41:24.276Z",
+      "last_episode_id": "yaha-nava-d4-s1e1",
+      "completed_episodes": [
+        "yaha-nava-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 9,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

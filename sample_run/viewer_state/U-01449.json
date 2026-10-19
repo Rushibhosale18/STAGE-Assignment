@@ -1,0 +1,143 @@
+{
+  "user_id": "U-01449",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T10:33:47.817Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2025-12-16T06:31:47.300Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-25T23:34:43.736Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:19:32.891Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:19:32.891Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:19:32.891Z"
+    },
+    "signup_at": {
+      "value": "2025-12-16T06:31:47.300Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-12-16T06:31:47.300Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:18eea647-3ee2-487c-aeb0-8d5522f83a75",
+      "received_at": "2026-09-29T10:33:47.817Z",
+      "occurred_at": "2026-09-29T10:33:46.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:35:52.980Z",
+    "deadline": "2026-10-04T05:35:52.980Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:lomobha-moni-d3:unwatched_episodes",
+      "series_progress:lomobha-moni-d3:last_watched:2026-09-16T06:48:28.242Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series lomobha-moni-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "lomobha-moni-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 66,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-07",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-29"
+  ],
+  "total_plays_started": 42,
+  "total_episodes_completed": 24,
+  "last_app_open_at": "2026-09-29T10:33:43.416Z",
+  "last_play_started_at": "2026-09-27T12:02:47.062Z",
+  "series_progress": {
+    "lomobha-moni-d3": {
+      "last_watched_at": "2026-09-16T06:48:28.242Z",
+      "last_episode_id": "lomobha-moni-d3-s1e4",
+      "completed_episodes": [
+        "lomobha-moni-d3-s1e1",
+        "lomobha-moni-d3-s1e3",
+        "lomobha-moni-d3-s1e2",
+        "lomobha-moni-d3-s1e4"
+      ]
+    },
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-27T12:02:47.062Z",
+      "last_episode_id": "yane-tegi-d3-s1e2",
+      "completed_episodes": [
+        "yane-tegi-d3-s1e1"
+      ]
+    },
+    "ririgi-d3": {
+      "last_watched_at": "2026-09-16T07:06:14.695Z",
+      "last_episode_id": "ririgi-d3-s1e1",
+      "completed_episodes": []
+    },
+    "rate-java-d3": {
+      "last_watched_at": "2026-09-24T10:20:50.413Z",
+      "last_episode_id": "rate-java-d3-s1e1",
+      "completed_episodes": [
+        "rate-java-d3-s1e1"
+      ]
+    },
+    "yadha-kopa-d3": {
+      "last_watched_at": "2026-09-27T00:37:06.329Z",
+      "last_episode_id": "yadha-kopa-d3-s1e1",
+      "completed_episodes": [
+        "yadha-kopa-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 33,
+    "Action": 15,
+    "Crime": 12,
+    "Devotional": 3,
+    "Drama": 12,
+    "Comedy": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,107 @@
+{
+  "user_id": "U-01953",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T12:05:54.634Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2024-12-23T09:24:34.495Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-02T10:36:40.312Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:31:37.029Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:31:37.029Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:31:37.029Z"
+    },
+    "signup_at": {
+      "value": "2024-12-23T09:24:34.495Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-23T09:24:34.495Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:5c420bf0-406b-4871-b7fd-cd6aa29f752b",
+      "received_at": "2026-09-30T12:05:54.634Z",
+      "occurred_at": "2026-09-30T12:05:53.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T04:47:54.883Z",
+    "deadline": "2026-10-04T04:47:54.883Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-30"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-30T11:08:20.865Z",
+  "last_play_started_at": "2026-09-30T11:10:25.434Z",
+  "series_progress": {
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-01T13:00:30.387Z",
+      "last_episode_id": "bagi-baya-d4-s1e1",
+      "completed_episodes": []
+    },
+    "hane-d4": {
+      "last_watched_at": "2026-09-07T16:47:31.893Z",
+      "last_episode_id": "hane-d4-s1e1",
+      "completed_episodes": []
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-30T11:10:25.434Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Romance": 6,
+    "Drama": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

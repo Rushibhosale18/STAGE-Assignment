@@ -1,0 +1,81 @@
+{
+  "user_id": "U-02700",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-19T12:57:15.556Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "en",
+  "signup_at": "2025-09-24T06:24:20.925Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:41:01.166Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:41:01.166Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:41:01.166Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:41:01.166Z"
+    },
+    "signup_at": {
+      "value": "2025-09-24T06:24:20.925Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-09-24T06:24:20.925Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:bf131a8a-83d6-4f17-b77d-f60dcb559e25",
+      "received_at": "2026-09-19T12:57:15.556Z",
+      "occurred_at": "2026-09-19T12:57:15.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 9,
+  "distinct_active_ist_days": [
+    "2026-09-08",
+    "2026-09-16",
+    "2026-09-19"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-19T12:56:17.929Z",
+  "last_play_started_at": "2026-09-08T08:09:44.364Z",
+  "series_progress": {
+    "jakasa-dapi-d3": {
+      "last_watched_at": "2026-09-08T08:48:22.341Z",
+      "last_episode_id": "jakasa-dapi-d3-s1e1",
+      "completed_episodes": [
+        "jakasa-dapi-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Crime": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

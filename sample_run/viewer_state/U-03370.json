@@ -1,0 +1,117 @@
+{
+  "user_id": "U-03370",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-25T16:06:09.913Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-01-13T23:33:55.379Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-22T04:09:54.125Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:08:22.041Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:08:22.041Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:08:22.041Z"
+    },
+    "signup_at": {
+      "value": "2025-01-13T23:33:55.379Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-01-13T23:33:55.379Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:dea7da61-cc5f-4992-83b5-2786177b1a33",
+      "received_at": "2026-09-25T16:06:09.913Z",
+      "occurred_at": "2026-09-25T16:06:08.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:42:54.901Z",
+    "deadline": "2026-10-04T06:42:54.901Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:salosa-valo-d1:unwatched_episodes",
+      "series_progress:salosa-valo-d1:last_watched:2026-09-25T15:55:23.578Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series salosa-valo-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "salosa-valo-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 48,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25"
+  ],
+  "total_plays_started": 21,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-25T15:53:39.517Z",
+  "last_play_started_at": "2026-09-25T15:55:23.578Z",
+  "series_progress": {
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-11T19:24:02.720Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "salosa-valo-d1": {
+      "last_watched_at": "2026-09-25T15:55:23.578Z",
+      "last_episode_id": "salosa-valo-d1-s1e3",
+      "completed_episodes": [
+        "salosa-valo-d1-s1e1",
+        "salosa-valo-d1-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 6,
+    "Thriller": 6,
+    "Crime": 15,
+    "Comedy": 15
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

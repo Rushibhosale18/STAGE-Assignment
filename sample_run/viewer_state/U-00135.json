@@ -1,0 +1,80 @@
+{
+  "user_id": "U-00135",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-16T17:54:16.913Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d6",
+  "app_dialect": "d6",
+  "preferred_language": "hin",
+  "signup_at": "2025-10-28T22:30:59.265Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:49:22.537Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:49:22.537Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:49:22.537Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:49:22.537Z"
+    },
+    "signup_at": {
+      "value": "2025-10-28T22:30:59.265Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-10-28T22:30:59.265Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:9e71946f-2df4-44a3-b4ce-3fd0f5cdd8b9",
+      "received_at": "2026-09-16T17:54:16.913Z",
+      "occurred_at": "2026-09-16T17:54:14.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-08",
+    "2026-09-16"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-16T17:53:59.947Z",
+  "last_play_started_at": "2026-09-16T17:05:46.979Z",
+  "series_progress": {
+    "piri-jama-d6": {
+      "last_watched_at": "2026-09-16T17:05:46.979Z",
+      "last_episode_id": "piri-jama-d6-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

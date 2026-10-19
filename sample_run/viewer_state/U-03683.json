@@ -1,0 +1,152 @@
+{
+  "user_id": "U-03683",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T08:03:50.034Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-09-30T19:37:05.519Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-24T00:25:41.378Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:49:25.815Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:49:25.815Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:49:25.815Z"
+    },
+    "signup_at": {
+      "value": "2025-09-30T19:37:05.519Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-09-30T19:37:05.519Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:0704a8f6-62d9-4707-a69b-d7296cf4289a",
+      "received_at": "2026-09-29T08:03:50.034Z",
+      "occurred_at": "2026-09-29T08:03:48.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T13:28:35.849Z",
+    "deadline": "2026-10-04T13:28:35.849Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:gubava-gihaya-d5:unwatched_episodes",
+      "series_progress:gubava-gihaya-d5:last_watched:2026-09-16T16:36:39.251Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series gubava-gihaya-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "gubava-gihaya-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 72,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-27",
+    "2026-09-29"
+  ],
+  "total_plays_started": 45,
+  "total_episodes_completed": 30,
+  "last_app_open_at": "2026-09-29T08:03:50.034Z",
+  "last_play_started_at": "2026-09-24T02:45:29.301Z",
+  "series_progress": {
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-16T16:36:39.251Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e5",
+      "completed_episodes": [
+        "gubava-gihaya-d5-s1e1",
+        "gubava-gihaya-d5-s1e2",
+        "gubava-gihaya-d5-s1e3",
+        "gubava-gihaya-d5-s1e4"
+      ]
+    },
+    "rigu-d5": {
+      "last_watched_at": "2026-09-07T10:07:01.565Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": [
+        "rigu-d5-s1e1"
+      ]
+    },
+    "jamo-hasa-d5": {
+      "last_watched_at": "2026-09-03T03:58:55.883Z",
+      "last_episode_id": "jamo-hasa-d5-s1e1",
+      "completed_episodes": []
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-22T18:20:47.575Z",
+      "last_episode_id": "guka-kosusa-d2-s1e2",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1"
+      ]
+    },
+    "maya-d2": {
+      "last_watched_at": "2026-09-17T15:13:36.302Z",
+      "last_episode_id": "maya-d2-s1e1",
+      "completed_episodes": []
+    },
+    "bhaja-moguba-d2": {
+      "last_watched_at": "2026-09-24T02:48:15.396Z",
+      "last_episode_id": "bhaja-moguba-d2-s1e3",
+      "completed_episodes": [
+        "bhaja-moguba-d2-s1e1",
+        "bhaja-moguba-d2-s1e2",
+        "bhaja-moguba-d2-s1e3"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 24,
+    "Comedy": 6,
+    "Romance": 9,
+    "Crime": 6,
+    "Thriller": 12
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

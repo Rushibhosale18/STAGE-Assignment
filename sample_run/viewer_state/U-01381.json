@@ -1,0 +1,81 @@
+{
+  "user_id": "U-01381",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-18T21:58:50.523Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2026-03-19T21:53:51.987Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:39:13.900Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:39:13.900Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:39:13.900Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T23:39:13.900Z"
+    },
+    "signup_at": {
+      "value": "2026-03-19T21:53:51.987Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-03-19T21:53:51.987Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:8b8f2512-6132-4f1e-a36b-b8cb3e62d938",
+      "received_at": "2026-09-18T21:58:50.523Z",
+      "occurred_at": "2026-09-18T21:58:48.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 6,
+  "distinct_active_ist_days": [
+    "2026-09-18",
+    "2026-09-19"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-18T21:15:25.646Z",
+  "last_play_started_at": "2026-09-18T21:17:25.662Z",
+  "series_progress": {
+    "pate-kari-d3": {
+      "last_watched_at": "2026-09-18T21:58:50.523Z",
+      "last_episode_id": "pate-kari-d3-s1e1",
+      "completed_episodes": [
+        "pate-kari-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

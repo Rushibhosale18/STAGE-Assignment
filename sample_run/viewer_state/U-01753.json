@@ -1,0 +1,143 @@
+{
+  "user_id": "U-01753",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T12:44:20.925Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-04-25T13:18:36.459Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-19T14:10:19.137Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:21:04.468Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:21:04.468Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:21:04.468Z"
+    },
+    "signup_at": {
+      "value": "2026-04-25T13:18:36.459Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-04-25T13:18:36.459Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:6a92f3fa-f58f-4026-ba80-70d876b92d32",
+      "received_at": "2026-09-30T12:44:20.925Z",
+      "occurred_at": "2026-09-30T12:44:18.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T09:15:18.779Z",
+    "deadline": "2026-10-04T09:15:18.779Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:guka-kosusa-d2:unwatched_episodes",
+      "series_progress:guka-kosusa-d2:last_watched:2026-09-28T06:23:06.306Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series guka-kosusa-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "guka-kosusa-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 57,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 30,
+  "total_episodes_completed": 15,
+  "last_app_open_at": "2026-09-30T12:42:31.783Z",
+  "last_play_started_at": "2026-09-28T06:23:06.306Z",
+  "series_progress": {
+    "sajachu-jabha-d6": {
+      "last_watched_at": "2026-09-01T11:06:15.888Z",
+      "last_episode_id": "sajachu-jabha-d6-s1e1",
+      "completed_episodes": [
+        "sajachu-jabha-d6-s1e1"
+      ]
+    },
+    "yagi-dagi-d6": {
+      "last_watched_at": "2026-09-01T19:09:18.662Z",
+      "last_episode_id": "yagi-dagi-d6-s1e1",
+      "completed_episodes": [
+        "yagi-dagi-d6-s1e1"
+      ]
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-28T06:23:06.306Z",
+      "last_episode_id": "guka-kosusa-d2-s1e3",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1",
+        "guka-kosusa-d2-s1e2"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-25T06:54:37.816Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": [
+        "molo-d2-s1e1"
+      ]
+    },
+    "rone-d2": {
+      "last_watched_at": "2026-09-23T05:50:31.602Z",
+      "last_episode_id": "rone-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Thriller": 3,
+    "Comedy": 6,
+    "Romance": 27,
+    "Devotional": 15,
+    "Action": 6,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,98 @@
+{
+  "user_id": "U-01967",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-19T07:26:37.288Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-02-02T03:39:54.028Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:14:20.963Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:14:20.963Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:14:20.963Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:14:20.963Z"
+    },
+    "signup_at": {
+      "value": "2025-02-02T03:39:54.028Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-02-02T03:39:54.028Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:39160aff-959b-4885-bfb1-d088d53ec627",
+      "received_at": "2026-09-19T07:26:37.288Z",
+      "occurred_at": "2026-09-19T07:26:35.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:46:29.729Z",
+    "deadline": "2026-10-04T04:46:29.729Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:rigu-dhadi-d2:unwatched_episodes",
+      "series_progress:rigu-dhadi-d2:last_watched:2026-09-19T07:26:37.288Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series rigu-dhadi-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "rigu-dhadi-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 6,
+  "distinct_active_ist_days": [
+    "2026-09-12",
+    "2026-09-19"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-19T07:23:10.594Z",
+  "last_play_started_at": "2026-09-19T07:23:51.405Z",
+  "series_progress": {
+    "rigu-dhadi-d2": {
+      "last_watched_at": "2026-09-19T07:26:37.288Z",
+      "last_episode_id": "rigu-dhadi-d2-s1e1",
+      "completed_episodes": [
+        "rigu-dhadi-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

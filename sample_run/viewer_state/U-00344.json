@@ -1,0 +1,99 @@
+{
+  "user_id": "U-00344",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T08:01:25.618Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2025-03-09T17:37:53.953Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:32:02.590Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:32:02.590Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:32:02.590Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:32:02.590Z"
+    },
+    "signup_at": {
+      "value": "2025-03-09T17:37:53.953Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-09T17:37:53.953Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:330a5e51-03e5-47f8-b534-bcd5107cc46d",
+      "received_at": "2026-09-28T08:01:25.618Z",
+      "occurred_at": "2026-09-28T08:01:23.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 42,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-19",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-28T08:00:55.481Z",
+  "last_play_started_at": "2026-09-19T06:35:21.299Z",
+  "series_progress": {
+    "pima-pana-d3": {
+      "last_watched_at": "2026-09-01T15:12:47.010Z",
+      "last_episode_id": "pima-pana-d3-s1e1",
+      "completed_episodes": [
+        "pima-pana-d3-s1e1"
+      ]
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-19T06:35:21.299Z",
+      "last_episode_id": "yatite-roloda-d3-s1e2",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Family": 3,
+    "Romance": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

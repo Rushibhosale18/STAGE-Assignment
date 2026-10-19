@@ -1,0 +1,146 @@
+{
+  "user_id": "U-03152",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T01:52:27.279Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2025-03-09T09:10:29.531Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-06T00:55:19.406Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:30:56.973Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:30:56.973Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:30:56.973Z"
+    },
+    "signup_at": {
+      "value": "2025-03-09T09:10:29.531Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-09T09:10:29.531Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:bf08f51d-b63b-4a3d-b263-c4cb10b31455",
+      "received_at": "2026-09-30T01:52:27.279Z",
+      "occurred_at": "2026-09-29T16:48:07.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T11:01:40.803Z",
+    "deadline": "2026-10-04T11:01:40.803Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bharipa-lanaro-d4:unwatched_episodes",
+      "series_progress:bharipa-lanaro-d4:last_watched:2026-09-02T11:22:59.653Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bharipa-lanaro-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bharipa-lanaro-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 63,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 27,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-30T01:51:57.864Z",
+  "last_play_started_at": "2026-09-24T05:48:56.983Z",
+  "series_progress": {
+    "bharipa-lanaro-d4": {
+      "last_watched_at": "2026-09-02T11:22:59.653Z",
+      "last_episode_id": "bharipa-lanaro-d4-s1e1",
+      "completed_episodes": []
+    },
+    "rija-d4": {
+      "last_watched_at": "2026-09-04T11:41:21.673Z",
+      "last_episode_id": "rija-d4-s1e1",
+      "completed_episodes": []
+    },
+    "hada-maloni-d4": {
+      "last_watched_at": "2026-09-06T06:44:40.945Z",
+      "last_episode_id": "hada-maloni-d4-s1e1",
+      "completed_episodes": [
+        "hada-maloni-d4-s1e1"
+      ]
+    },
+    "lapa-mavada-d4": {
+      "last_watched_at": "2026-09-24T05:48:56.983Z",
+      "last_episode_id": "lapa-mavada-d4-s1e1",
+      "completed_episodes": [
+        "lapa-mavada-d4-s1e1"
+      ]
+    },
+    "tidaka-koni-d4": {
+      "last_watched_at": "2026-09-17T00:45:40.446Z",
+      "last_episode_id": "tidaka-koni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-18T04:38:12.842Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "radi-d4": {
+      "last_watched_at": "2026-09-19T10:34:33.921Z",
+      "last_episode_id": "radi-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Thriller": 3,
+    "Drama": 15,
+    "Romance": 6,
+    "Family": 9,
+    "Crime": 3,
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

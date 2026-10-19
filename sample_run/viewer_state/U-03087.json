@@ -1,0 +1,100 @@
+{
+  "user_id": "U-03087",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-24T17:01:29.915Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-03-28T05:03:15.155Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:55:38.993Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:55:38.993Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:55:38.993Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:55:38.993Z"
+    },
+    "signup_at": {
+      "value": "2026-03-28T05:03:15.155Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-03-28T05:03:15.155Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:c93515a3-5ed3-44b3-9dc4-f48fb07f4681",
+      "received_at": "2026-09-24T17:01:29.915Z",
+      "occurred_at": "2026-09-24T17:01:28.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 36,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-24"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-24T17:00:58.795Z",
+  "last_play_started_at": "2026-09-23T15:56:42.503Z",
+  "series_progress": {
+    "vapa-kalasa-d4": {
+      "last_watched_at": "2026-09-05T09:07:37.708Z",
+      "last_episode_id": "vapa-kalasa-d4-s1e1",
+      "completed_episodes": []
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-14T05:09:25.260Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-23T15:58:33.322Z",
+      "last_episode_id": "bagi-baya-d4-s1e2",
+      "completed_episodes": [
+        "bagi-baya-d4-s1e1",
+        "bagi-baya-d4-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Devotional": 3,
+    "Drama": 3,
+    "Family": 3,
+    "Romance": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

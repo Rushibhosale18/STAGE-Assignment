@@ -1,0 +1,117 @@
+{
+  "user_id": "U-00821",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T16:47:06.089Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-08-19T13:50:27.871Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-08T06:04:39.956Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:24:55.459Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:24:55.459Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:24:55.459Z"
+    },
+    "signup_at": {
+      "value": "2026-08-19T13:50:27.871Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-19T13:50:27.871Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:959773d3-7b75-4424-af86-17c7a8e57cea",
+      "received_at": "2026-09-27T16:47:06.089Z",
+      "occurred_at": "2026-09-27T16:47:04.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T10:07:00.494Z",
+    "deadline": "2026-10-04T10:07:00.494Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:naja-giha-d5:unwatched_episodes",
+      "series_progress:naja-giha-d5:last_watched:2026-09-21T15:16:43.521Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series naja-giha-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "naja-giha-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 42,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-27"
+  ],
+  "total_plays_started": 15,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-27T16:46:34.250Z",
+  "last_play_started_at": "2026-09-21T15:16:43.521Z",
+  "series_progress": {
+    "rigu-d5": {
+      "last_watched_at": "2026-09-02T11:38:16.830Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": [
+        "rigu-d5-s1e1"
+      ]
+    },
+    "naja-giha-d5": {
+      "last_watched_at": "2026-09-21T15:16:43.521Z",
+      "last_episode_id": "naja-giha-d5-s1e2",
+      "completed_episodes": [
+        "naja-giha-d5-s1e1"
+      ]
+    },
+    "guko-lorina-d5": {
+      "last_watched_at": "2026-09-18T03:15:03.392Z",
+      "last_episode_id": "guko-lorina-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 15,
+    "Action": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

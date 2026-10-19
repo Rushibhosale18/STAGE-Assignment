@@ -1,0 +1,121 @@
+{
+  "user_id": "U-03086",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T07:14:00.903Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-09-25T08:46:21.464Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-08T12:49:47.631Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:48:00.780Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:48:00.780Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:48:00.780Z"
+    },
+    "signup_at": {
+      "value": "2025-09-25T08:46:21.464Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-09-25T08:46:21.464Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:72af1c67-cd30-4b56-aa1e-7b68294e0dcc",
+      "received_at": "2026-09-29T07:14:00.903Z",
+      "occurred_at": "2026-09-29T07:14:00.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 66,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-27",
+    "2026-09-29"
+  ],
+  "total_plays_started": 45,
+  "total_episodes_completed": 27,
+  "last_app_open_at": "2026-09-29T07:13:56.002Z",
+  "last_play_started_at": "2026-09-23T16:38:15.374Z",
+  "series_progress": {
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-23T16:40:05.800Z",
+      "last_episode_id": "hama-chudibha-d1-s1e6",
+      "completed_episodes": [
+        "hama-chudibha-d1-s1e1",
+        "hama-chudibha-d1-s1e2",
+        "hama-chudibha-d1-s1e3",
+        "hama-chudibha-d1-s1e4",
+        "hama-chudibha-d1-s1e5",
+        "hama-chudibha-d1-s1e6"
+      ]
+    },
+    "gidha-sudhako-d1": {
+      "last_watched_at": "2026-09-10T03:05:07.345Z",
+      "last_episode_id": "gidha-sudhako-d1-s1e2",
+      "completed_episodes": [
+        "gidha-sudhako-d1-s1e1"
+      ]
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-12T17:37:06.177Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "varo-diroka-d1": {
+      "last_watched_at": "2026-09-15T01:27:49.203Z",
+      "last_episode_id": "varo-diroka-d1-s1e1",
+      "completed_episodes": [
+        "varo-diroka-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Comedy": 36,
+    "Thriller": 36,
+    "Action": 6,
+    "Drama": 12
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

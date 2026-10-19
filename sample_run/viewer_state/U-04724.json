@@ -1,0 +1,92 @@
+{
+  "user_id": "U-04724",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T13:30:25.140Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d5",
+  "preferred_language": "en",
+  "signup_at": "2025-03-21T17:24:20.021Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-02T14:33:32.051Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:35:12.322Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:35:12.322Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:35:12.322Z"
+    },
+    "signup_at": {
+      "value": "2025-03-21T17:24:20.021Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-21T17:24:20.021Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:21694528-c8a6-410f-8921-519bcf7a2952",
+      "received_at": "2026-09-27T13:30:25.140Z",
+      "occurred_at": "2026-09-27T13:30:24.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 33,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-15",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-27"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-27T13:29:57.050Z",
+  "last_play_started_at": "2026-09-15T07:55:11.978Z",
+  "series_progress": {
+    "haya-kani-d5": {
+      "last_watched_at": "2026-09-01T19:17:18.612Z",
+      "last_episode_id": "haya-kani-d5-s1e1",
+      "completed_episodes": [
+        "haya-kani-d5-s1e1"
+      ]
+    },
+    "rigu-d5": {
+      "last_watched_at": "2026-09-15T07:55:11.978Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Romance": 3,
+    "Devotional": 3,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

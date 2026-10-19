@@ -1,0 +1,114 @@
+{
+  "user_id": "U-01421",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T14:10:36.300Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2026-01-06T22:01:52.391Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-02T01:06:39.972Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:00:46.655Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:00:46.655Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:00:46.655Z"
+    },
+    "signup_at": {
+      "value": "2026-01-06T22:01:52.391Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-01-06T22:01:52.391Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:9146f43a-75d3-43ef-8474-8d72d20a0550",
+      "received_at": "2026-09-30T14:10:36.300Z",
+      "occurred_at": "2026-09-30T14:10:34.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:06:10.147Z",
+    "deadline": "2026-10-04T14:06:10.147Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bhariya-d2:unwatched_episodes",
+      "series_progress:bhariya-d2:last_watched:2026-09-22T06:10:29.733Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bhariya-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bhariya-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 18,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-30T14:07:04.044Z",
+  "last_play_started_at": "2026-09-22T06:10:29.733Z",
+  "series_progress": {
+    "bhariya-d2": {
+      "last_watched_at": "2026-09-22T06:10:29.733Z",
+      "last_episode_id": "bhariya-d2-s1e4",
+      "completed_episodes": [
+        "bhariya-d2-s1e1",
+        "bhariya-d2-s1e2",
+        "bhariya-d2-s1e3"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 18
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

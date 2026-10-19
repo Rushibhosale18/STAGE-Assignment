@@ -1,0 +1,53 @@
+{
+  "user_id": "U-01085",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T23:51:38.890Z",
+  "subscription_status": "never",
+  "preferred_dialect": null,
+  "app_dialect": "d2",
+  "preferred_language": null,
+  "signup_at": "2026-09-29T23:47:35.355Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": null,
+  "facts": {
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:d9af09e5-c6bb-4596-9eb0-d5cbfab98505",
+      "received_at": "2026-09-29T23:51:38.890Z",
+      "occurred_at": "2026-09-29T23:51:37.741Z"
+    },
+    "signup_at": {
+      "value": "2026-09-29T23:47:35.355Z",
+      "source": "event:cd0dc63b-4d1f-43b6-9bf7-03727a1aaf47:signup_completed",
+      "received_at": "2026-09-29T23:47:35.355Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 3,
+  "distinct_active_ist_days": [
+    "2026-09-30"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-29T23:48:14.371Z",
+  "last_play_started_at": "2026-09-29T23:50:10.356Z",
+  "series_progress": {
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-29T23:50:10.356Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Romance": 3,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

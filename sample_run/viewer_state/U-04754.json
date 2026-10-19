@@ -1,0 +1,83 @@
+{
+  "user_id": "U-04754",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-16T10:57:07.640Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-05T09:06:41.608Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:37:12.054Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:37:12.054Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:37:12.054Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:37:12.054Z"
+    },
+    "signup_at": {
+      "value": "2026-09-05T09:06:41.608Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-05T09:06:41.608Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:3a289971-1af6-4413-a0ae-c734aae48445",
+      "received_at": "2026-09-16T10:57:07.640Z",
+      "occurred_at": "2026-09-16T10:57:06.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-14",
+    "2026-09-16"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-16T10:56:48.230Z",
+  "last_play_started_at": "2026-09-08T00:46:26.356Z",
+  "series_progress": {
+    "pima-pana-d3": {
+      "last_watched_at": "2026-09-08T00:48:17.986Z",
+      "last_episode_id": "pima-pana-d3-s1e1",
+      "completed_episodes": [
+        "pima-pana-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

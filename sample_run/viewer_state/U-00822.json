@@ -1,0 +1,84 @@
+{
+  "user_id": "U-00822",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T06:01:34.893Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "en",
+  "signup_at": "2024-11-17T00:33:31.127Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:20:18.709Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:20:18.709Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:20:18.709Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:20:18.709Z"
+    },
+    "signup_at": {
+      "value": "2024-11-17T00:33:31.127Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-11-17T00:33:31.127Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:ecca1bba-3d55-489b-94ab-9d6890561275",
+      "received_at": "2026-09-28T06:01:34.893Z",
+      "occurred_at": "2026-09-28T06:01:34.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 21,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-11",
+    "2026-09-20",
+    "2026-09-28"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-28T06:01:06.074Z",
+  "last_play_started_at": "2026-09-04T02:23:54.816Z",
+  "series_progress": {
+    "hada-maloni-d4": {
+      "last_watched_at": "2026-09-04T04:41:55.779Z",
+      "last_episode_id": "hada-maloni-d4-s1e1",
+      "completed_episodes": [
+        "hada-maloni-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

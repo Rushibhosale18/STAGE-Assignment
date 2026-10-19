@@ -1,0 +1,105 @@
+{
+  "user_id": "U-04998",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T06:25:25.453Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2025-03-05T07:04:27.156Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:25:31.998Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:25:31.998Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:25:31.998Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:25:31.998Z"
+    },
+    "signup_at": {
+      "value": "2025-03-05T07:04:27.156Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-05T07:04:27.156Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:f5aaf8e6-e961-4c10-9df5-2ad44df6fe22",
+      "received_at": "2026-09-27T06:25:25.453Z",
+      "occurred_at": "2026-09-27T06:25:22.800Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 48,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-09",
+    "2026-09-12",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-26",
+    "2026-09-27"
+  ],
+  "total_plays_started": 27,
+  "total_episodes_completed": 15,
+  "last_app_open_at": "2026-09-27T06:20:59.205Z",
+  "last_play_started_at": "2026-09-27T06:21:44.884Z",
+  "series_progress": {
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-20T18:26:48.895Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e3",
+      "completed_episodes": [
+        "gubava-gihaya-d5-s1e1",
+        "gubava-gihaya-d5-s1e2",
+        "gubava-gihaya-d5-s1e3"
+      ]
+    },
+    "jamo-hasa-d5": {
+      "last_watched_at": "2026-09-27T06:25:25.453Z",
+      "last_episode_id": "jamo-hasa-d5-s1e2",
+      "completed_episodes": [
+        "jamo-hasa-d5-s1e1",
+        "jamo-hasa-d5-s1e2"
+      ]
+    },
+    "diti-kochu-d5": {
+      "last_watched_at": "2026-09-20T17:48:05.041Z",
+      "last_episode_id": "diti-kochu-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Devotional": 15,
+    "Romance": 9,
+    "Crime": 12,
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,144 @@
+{
+  "user_id": "U-03544",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T02:26:16.155Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d6",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-06-04T16:07:50.507Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-22T22:01:48.206Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:20:36.031Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:20:36.031Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:20:36.031Z"
+    },
+    "signup_at": {
+      "value": "2026-06-04T16:07:50.507Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-06-04T16:07:50.507Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:2351dd74-47e8-4940-8429-465f20b20939",
+      "received_at": "2026-09-30T02:26:16.155Z",
+      "occurred_at": "2026-09-30T02:26:14.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T09:06:14.523Z",
+    "deadline": "2026-10-04T09:06:14.523Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bhaja-moguba-d2:unwatched_episodes",
+      "series_progress:bhaja-moguba-d2:last_watched:2026-09-25T13:36:19.083Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bhaja-moguba-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bhaja-moguba-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 84,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 48,
+  "total_episodes_completed": 39,
+  "last_app_open_at": "2026-09-30T02:22:18.323Z",
+  "last_play_started_at": "2026-09-30T02:24:26.522Z",
+  "series_progress": {
+    "bhaja-moguba-d2": {
+      "last_watched_at": "2026-09-25T13:36:19.083Z",
+      "last_episode_id": "bhaja-moguba-d2-s1e8",
+      "completed_episodes": [
+        "bhaja-moguba-d2-s1e1",
+        "bhaja-moguba-d2-s1e2",
+        "bhaja-moguba-d2-s1e3",
+        "bhaja-moguba-d2-s1e4",
+        "bhaja-moguba-d2-s1e5",
+        "bhaja-moguba-d2-s1e6",
+        "bhaja-moguba-d2-s1e7"
+      ]
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-20T17:10:28.505Z",
+      "last_episode_id": "guka-kosusa-d2-s1e4",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e2",
+        "guka-kosusa-d2-s1e1",
+        "guka-kosusa-d2-s1e3",
+        "guka-kosusa-d2-s1e4"
+      ]
+    },
+    "guchu-riyada-d2": {
+      "last_watched_at": "2026-09-30T02:26:16.155Z",
+      "last_episode_id": "guchu-riyada-d2-s1e2",
+      "completed_episodes": [
+        "guchu-riyada-d2-s1e1",
+        "guchu-riyada-d2-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 30,
+    "Romance": 12,
+    "Devotional": 18
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

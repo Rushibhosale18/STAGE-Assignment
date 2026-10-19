@@ -1,0 +1,140 @@
+{
+  "user_id": "U-01838",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T16:17:14.671Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-01-01T12:00:10.893Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-02T22:24:05.210Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:39:56.451Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:39:56.451Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:39:56.451Z"
+    },
+    "signup_at": {
+      "value": "2025-01-01T12:00:10.893Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-01-01T12:00:10.893Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:422f965b-a9e4-4b93-960b-b4b9dabfcb2a",
+      "received_at": "2026-09-29T16:17:14.671Z",
+      "occurred_at": "2026-09-29T16:17:13.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:16:06.688Z",
+    "deadline": "2026-10-04T14:16:06.688Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:gima-bhadaba-d1:unwatched_episodes",
+      "series_progress:gima-bhadaba-d1:last_watched:2026-09-26T00:47:49.300Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series gima-bhadaba-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "gima-bhadaba-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 78,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-29"
+  ],
+  "total_plays_started": 54,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-29T16:15:32.583Z",
+  "last_play_started_at": "2026-09-26T00:44:07.227Z",
+  "series_progress": {
+    "gima-bhadaba-d1": {
+      "last_watched_at": "2026-09-26T00:47:49.300Z",
+      "last_episode_id": "gima-bhadaba-d1-s1e5",
+      "completed_episodes": [
+        "gima-bhadaba-d1-s1e1",
+        "gima-bhadaba-d1-s1e2",
+        "gima-bhadaba-d1-s1e3",
+        "gima-bhadaba-d1-s1e4",
+        "gima-bhadaba-d1-s1e5"
+      ]
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-10T07:56:08.797Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "bagugu-gigupi-d1": {
+      "last_watched_at": "2026-09-10T15:16:02.857Z",
+      "last_episode_id": "bagugu-gigupi-d1-s1e1",
+      "completed_episodes": []
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-21T05:12:40.309Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": []
+    },
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-23T13:55:56.724Z",
+      "last_episode_id": "hama-chudibha-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Devotional": 33,
+    "Drama": 18,
+    "Thriller": 18,
+    "Romance": 3,
+    "Action": 3,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

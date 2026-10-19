@@ -1,0 +1,103 @@
+{
+  "user_id": "U-04775",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T12:08:20.283Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d6",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-02-14T19:24:20.330Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:13:41.289Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:13:41.289Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:13:41.289Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:13:41.289Z"
+    },
+    "signup_at": {
+      "value": "2026-02-14T19:24:20.330Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-02-14T19:24:20.330Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:5d6cfd46-c169-4c5c-b97a-a6a59323e1bd",
+      "received_at": "2026-09-26T12:08:20.283Z",
+      "occurred_at": "2026-09-26T12:08:19.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T20:13:34.637Z",
+    "deadline": "2026-10-03T20:13:34.637Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:rasuya-moni-d6:unwatched_episodes",
+      "series_progress:rasuya-moni-d6:last_watched:2026-09-23T02:30:32.539Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series rasuya-moni-d6 and would benefit from next episode prompt."
+    ],
+    "target_slug": "rasuya-moni-d6"
+  },
+  "goal_history": [],
+  "total_app_opens": 24,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-08",
+    "2026-09-15",
+    "2026-09-18",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-26"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-26T07:17:36.113Z",
+  "last_play_started_at": "2026-09-23T02:01:04.421Z",
+  "series_progress": {
+    "rasuya-moni-d6": {
+      "last_watched_at": "2026-09-23T02:30:32.539Z",
+      "last_episode_id": "rasuya-moni-d6-s1e1",
+      "completed_episodes": [
+        "rasuya-moni-d6-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

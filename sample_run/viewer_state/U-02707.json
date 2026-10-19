@@ -1,0 +1,117 @@
+{
+  "user_id": "U-02707",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T14:52:33.761Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-03-01T11:55:26.632Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-27T14:52:33.761Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:01:16.051Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:01:16.051Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:01:16.051Z"
+    },
+    "signup_at": {
+      "value": "2025-03-01T11:55:26.632Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-01T11:55:26.632Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:7d764068-a637-496d-ba0f-e001cd5aa12d",
+      "received_at": "2026-09-27T14:52:33.761Z",
+      "occurred_at": "2026-09-27T14:52:30.858Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T12:47:06.776Z",
+    "deadline": "2026-10-04T12:47:06.776Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:tidha-dakachu-d1:unwatched_episodes",
+      "series_progress:tidha-dakachu-d1:last_watched:2026-09-22T15:21:01.686Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series tidha-dakachu-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "tidha-dakachu-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 36,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-11",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-26"
+  ],
+  "total_plays_started": 15,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-26T09:03:08.829Z",
+  "last_play_started_at": "2026-09-22T15:21:01.686Z",
+  "series_progress": {
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-21T11:54:17.524Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-11T19:27:07.630Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    },
+    "tidha-dakachu-d1": {
+      "last_watched_at": "2026-09-22T15:21:01.686Z",
+      "last_episode_id": "tidha-dakachu-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Drama": 9,
+    "Thriller": 9,
+    "Devotional": 3,
+    "Action": 6,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

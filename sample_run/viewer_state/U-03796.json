@@ -1,0 +1,137 @@
+{
+  "user_id": "U-03796",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T16:10:02.532Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-04-22T09:19:05.632Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-03T20:04:34.652Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:23:36.041Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:23:36.041Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:23:36.041Z"
+    },
+    "signup_at": {
+      "value": "2026-04-22T09:19:05.632Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-04-22T09:19:05.632Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:f836ab88-b2db-4438-9615-31313a139e2c",
+      "received_at": "2026-09-30T16:10:02.532Z",
+      "occurred_at": "2026-09-30T16:10:00.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:47:55.086Z",
+    "deadline": "2026-10-04T04:47:55.086Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:yanagu-negiba-d2:unwatched_episodes",
+      "series_progress:yanagu-negiba-d2:last_watched:2026-09-05T09:00:48.312Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series yanagu-negiba-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "yanagu-negiba-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 57,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-08",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 30,
+  "total_episodes_completed": 15,
+  "last_app_open_at": "2026-09-30T16:09:33.246Z",
+  "last_play_started_at": "2026-09-30T13:07:54.424Z",
+  "series_progress": {
+    "yanagu-negiba-d2": {
+      "last_watched_at": "2026-09-05T09:00:48.312Z",
+      "last_episode_id": "yanagu-negiba-d2-s1e2",
+      "completed_episodes": [
+        "yanagu-negiba-d2-s1e1"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-30T13:07:54.424Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": []
+    },
+    "mopi-hari-d2": {
+      "last_watched_at": "2026-09-03T09:27:21.287Z",
+      "last_episode_id": "mopi-hari-d2-s1e1",
+      "completed_episodes": [
+        "mopi-hari-d2-s1e1"
+      ]
+    },
+    "lola-rodira-d2": {
+      "last_watched_at": "2026-09-05T16:18:23.368Z",
+      "last_episode_id": "lola-rodira-d2-s1e1",
+      "completed_episodes": [
+        "lola-rodira-d2-s1e1"
+      ]
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-28T07:15:16.655Z",
+      "last_episode_id": "guka-kosusa-d2-s1e2",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1",
+        "guka-kosusa-d2-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 12,
+    "Devotional": 18,
+    "Action": 6,
+    "Romance": 18,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

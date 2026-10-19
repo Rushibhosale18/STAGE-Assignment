@@ -1,0 +1,106 @@
+{
+  "user_id": "U-04827",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T17:34:49.513Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2025-08-24T09:03:04.455Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-26T07:35:44.306Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:15:35.638Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:15:35.638Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:15:35.638Z"
+    },
+    "signup_at": {
+      "value": "2025-08-24T09:03:04.455Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-08-24T09:03:04.455Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:aba33ea0-a963-400b-b780-6d04f456efce",
+      "received_at": "2026-09-29T17:34:49.513Z",
+      "occurred_at": "2026-09-29T17:34:47.800Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T23:26:49.847Z",
+    "deadline": "2026-10-03T23:26:49.847Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:yane-tegi-d3:unwatched_episodes",
+      "series_progress:yane-tegi-d3:last_watched:2026-09-10T08:20:20.347Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series yane-tegi-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "yane-tegi-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-10",
+    "2026-09-19",
+    "2026-09-26",
+    "2026-09-29"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-29T15:32:32.660Z",
+  "last_play_started_at": "2026-09-29T15:36:08.285Z",
+  "series_progress": {
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-10T08:20:20.347Z",
+      "last_episode_id": "yane-tegi-d3-s1e1",
+      "completed_episodes": []
+    },
+    "tepa-lagi-d3": {
+      "last_watched_at": "2026-09-29T17:34:49.513Z",
+      "last_episode_id": "tepa-lagi-d3-s1e1",
+      "completed_episodes": [
+        "tepa-lagi-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 3,
+    "Crime": 3,
+    "Action": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

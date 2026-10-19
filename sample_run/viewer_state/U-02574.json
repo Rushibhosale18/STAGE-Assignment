@@ -1,0 +1,144 @@
+{
+  "user_id": "U-02574",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T16:36:02.911Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-04-06T04:32:35.648Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-05T11:13:15.142Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:26:52.006Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:26:52.006Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:26:52.006Z"
+    },
+    "signup_at": {
+      "value": "2026-04-06T04:32:35.648Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-04-06T04:32:35.648Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:f2acfd65-6c5c-4a1b-8ec9-bb69d579f46f",
+      "received_at": "2026-09-29T16:36:02.911Z",
+      "occurred_at": "2026-09-29T16:36:02.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:45:57.441Z",
+    "deadline": "2026-10-04T16:45:57.441Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:molo-d2:unwatched_episodes",
+      "series_progress:molo-d2:last_watched:2026-09-24T06:23:19.910Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series molo-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "molo-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-05",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 45,
+  "total_episodes_completed": 30,
+  "last_app_open_at": "2026-09-29T16:32:02.812Z",
+  "last_play_started_at": "2026-09-29T16:33:18.891Z",
+  "series_progress": {
+    "molo-d2": {
+      "last_watched_at": "2026-09-24T06:23:19.910Z",
+      "last_episode_id": "molo-d2-s1e5",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e3",
+        "molo-d2-s1e2",
+        "molo-d2-s1e4",
+        "molo-d2-s1e5"
+      ]
+    },
+    "rigu-dhadi-d2": {
+      "last_watched_at": "2026-09-29T06:45:30.299Z",
+      "last_episode_id": "rigu-dhadi-d2-s1e3",
+      "completed_episodes": [
+        "rigu-dhadi-d2-s1e1",
+        "rigu-dhadi-d2-s1e2",
+        "rigu-dhadi-d2-s1e3"
+      ]
+    },
+    "neba-d2": {
+      "last_watched_at": "2026-09-10T03:52:32.638Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": []
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-25T13:35:09.803Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1"
+      ]
+    },
+    "bhariya-d2": {
+      "last_watched_at": "2026-09-29T16:36:02.911Z",
+      "last_episode_id": "bhariya-d2-s1e1",
+      "completed_episodes": [
+        "bhariya-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 36,
+    "Romance": 21,
+    "Comedy": 18,
+    "Crime": 3,
+    "Devotional": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

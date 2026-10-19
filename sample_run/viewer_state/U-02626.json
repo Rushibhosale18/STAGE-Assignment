@@ -1,0 +1,84 @@
+{
+  "user_id": "U-02626",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-22T11:28:56.665Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-06T11:04:27.624Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:20:33.333Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:20:33.333Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:20:33.333Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:20:33.333Z"
+    },
+    "signup_at": {
+      "value": "2026-09-06T11:04:27.624Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-06T11:04:27.624Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:21b985e3-d28f-4f36-8620-e1fcfc67b45f",
+      "received_at": "2026-09-22T11:28:56.665Z",
+      "occurred_at": "2026-09-22T11:28:55.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-06",
+    "2026-09-10",
+    "2026-09-15",
+    "2026-09-19",
+    "2026-09-22"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-22T11:28:08.314Z",
+  "last_play_started_at": "2026-09-10T03:35:01.634Z",
+  "series_progress": {
+    "gineni-d4": {
+      "last_watched_at": "2026-09-10T05:17:09.633Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": [
+        "gineni-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,145 @@
+{
+  "user_id": "U-00955",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T04:17:18.229Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2024-12-13T13:05:44.505Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-03T12:09:58.031Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:30:11.066Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:30:11.066Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:30:11.066Z"
+    },
+    "signup_at": {
+      "value": "2024-12-13T13:05:44.505Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-13T13:05:44.505Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:3539b00f-2dd3-4b07-96dd-98c59faf10b2",
+      "received_at": "2026-09-30T04:17:18.229Z",
+      "occurred_at": "2026-09-30T04:17:18.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:12:12.069Z",
+    "deadline": "2026-10-04T06:12:12.069Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bhaja-moguba-d2:unwatched_episodes",
+      "series_progress:bhaja-moguba-d2:last_watched:2026-09-11T14:34:46.911Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bhaja-moguba-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bhaja-moguba-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 72,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 33,
+  "total_episodes_completed": 18,
+  "last_app_open_at": "2026-09-30T04:17:06.498Z",
+  "last_play_started_at": "2026-09-29T08:57:16.828Z",
+  "series_progress": {
+    "bhaja-moguba-d2": {
+      "last_watched_at": "2026-09-11T14:34:46.911Z",
+      "last_episode_id": "bhaja-moguba-d2-s1e2",
+      "completed_episodes": [
+        "bhaja-moguba-d2-s1e1"
+      ]
+    },
+    "dava-nedi-d2": {
+      "last_watched_at": "2026-09-06T06:42:10.843Z",
+      "last_episode_id": "dava-nedi-d2-s1e1",
+      "completed_episodes": [
+        "dava-nedi-d2-s1e1"
+      ]
+    },
+    "gisu-d2": {
+      "last_watched_at": "2026-09-24T15:56:14.662Z",
+      "last_episode_id": "gisu-d2-s1e3",
+      "completed_episodes": [
+        "gisu-d2-s1e1",
+        "gisu-d2-s1e2",
+        "gisu-d2-s1e3"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-16T03:58:27.470Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": [
+        "molo-d2-s1e1"
+      ]
+    },
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-29T08:57:16.828Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Thriller": 12,
+    "Comedy": 3,
+    "Devotional": 15,
+    "Family": 18,
+    "Action": 3,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

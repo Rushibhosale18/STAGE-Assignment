@@ -1,0 +1,127 @@
+{
+  "user_id": "U-01204",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T14:40:12.947Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2025-12-20T06:34:43.922Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-09T11:13:50.742Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:11:56.741Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:11:56.741Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:11:56.741Z"
+    },
+    "signup_at": {
+      "value": "2025-12-20T06:34:43.922Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-12-20T06:34:43.922Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:751351d1-3d02-44a2-87e1-fe9732e6b345",
+      "received_at": "2026-09-27T14:40:12.947Z",
+      "occurred_at": "2026-09-27T14:40:11.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:20:26.490Z",
+    "deadline": "2026-10-04T04:20:26.490Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:dhapipa-gini-d2:unwatched_episodes",
+      "series_progress:dhapipa-gini-d2:last_watched:2026-09-20T05:55:45.751Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series dhapipa-gini-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "dhapipa-gini-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 45,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-27"
+  ],
+  "total_plays_started": 21,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-27T14:40:12.947Z",
+  "last_play_started_at": "2026-09-23T07:38:29.492Z",
+  "series_progress": {
+    "chuchu-jahada-d2": {
+      "last_watched_at": "2026-09-11T23:31:40.107Z",
+      "last_episode_id": "chuchu-jahada-d2-s1e1",
+      "completed_episodes": [
+        "chuchu-jahada-d2-s1e1"
+      ]
+    },
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-20T05:55:45.751Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e2",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1"
+      ]
+    },
+    "tela-sagi-d2": {
+      "last_watched_at": "2026-09-18T14:55:17.679Z",
+      "last_episode_id": "tela-sagi-d2-s1e1",
+      "completed_episodes": []
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-23T07:41:16.368Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 9,
+    "Drama": 3,
+    "Family": 12,
+    "Devotional": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

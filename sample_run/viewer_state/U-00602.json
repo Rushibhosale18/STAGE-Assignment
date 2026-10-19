@@ -1,0 +1,113 @@
+{
+  "user_id": "U-00602",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T16:14:27.039Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2025-09-19T21:42:29.215Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:20:51.219Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:20:51.219Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:20:51.219Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:20:51.219Z"
+    },
+    "signup_at": {
+      "value": "2025-09-19T21:42:29.215Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-09-19T21:42:29.215Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:375310fb-a80c-46a7-994f-c7dd8258f1a3",
+      "received_at": "2026-09-27T16:14:27.039Z",
+      "occurred_at": "2026-09-27T16:14:25.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:10:05.136Z",
+    "deadline": "2026-10-04T07:10:05.136Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:dhapipa-gini-d2:unwatched_episodes",
+      "series_progress:dhapipa-gini-d2:last_watched:2026-09-17T02:36:08.306Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series dhapipa-gini-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "dhapipa-gini-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 45,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-26",
+    "2026-09-27"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-27T16:14:05.506Z",
+  "last_play_started_at": "2026-09-18T13:03:24.025Z",
+  "series_progress": {
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-17T02:36:08.306Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e2",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1",
+        "dhapipa-gini-d2-s1e2"
+      ]
+    },
+    "neba-d2": {
+      "last_watched_at": "2026-09-18T13:03:24.025Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Family": 6,
+    "Crime": 3,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

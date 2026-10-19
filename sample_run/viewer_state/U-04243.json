@@ -1,0 +1,154 @@
+{
+  "user_id": "U-04243",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T10:43:52.171Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d7",
+  "app_dialect": "d7",
+  "preferred_language": "hin",
+  "signup_at": "2026-03-31T23:24:33.029Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-02T17:51:08.720Z"
+    },
+    "preferred_dialect": {
+      "value": "d7",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:08:20.915Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:08:20.915Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:08:20.915Z"
+    },
+    "signup_at": {
+      "value": "2026-03-31T23:24:33.029Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-03-31T23:24:33.029Z"
+    },
+    "app_dialect": {
+      "value": "d7",
+      "source": "event:0a44f18e-65fd-42c3-8291-c8b2ffb295b3",
+      "received_at": "2026-09-28T10:43:52.171Z",
+      "occurred_at": "2026-09-28T20:30:23.658Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T08:56:52.682Z",
+    "deadline": "2026-10-04T08:56:52.682Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:guka-kosusa-d2:unwatched_episodes",
+      "series_progress:guka-kosusa-d2:last_watched:2026-09-12T06:06:48.365Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series guka-kosusa-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "guka-kosusa-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 87,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-17",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-27",
+    "2026-09-28"
+  ],
+  "total_plays_started": 54,
+  "total_episodes_completed": 39,
+  "last_app_open_at": "2026-09-28T10:42:07.531Z",
+  "last_play_started_at": "2026-09-28T10:43:08.568Z",
+  "series_progress": {
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-12T06:06:48.365Z",
+      "last_episode_id": "guka-kosusa-d2-s1e4",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e2",
+        "guka-kosusa-d2-s1e1",
+        "guka-kosusa-d2-s1e3",
+        "guka-kosusa-d2-s1e4"
+      ]
+    },
+    "gima-bhadaba-d1": {
+      "last_watched_at": "2026-09-27T03:27:48.550Z",
+      "last_episode_id": "gima-bhadaba-d1-s1e3",
+      "completed_episodes": [
+        "gima-bhadaba-d1-s1e1",
+        "gima-bhadaba-d1-s1e2",
+        "gima-bhadaba-d1-s1e3"
+      ]
+    },
+    "ginava-chusu-d2": {
+      "last_watched_at": "2026-09-05T08:31:07.346Z",
+      "last_episode_id": "ginava-chusu-d2-s1e1",
+      "completed_episodes": [
+        "ginava-chusu-d2-s1e1"
+      ]
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-27T09:17:35.559Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-24T06:09:59.751Z",
+      "last_episode_id": "molo-d2-s1e4",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2",
+        "molo-d2-s1e3"
+      ]
+    },
+    "tiya-bhamaro-d1": {
+      "last_watched_at": "2026-09-28T10:43:08.568Z",
+      "last_episode_id": "tiya-bhamaro-d1-s1e2",
+      "completed_episodes": [
+        "tiya-bhamaro-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 27,
+    "Devotional": 42,
+    "Action": 27
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

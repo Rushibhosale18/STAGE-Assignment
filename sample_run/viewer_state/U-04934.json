@@ -1,0 +1,141 @@
+{
+  "user_id": "U-04934",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T11:37:30.105Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d6",
+  "preferred_language": "en",
+  "signup_at": "2026-01-27T17:55:41.370Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-04T14:22:54.324Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:52:49.836Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:52:49.836Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:52:49.836Z"
+    },
+    "signup_at": {
+      "value": "2026-01-27T17:55:41.370Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-01-27T17:55:41.370Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:8b113397-8898-4c8f-aa19-3a0226b0708d",
+      "received_at": "2026-09-30T11:37:30.105Z",
+      "occurred_at": "2026-09-30T11:37:29.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:05:44.782Z",
+    "deadline": "2026-10-04T07:05:44.782Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:mopila-bani-d6:unwatched_episodes",
+      "series_progress:mopila-bani-d6:last_watched:2026-09-10T13:31:44.186Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series mopila-bani-d6 and would benefit from next episode prompt."
+    ],
+    "target_slug": "mopila-bani-d6"
+  },
+  "goal_history": [],
+  "total_app_opens": 84,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 51,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-30T11:06:10.087Z",
+  "last_play_started_at": "2026-09-30T11:08:03.731Z",
+  "series_progress": {
+    "rasuya-moni-d6": {
+      "last_watched_at": "2026-09-30T11:37:30.105Z",
+      "last_episode_id": "rasuya-moni-d6-s1e2",
+      "completed_episodes": [
+        "rasuya-moni-d6-s1e1",
+        "rasuya-moni-d6-s1e2"
+      ]
+    },
+    "chupi-gugi-d6": {
+      "last_watched_at": "2026-09-28T08:44:54.799Z",
+      "last_episode_id": "chupi-gugi-d6-s1e4",
+      "completed_episodes": [
+        "chupi-gugi-d6-s1e1",
+        "chupi-gugi-d6-s1e2",
+        "chupi-gugi-d6-s1e3",
+        "chupi-gugi-d6-s1e4"
+      ]
+    },
+    "lojane-pijasa-d6": {
+      "last_watched_at": "2026-09-03T19:04:30.124Z",
+      "last_episode_id": "lojane-pijasa-d6-s1e1",
+      "completed_episodes": [
+        "lojane-pijasa-d6-s1e1"
+      ]
+    },
+    "mopila-bani-d6": {
+      "last_watched_at": "2026-09-10T13:31:44.186Z",
+      "last_episode_id": "mopila-bani-d6-s1e1",
+      "completed_episodes": []
+    },
+    "rako-pati-d6": {
+      "last_watched_at": "2026-09-08T03:38:32.113Z",
+      "last_episode_id": "rako-pati-d6-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Devotional": 18,
+    "Thriller": 15,
+    "Action": 33,
+    "Drama": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

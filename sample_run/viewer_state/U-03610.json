@@ -1,0 +1,117 @@
+{
+  "user_id": "U-03610",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T16:25:21.637Z",
+  "subscription_status": "active",
+  "preferred_dialect": "",
+  "app_dialect": "d1",
+  "preferred_language": "en",
+  "signup_at": "2026-09-13T18:46:27.481Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-25T04:04:43.733Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:48:58.164Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:48:58.164Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:48:58.164Z"
+    },
+    "signup_at": {
+      "value": "2026-09-13T18:46:27.481Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-13T18:46:27.481Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:39563af0-c280-4846-a7b9-88d5628857da",
+      "received_at": "2026-09-29T16:25:21.637Z",
+      "occurred_at": "2026-09-29T16:25:19.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T00:30:46.943Z",
+    "deadline": "2026-10-04T00:30:46.943Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:tidaka-koni-d4:unwatched_episodes",
+      "series_progress:tidaka-koni-d4:last_watched:2026-09-16T06:00:59.745Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series tidaka-koni-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "tidaka-koni-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 27,
+  "distinct_active_ist_days": [
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 15,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-29T14:34:40.001Z",
+  "last_play_started_at": "2026-09-29T14:34:55.749Z",
+  "series_progress": {
+    "nada-sada-d4": {
+      "last_watched_at": "2026-09-26T06:20:08.893Z",
+      "last_episode_id": "nada-sada-d4-s1e1",
+      "completed_episodes": [
+        "nada-sada-d4-s1e1"
+      ]
+    },
+    "tidaka-koni-d4": {
+      "last_watched_at": "2026-09-16T06:00:59.745Z",
+      "last_episode_id": "tidaka-koni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-29T16:25:21.637Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 9,
+    "Crime": 3,
+    "Drama": 6,
+    "Thriller": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

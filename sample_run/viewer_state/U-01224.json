@@ -1,0 +1,83 @@
+{
+  "user_id": "U-01224",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T09:04:59.448Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-01-10T07:50:15.058Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:01:01.574Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:01:01.574Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:01:01.574Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:01:01.574Z"
+    },
+    "signup_at": {
+      "value": "2026-01-10T07:50:15.058Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-01-10T07:50:15.058Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:167609bf-b049-4b1a-b64a-d55f13e75de9",
+      "received_at": "2026-09-27T09:04:59.448Z",
+      "occurred_at": "2026-09-27T09:04:59.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-12",
+    "2026-09-24",
+    "2026-09-27"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-27T09:04:52.644Z",
+  "last_play_started_at": "2026-09-12T15:45:39.453Z",
+  "series_progress": {
+    "labha-pako-d5": {
+      "last_watched_at": "2026-09-12T15:49:21.002Z",
+      "last_episode_id": "labha-pako-d5-s1e1",
+      "completed_episodes": [
+        "labha-pako-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 3,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

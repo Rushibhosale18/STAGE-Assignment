@@ -1,0 +1,117 @@
+{
+  "user_id": "U-02383",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T14:58:53.221Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-04-26T09:49:57.206Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-02T11:18:16.119Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:21:02.019Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:21:02.019Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:21:02.019Z"
+    },
+    "signup_at": {
+      "value": "2025-04-26T09:49:57.206Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-04-26T09:49:57.206Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:266cf0d8-0c26-4ecc-ae66-120965462db9",
+      "received_at": "2026-09-29T14:58:53.221Z",
+      "occurred_at": "2026-09-29T14:58:53.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:26:20.864Z",
+    "deadline": "2026-10-04T05:26:20.864Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:yana-d2:unwatched_episodes",
+      "series_progress:yana-d2:last_watched:2026-09-16T05:02:59.995Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series yana-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "yana-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 39,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 15,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-29T14:58:22.029Z",
+  "last_play_started_at": "2026-09-28T17:03:27.726Z",
+  "series_progress": {
+    "yana-d2": {
+      "last_watched_at": "2026-09-16T05:02:59.995Z",
+      "last_episode_id": "yana-d2-s1e1",
+      "completed_episodes": [
+        "yana-d2-s1e1"
+      ]
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-28T17:03:27.726Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": []
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-27T04:37:34.351Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": [
+        "molo-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 3,
+    "Devotional": 12,
+    "Romance": 12,
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

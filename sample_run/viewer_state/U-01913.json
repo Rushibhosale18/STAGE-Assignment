@@ -1,0 +1,94 @@
+{
+  "user_id": "U-01913",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T17:31:39.488Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2025-01-11T11:08:19.131Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-25T08:02:40.136Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:44:06.097Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:44:06.097Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:44:06.097Z"
+    },
+    "signup_at": {
+      "value": "2025-01-11T11:08:19.131Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-01-11T11:08:19.131Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:beb29409-5cd0-44e6-874d-5a05179261fe",
+      "received_at": "2026-09-28T17:31:39.488Z",
+      "occurred_at": "2026-09-28T17:31:39.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 30,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-10",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-19",
+    "2026-09-23",
+    "2026-09-28"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-28T17:30:45.882Z",
+  "last_play_started_at": "2026-09-19T10:08:52.328Z",
+  "series_progress": {
+    "kolani-mari-d2": {
+      "last_watched_at": "2026-09-19T10:08:52.328Z",
+      "last_episode_id": "kolani-mari-d2-s1e3",
+      "completed_episodes": [
+        "kolani-mari-d2-s1e1",
+        "kolani-mari-d2-s1e2"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-10T18:00:54.993Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Drama": 9,
+    "Thriller": 9,
+    "Action": 3,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

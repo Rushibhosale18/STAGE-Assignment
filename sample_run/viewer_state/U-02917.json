@@ -1,0 +1,104 @@
+{
+  "user_id": "U-02917",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T14:20:25.557Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-02-12T20:06:57.067Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:28:32.909Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:28:32.909Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:28:32.909Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:28:32.909Z"
+    },
+    "signup_at": {
+      "value": "2025-02-12T20:06:57.067Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-02-12T20:06:57.067Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:15e34547-75f3-4f8c-8519-f0c29140ef6d",
+      "received_at": "2026-09-29T14:20:25.557Z",
+      "occurred_at": "2026-09-29T14:20:25.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:23:10.597Z",
+    "deadline": "2026-10-04T16:23:10.597Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:guka-kosusa-d2:unwatched_episodes",
+      "series_progress:guka-kosusa-d2:last_watched:2026-09-25T04:53:21.568Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series guka-kosusa-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "guka-kosusa-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 42,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-09",
+    "2026-09-13",
+    "2026-09-19",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-29"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-29T14:20:25.557Z",
+  "last_play_started_at": "2026-09-25T04:53:21.568Z",
+  "series_progress": {
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-25T04:53:21.568Z",
+      "last_episode_id": "guka-kosusa-d2-s1e2",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 12,
+    "Devotional": 12
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,111 @@
+{
+  "user_id": "U-03563",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T12:02:38.627Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2025-06-25T15:34:27.273Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-05T21:54:01.729Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:47:56.192Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:47:56.192Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:47:56.192Z"
+    },
+    "signup_at": {
+      "value": "2025-06-25T15:34:27.273Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-06-25T15:34:27.273Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:97ffcd41-cdba-4ae5-9ccf-90cfd33bcc54",
+      "received_at": "2026-09-30T12:02:38.627Z",
+      "occurred_at": "2026-09-30T12:02:37.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 93,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 36,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-30T12:02:14.453Z",
+  "last_play_started_at": "2026-09-30T03:18:23.922Z",
+  "series_progress": {
+    "ririgi-d3": {
+      "last_watched_at": "2026-09-01T15:53:41.962Z",
+      "last_episode_id": "ririgi-d3-s1e1",
+      "completed_episodes": []
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-30T03:22:04.381Z",
+      "last_episode_id": "yatite-roloda-d3-s1e3",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1",
+        "yatite-roloda-d3-s1e2",
+        "yatite-roloda-d3-s1e3"
+      ]
+    },
+    "haja-d3": {
+      "last_watched_at": "2026-09-24T17:43:56.671Z",
+      "last_episode_id": "haja-d3-s1e2",
+      "completed_episodes": [
+        "haja-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 3,
+    "Romance": 27,
+    "Family": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,125 @@
+{
+  "user_id": "U-04590",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T16:30:52.106Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-03-03T10:51:52.015Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-10T01:52:21.302Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:00:48.818Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:00:48.818Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:00:48.818Z"
+    },
+    "signup_at": {
+      "value": "2025-03-03T10:51:52.015Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-03T10:51:52.015Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:08b708c9-ef05-4d90-8a6a-bbdb299ec4c2",
+      "received_at": "2026-09-28T16:30:52.106Z",
+      "occurred_at": "2026-09-28T16:30:51.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 66,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-28"
+  ],
+  "total_plays_started": 45,
+  "total_episodes_completed": 27,
+  "last_app_open_at": "2026-09-28T16:28:47.752Z",
+  "last_play_started_at": "2026-09-28T16:30:52.106Z",
+  "series_progress": {
+    "tesu-d2": {
+      "last_watched_at": "2026-09-01T11:42:30.835Z",
+      "last_episode_id": "tesu-d2-s1e1",
+      "completed_episodes": []
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-25T14:23:01.087Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": [
+        "molo-d2-s1e2",
+        "molo-d2-s1e1",
+        "molo-d2-s1e3",
+        "molo-d2-s1e4",
+        "molo-d2-s1e5",
+        "molo-d2-s1e6",
+        "molo-d2-s1e7"
+      ]
+    },
+    "gibha-bhalomo-d2": {
+      "last_watched_at": "2026-09-12T18:59:11.222Z",
+      "last_episode_id": "gibha-bhalomo-d2-s1e1",
+      "completed_episodes": []
+    },
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-18T05:43:13.713Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e1",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e2",
+        "dhapipa-gini-d2-s1e1"
+      ]
+    },
+    "tela-sagi-d2": {
+      "last_watched_at": "2026-09-28T16:30:52.106Z",
+      "last_episode_id": "tela-sagi-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Drama": 3,
+    "Family": 9,
+    "Action": 33,
+    "Romance": 33,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

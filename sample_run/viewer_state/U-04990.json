@@ -1,0 +1,99 @@
+{
+  "user_id": "U-04990",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T11:12:12.084Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2025-09-25T08:23:36.843Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:24:07.631Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:24:07.631Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:24:07.631Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:24:07.631Z"
+    },
+    "signup_at": {
+      "value": "2025-09-25T08:23:36.843Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-09-25T08:23:36.843Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:3c6c93e7-ef58-452a-8bc2-b293d2331213",
+      "received_at": "2026-09-27T11:12:12.084Z",
+      "occurred_at": "2026-09-20T01:20:08.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:47:32.399Z",
+    "deadline": "2026-10-04T04:47:32.399Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:jamo-hasa-d5:unwatched_episodes",
+      "series_progress:jamo-hasa-d5:last_watched:2026-09-27T11:12:12.084Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series jamo-hasa-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "jamo-hasa-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 9,
+  "distinct_active_ist_days": [
+    "2026-09-17",
+    "2026-09-21",
+    "2026-09-27"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-27T11:08:22.158Z",
+  "last_play_started_at": "2026-09-27T11:09:25.983Z",
+  "series_progress": {
+    "jamo-hasa-d5": {
+      "last_watched_at": "2026-09-27T11:12:12.084Z",
+      "last_episode_id": "jamo-hasa-d5-s1e1",
+      "completed_episodes": [
+        "jamo-hasa-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 3,
+    "Crime": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

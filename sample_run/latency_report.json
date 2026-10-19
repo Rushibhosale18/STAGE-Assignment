@@ -1,0 +1,14 @@
+{
+  "total_decisions": 2769,
+  "min_ms": 0,
+  "p50_ms": 0,
+  "p90_ms": 1,
+  "p95_ms": 1,
+  "p99_ms": 2,
+  "max_ms": 18,
+  "mean_ms": 0.18418201516793067,
+  "latency_budget_ms": 60000,
+  "within_60s_budget_count": 2769,
+  "within_60s_budget_rate": 1.0,
+  "exceeded_5min_failures": 0
+}

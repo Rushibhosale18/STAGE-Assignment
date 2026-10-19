@@ -1,0 +1,98 @@
+{
+  "user_id": "U-03390",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T09:13:44.202Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2025-02-02T06:57:55.754Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:38:38.177Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:38:38.177Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:38:38.177Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:38:38.177Z"
+    },
+    "signup_at": {
+      "value": "2025-02-02T06:57:55.754Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-02-02T06:57:55.754Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:35ca7cc6-277d-4553-9564-13f156bfb83c",
+      "received_at": "2026-09-30T09:13:44.202Z",
+      "occurred_at": "2026-09-30T09:13:44.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T11:47:05.509Z",
+    "deadline": "2026-10-04T11:47:05.509Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:tiko-subava-d4:unwatched_episodes",
+      "series_progress:tiko-subava-d4:last_watched:2026-09-20T11:22:24.316Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series tiko-subava-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "tiko-subava-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 6,
+  "distinct_active_ist_days": [
+    "2026-09-20",
+    "2026-09-30"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-30T09:13:22.908Z",
+  "last_play_started_at": "2026-09-20T11:18:44.898Z",
+  "series_progress": {
+    "tiko-subava-d4": {
+      "last_watched_at": "2026-09-20T11:22:24.316Z",
+      "last_episode_id": "tiko-subava-d4-s1e1",
+      "completed_episodes": [
+        "tiko-subava-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 3,
+    "Crime": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

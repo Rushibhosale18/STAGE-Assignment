@@ -1,0 +1,109 @@
+{
+  "user_id": "U-02933",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T13:03:54.509Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2026-06-11T03:18:15.311Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-09T04:17:47.122Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:33:29.260Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:33:29.260Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:33:29.260Z"
+    },
+    "signup_at": {
+      "value": "2026-06-11T03:18:15.311Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-06-11T03:18:15.311Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:8dee26ef-04ad-4b9b-92ee-bad85b6151e1",
+      "received_at": "2026-09-28T13:03:54.509Z",
+      "occurred_at": "2026-09-28T13:03:53.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 48,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-27",
+    "2026-09-28"
+  ],
+  "total_plays_started": 21,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-28T13:02:57.860Z",
+  "last_play_started_at": "2026-09-28T04:14:23.028Z",
+  "series_progress": {
+    "tidha-dakachu-d1": {
+      "last_watched_at": "2026-09-20T12:21:44.452Z",
+      "last_episode_id": "tidha-dakachu-d1-s1e1",
+      "completed_episodes": []
+    },
+    "roti-d1": {
+      "last_watched_at": "2026-09-04T02:34:11.457Z",
+      "last_episode_id": "roti-d1-s1e1",
+      "completed_episodes": []
+    },
+    "nini-namoko-d1": {
+      "last_watched_at": "2026-09-16T13:22:38.879Z",
+      "last_episode_id": "nini-namoko-d1-s1e1",
+      "completed_episodes": []
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-28T04:14:23.028Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 9,
+    "Family": 15,
+    "Comedy": 3,
+    "Drama": 6,
+    "Thriller": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

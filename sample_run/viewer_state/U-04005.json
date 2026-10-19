@@ -1,0 +1,149 @@
+{
+  "user_id": "U-04005",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T09:51:07.826Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "en",
+  "signup_at": "2026-06-04T01:41:33.356Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-24T14:58:19.041Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:33:14.144Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:33:14.144Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:33:14.144Z"
+    },
+    "signup_at": {
+      "value": "2026-06-04T01:41:33.356Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-06-04T01:41:33.356Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:1529d7ce-d08b-4d3d-87e6-67fa998914c2",
+      "received_at": "2026-09-29T09:51:07.826Z",
+      "occurred_at": "2026-09-29T09:51:05.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:17:15.760Z",
+    "deadline": "2026-10-04T14:17:15.760Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:yane-tegi-d3:unwatched_episodes",
+      "series_progress:yane-tegi-d3:last_watched:2026-09-21T16:11:25.105Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series yane-tegi-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "yane-tegi-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 78,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-29"
+  ],
+  "total_plays_started": 51,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-29T09:49:30.367Z",
+  "last_play_started_at": "2026-09-29T09:51:07.826Z",
+  "series_progress": {
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-21T16:11:25.105Z",
+      "last_episode_id": "yane-tegi-d3-s1e4",
+      "completed_episodes": [
+        "yane-tegi-d3-s1e1",
+        "yane-tegi-d3-s1e2",
+        "yane-tegi-d3-s1e3"
+      ]
+    },
+    "digi-mone-d3": {
+      "last_watched_at": "2026-09-02T17:05:44.112Z",
+      "last_episode_id": "digi-mone-d3-s1e1",
+      "completed_episodes": []
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-04T11:34:34.310Z",
+      "last_episode_id": "yatite-roloda-d3-s1e1",
+      "completed_episodes": []
+    },
+    "lomobha-moni-d3": {
+      "last_watched_at": "2026-09-24T16:01:09.360Z",
+      "last_episode_id": "lomobha-moni-d3-s1e3",
+      "completed_episodes": [
+        "lomobha-moni-d3-s1e1",
+        "lomobha-moni-d3-s1e2",
+        "lomobha-moni-d3-s1e3"
+      ]
+    },
+    "rate-java-d3": {
+      "last_watched_at": "2026-09-24T05:31:52.146Z",
+      "last_episode_id": "rate-java-d3-s1e1",
+      "completed_episodes": [
+        "rate-java-d3-s1e1"
+      ]
+    },
+    "yadha-kopa-d3": {
+      "last_watched_at": "2026-09-29T09:51:07.826Z",
+      "last_episode_id": "yadha-kopa-d3-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Thriller": 42,
+    "Crime": 24,
+    "Romance": 6,
+    "Drama": 9,
+    "Action": 15,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

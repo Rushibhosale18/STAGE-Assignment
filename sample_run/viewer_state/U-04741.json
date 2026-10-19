@@ -1,0 +1,154 @@
+{
+  "user_id": "U-04741",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T15:50:07.060Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d7",
+  "app_dialect": "d7",
+  "preferred_language": "en",
+  "signup_at": "2024-10-02T20:16:39.711Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-27T12:00:35.533Z"
+    },
+    "preferred_dialect": {
+      "value": "d7",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:43:14.130Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:43:14.130Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T07:43:14.130Z"
+    },
+    "signup_at": {
+      "value": "2024-10-02T20:16:39.711Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-10-02T20:16:39.711Z"
+    },
+    "app_dialect": {
+      "value": "d7",
+      "source": "event:fa361ce2-a766-475b-9755-369944f5a6d3",
+      "received_at": "2026-09-30T15:50:07.060Z",
+      "occurred_at": "2026-09-30T15:50:06.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T02:19:05.832Z",
+    "deadline": "2026-10-04T02:19:05.832Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:molo-d2:unwatched_episodes",
+      "series_progress:molo-d2:last_watched:2026-09-27T18:45:57.964Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series molo-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "molo-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 81,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 57,
+  "total_episodes_completed": 33,
+  "last_app_open_at": "2026-09-30T15:47:27.832Z",
+  "last_play_started_at": "2026-09-30T15:48:17.968Z",
+  "series_progress": {
+    "molo-d2": {
+      "last_watched_at": "2026-09-27T18:45:57.964Z",
+      "last_episode_id": "molo-d2-s1e6",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2",
+        "molo-d2-s1e3",
+        "molo-d2-s1e4",
+        "molo-d2-s1e5",
+        "molo-d2-s1e6"
+      ]
+    },
+    "tidisa-teva-d2": {
+      "last_watched_at": "2026-09-11T05:48:45.623Z",
+      "last_episode_id": "tidisa-teva-d2-s1e1",
+      "completed_episodes": []
+    },
+    "pati-dida-d1": {
+      "last_watched_at": "2026-09-12T04:52:32.886Z",
+      "last_episode_id": "pati-dida-d1-s1e1",
+      "completed_episodes": []
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-30T15:50:07.060Z",
+      "last_episode_id": "guka-kosusa-d2-s1e4",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e1",
+        "guka-kosusa-d2-s1e2",
+        "guka-kosusa-d2-s1e3",
+        "guka-kosusa-d2-s1e4"
+      ]
+    },
+    "yakani-panine-d1": {
+      "last_watched_at": "2026-09-14T17:19:55.659Z",
+      "last_episode_id": "yakani-panine-d1-s1e1",
+      "completed_episodes": [
+        "yakani-panine-d1-s1e1"
+      ]
+    },
+    "kopibha-niya-d1": {
+      "last_watched_at": "2026-09-17T13:38:59.623Z",
+      "last_episode_id": "kopibha-niya-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 33,
+    "Romance": 57,
+    "Devotional": 18
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,87 @@
+{
+  "user_id": "U-05000",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T08:57:19.943Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2025-08-13T06:11:08.568Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-02T18:51:57.758Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:05:27.300Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:05:27.300Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:05:27.300Z"
+    },
+    "signup_at": {
+      "value": "2025-08-13T06:11:08.568Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-08-13T06:11:08.568Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:503a858e-e39f-42cc-af97-cea12f44330c",
+      "received_at": "2026-09-29T08:57:19.943Z",
+      "occurred_at": "2026-09-29T08:57:17.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 24,
+  "distinct_active_ist_days": [
+    "2026-09-12",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-19",
+    "2026-09-22",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-29T08:54:35.176Z",
+  "last_play_started_at": "2026-09-29T08:56:19.795Z",
+  "series_progress": {
+    "radi-d4": {
+      "last_watched_at": "2026-09-15T15:36:44.079Z",
+      "last_episode_id": "radi-d4-s1e1",
+      "completed_episodes": []
+    },
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-29T08:56:19.795Z",
+      "last_episode_id": "bagi-baya-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Romance": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

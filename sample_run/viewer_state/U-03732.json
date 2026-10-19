@@ -1,0 +1,120 @@
+{
+  "user_id": "U-03732",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T08:16:55.997Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "en",
+  "signup_at": "2025-10-04T11:13:17.401Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:07:47.952Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:07:47.952Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:07:47.952Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:07:47.952Z"
+    },
+    "signup_at": {
+      "value": "2025-10-04T11:13:17.401Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-10-04T11:13:17.401Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:b77d4b07-db3d-4ff3-a12b-12f4d7f2a837",
+      "received_at": "2026-09-30T08:16:55.997Z",
+      "occurred_at": "2026-10-01T10:09:50.143Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:45:09.417Z",
+    "deadline": "2026-10-04T04:45:09.417Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:tidaka-koni-d4:unwatched_episodes",
+      "series_progress:tidaka-koni-d4:last_watched:2026-09-18T08:56:21.334Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series tidaka-koni-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "tidaka-koni-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 51,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-10",
+    "2026-09-14",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-23",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-30T08:16:12.493Z",
+  "last_play_started_at": "2026-09-30T03:20:21.109Z",
+  "series_progress": {
+    "tidaka-koni-d4": {
+      "last_watched_at": "2026-09-18T08:56:21.334Z",
+      "last_episode_id": "tidaka-koni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-30T05:02:27.530Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": [
+        "gineni-d4-s1e1"
+      ]
+    },
+    "nisa-jamobha-d4": {
+      "last_watched_at": "2026-09-29T12:38:07.393Z",
+      "last_episode_id": "nisa-jamobha-d4-s1e1",
+      "completed_episodes": [
+        "nisa-jamobha-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Crime": 3,
+    "Action": 6,
+    "Drama": 6,
+    "Family": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

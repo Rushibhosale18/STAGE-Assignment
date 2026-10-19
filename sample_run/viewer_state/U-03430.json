@@ -1,0 +1,87 @@
+{
+  "user_id": "U-03430",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T13:33:21.033Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d6",
+  "app_dialect": "d6",
+  "preferred_language": "hin",
+  "signup_at": "2025-03-29T11:28:34.771Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-04T17:58:35.123Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:47:57.373Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:47:57.373Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:47:57.373Z"
+    },
+    "signup_at": {
+      "value": "2025-03-29T11:28:34.771Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-29T11:28:34.771Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:ce7915ce-1c66-4fea-81e4-523fa7bcf9a6",
+      "received_at": "2026-09-29T13:33:21.033Z",
+      "occurred_at": "2026-09-29T13:33:19.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 33,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-25",
+    "2026-09-29"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-29T13:33:09.199Z",
+  "last_play_started_at": "2026-09-20T14:01:21.624Z",
+  "series_progress": {
+    "naka-d6": {
+      "last_watched_at": "2026-09-20T14:01:21.624Z",
+      "last_episode_id": "naka-d6-s1e4",
+      "completed_episodes": [
+        "naka-d6-s1e1",
+        "naka-d6-s1e2",
+        "naka-d6-s1e3"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 12,
+    "Family": 12
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

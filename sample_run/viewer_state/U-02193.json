@@ -1,0 +1,107 @@
+{
+  "user_id": "U-02193",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T16:04:12.289Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-16T12:56:44.021Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-19T12:56:46.764Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:28:47.288Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:28:47.288Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:28:47.288Z"
+    },
+    "signup_at": {
+      "value": "2026-09-16T12:56:44.021Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-16T12:56:44.021Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:6c491888-f749-4e15-9c3d-ad961f3cf940",
+      "received_at": "2026-09-30T16:04:12.289Z",
+      "occurred_at": "2026-09-30T16:04:10.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:45:47.197Z",
+    "deadline": "2026-10-04T16:45:47.197Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:kova-sako-d5:unwatched_episodes",
+      "series_progress:kova-sako-d5:last_watched:2026-09-17T08:14:45.051Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series kova-sako-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "kova-sako-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 30,
+  "distinct_active_ist_days": [
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-30"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-30T15:59:25.423Z",
+  "last_play_started_at": "2026-09-30T16:01:26.200Z",
+  "series_progress": {
+    "kova-sako-d5": {
+      "last_watched_at": "2026-09-17T08:14:45.051Z",
+      "last_episode_id": "kova-sako-d5-s1e1",
+      "completed_episodes": []
+    },
+    "jamo-hasa-d5": {
+      "last_watched_at": "2026-09-30T16:04:12.289Z",
+      "last_episode_id": "jamo-hasa-d5-s1e1",
+      "completed_episodes": [
+        "jamo-hasa-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 3,
+    "Devotional": 3,
+    "Romance": 9,
+    "Crime": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

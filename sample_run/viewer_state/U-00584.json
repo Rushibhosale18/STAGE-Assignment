@@ -1,0 +1,106 @@
+{
+  "user_id": "U-00584",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T10:43:21.547Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-08-08T11:53:06.296Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-29T14:54:28.674Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:01:13.200Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:01:13.200Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:01:13.200Z"
+    },
+    "signup_at": {
+      "value": "2026-08-08T11:53:06.296Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-08T11:53:06.296Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:9ae0adda-14e1-4bb2-b2a3-1a694e8f6427",
+      "received_at": "2026-09-30T10:43:21.547Z",
+      "occurred_at": "2026-09-30T10:11:46.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:44:04.283Z",
+    "deadline": "2026-10-04T16:44:04.283Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:yaka-naka-d5:unwatched_episodes",
+      "series_progress:yaka-naka-d5:last_watched:2026-09-28T01:53:20.336Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series yaka-naka-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "yaka-naka-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 39,
+  "distinct_active_ist_days": [
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-30T10:43:13.439Z",
+  "last_play_started_at": "2026-09-28T01:51:28.898Z",
+  "series_progress": {
+    "yaka-naka-d5": {
+      "last_watched_at": "2026-09-28T01:53:20.336Z",
+      "last_episode_id": "yaka-naka-d5-s1e2",
+      "completed_episodes": [
+        "yaka-naka-d5-s1e1",
+        "yaka-naka-d5-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

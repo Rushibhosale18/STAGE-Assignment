@@ -1,0 +1,87 @@
+{
+  "user_id": "U-04124",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T10:29:54.614Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2024-12-15T07:31:42.948Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-01T20:56:51.147Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:19:38.259Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:19:38.259Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:19:38.259Z"
+    },
+    "signup_at": {
+      "value": "2024-12-15T07:31:42.948Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-15T07:31:42.948Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:ad29fe0f-33d8-4001-b86a-44bd5b72c3b3",
+      "received_at": "2026-09-28T10:29:54.614Z",
+      "occurred_at": "2026-09-28T10:29:53.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-08",
+    "2026-09-13",
+    "2026-09-28"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-28T10:28:54.087Z",
+  "last_play_started_at": "2026-09-07T20:29:33.901Z",
+  "series_progress": {
+    "koha-kagite-d4": {
+      "last_watched_at": "2026-09-02T02:45:24.449Z",
+      "last_episode_id": "koha-kagite-d4-s1e1",
+      "completed_episodes": []
+    },
+    "hada-maloni-d4": {
+      "last_watched_at": "2026-09-07T22:47:32.153Z",
+      "last_episode_id": "hada-maloni-d4-s1e1",
+      "completed_episodes": [
+        "hada-maloni-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 6,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

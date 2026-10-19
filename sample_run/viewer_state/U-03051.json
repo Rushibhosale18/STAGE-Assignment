@@ -1,0 +1,132 @@
+{
+  "user_id": "U-03051",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T03:22:25.732Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-06-02T13:11:58.542Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-25T07:44:52.615Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:14:16.513Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:14:16.513Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:14:16.513Z"
+    },
+    "signup_at": {
+      "value": "2026-06-02T13:11:58.542Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-06-02T13:11:58.542Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:1097f5ab-a236-4c97-a72b-1d9ae7d64d11",
+      "received_at": "2026-09-30T03:22:25.732Z",
+      "occurred_at": "2026-09-30T03:22:24.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T10:35:06.863Z",
+    "deadline": "2026-10-04T10:35:06.863Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bharipa-lanaro-d4:unwatched_episodes",
+      "series_progress:bharipa-lanaro-d4:last_watched:2026-09-02T10:56:27.350Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bharipa-lanaro-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bharipa-lanaro-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 42,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-12",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 24,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-30T02:07:42.251Z",
+  "last_play_started_at": "2026-09-30T02:09:26.944Z",
+  "series_progress": {
+    "riya-gune-d4": {
+      "last_watched_at": "2026-09-30T02:09:26.944Z",
+      "last_episode_id": "riya-gune-d4-s1e1",
+      "completed_episodes": [
+        "riya-gune-d4-s1e1"
+      ]
+    },
+    "bharipa-lanaro-d4": {
+      "last_watched_at": "2026-09-02T10:56:27.350Z",
+      "last_episode_id": "bharipa-lanaro-d4-s1e1",
+      "completed_episodes": []
+    },
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-09T04:47:40.514Z",
+      "last_episode_id": "bagi-baya-d4-s1e1",
+      "completed_episodes": []
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-12T18:01:51.889Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "tidaka-koni-d4": {
+      "last_watched_at": "2026-09-29T12:32:56.633Z",
+      "last_episode_id": "tidaka-koni-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Family": 9,
+    "Crime": 12,
+    "Thriller": 3,
+    "Romance": 6,
+    "Drama": 3,
+    "Action": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

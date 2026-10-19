@@ -1,0 +1,134 @@
+{
+  "user_id": "U-00959",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T14:19:43.081Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-13T18:29:23.196Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-16T18:29:24.340Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:00:07.355Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:00:07.355Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:00:07.355Z"
+    },
+    "signup_at": {
+      "value": "2026-09-13T18:29:23.196Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-13T18:29:23.196Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:9e62a420-efe8-4204-adb5-ee8e27105133",
+      "received_at": "2026-09-30T14:19:43.081Z",
+      "occurred_at": "2026-09-30T14:19:42.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:59:16.600Z",
+    "deadline": "2026-10-04T16:59:16.600Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:rosako-d5:unwatched_episodes",
+      "series_progress:rosako-d5:last_watched:2026-09-13T18:32:51.373Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series rosako-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "rosako-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 39,
+  "distinct_active_ist_days": [
+    "2026-09-13",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 33,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-30T14:16:09.687Z",
+  "last_play_started_at": "2026-09-30T14:17:54.448Z",
+  "series_progress": {
+    "rosako-d5": {
+      "last_watched_at": "2026-09-13T18:32:51.373Z",
+      "last_episode_id": "rosako-d5-s1e1",
+      "completed_episodes": []
+    },
+    "jamo-hasa-d5": {
+      "last_watched_at": "2026-09-27T14:53:34.887Z",
+      "last_episode_id": "jamo-hasa-d5-s1e3",
+      "completed_episodes": [
+        "jamo-hasa-d5-s1e1",
+        "jamo-hasa-d5-s1e2",
+        "jamo-hasa-d5-s1e3"
+      ]
+    },
+    "kova-sako-d5": {
+      "last_watched_at": "2026-09-30T14:19:43.081Z",
+      "last_episode_id": "kova-sako-d5-s1e3",
+      "completed_episodes": [
+        "kova-sako-d5-s1e1",
+        "kova-sako-d5-s1e2",
+        "kova-sako-d5-s1e3"
+      ]
+    },
+    "rigu-d5": {
+      "last_watched_at": "2026-09-22T14:44:54.606Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": [
+        "rigu-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 3,
+    "Romance": 9,
+    "Crime": 9,
+    "Family": 15,
+    "Devotional": 15,
+    "Comedy": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

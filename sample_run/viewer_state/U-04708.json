@@ -1,0 +1,86 @@
+{
+  "user_id": "U-04708",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T14:28:24.280Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-06-27T19:48:41.691Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:31:41.659Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:31:41.659Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:31:41.659Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:31:41.659Z"
+    },
+    "signup_at": {
+      "value": "2026-06-27T19:48:41.691Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-06-27T19:48:41.691Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:af378e75-4092-4b8b-9169-7a1a8079d963",
+      "received_at": "2026-09-28T14:28:24.280Z",
+      "occurred_at": "2026-09-28T13:51:09.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 27,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-22",
+    "2026-09-28"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-28T14:28:02.462Z",
+  "last_play_started_at": "2026-09-16T15:04:39.774Z",
+  "series_progress": {
+    "radi-d4": {
+      "last_watched_at": "2026-09-16T15:06:30.889Z",
+      "last_episode_id": "radi-d4-s1e1",
+      "completed_episodes": [
+        "radi-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

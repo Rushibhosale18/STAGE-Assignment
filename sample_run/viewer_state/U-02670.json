@@ -1,0 +1,150 @@
+{
+  "user_id": "U-02670",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T04:07:10.389Z",
+  "subscription_status": "active",
+  "preferred_dialect": "",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-02T02:02:19.626Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-11T03:44:29.029Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:05:46.096Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:05:46.096Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:05:46.096Z"
+    },
+    "signup_at": {
+      "value": "2026-09-02T02:02:19.626Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-02T02:02:19.626Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:5222a050-be0c-44cf-b27a-deb2ccfa5ba8",
+      "received_at": "2026-09-30T04:07:10.389Z",
+      "occurred_at": "2026-09-30T04:07:08.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:47:05.082Z",
+    "deadline": "2026-10-04T04:47:05.082Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bhama-chunapi-d5:unwatched_episodes",
+      "series_progress:bhama-chunapi-d5:last_watched:2026-09-04T12:45:15.475Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bhama-chunapi-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bhama-chunapi-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 87,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 63,
+  "total_episodes_completed": 36,
+  "last_app_open_at": "2026-09-30T03:42:55.788Z",
+  "last_play_started_at": "2026-09-30T03:44:08.593Z",
+  "series_progress": {
+    "rigu-d5": {
+      "last_watched_at": "2026-09-17T11:25:13.073Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": [
+        "rigu-d5-s1e1"
+      ]
+    },
+    "nina-d5": {
+      "last_watched_at": "2026-09-30T04:07:10.389Z",
+      "last_episode_id": "nina-d5-s1e8",
+      "completed_episodes": [
+        "nina-d5-s1e1",
+        "nina-d5-s1e2",
+        "nina-d5-s1e3",
+        "nina-d5-s1e4",
+        "nina-d5-s1e5",
+        "nina-d5-s1e6",
+        "nina-d5-s1e7",
+        "nina-d5-s1e8"
+      ]
+    },
+    "bhama-chunapi-d5": {
+      "last_watched_at": "2026-09-04T12:45:15.475Z",
+      "last_episode_id": "bhama-chunapi-d5-s1e1",
+      "completed_episodes": []
+    },
+    "girapa-dala-d5": {
+      "last_watched_at": "2026-09-09T16:52:58.515Z",
+      "last_episode_id": "girapa-dala-d5-s1e1",
+      "completed_episodes": [
+        "girapa-dala-d5-s1e1"
+      ]
+    },
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-27T14:59:58.278Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 18,
+    "Family": 39,
+    "Crime": 39,
+    "Devotional": 9,
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

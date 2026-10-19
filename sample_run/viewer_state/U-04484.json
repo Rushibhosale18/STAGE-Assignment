@@ -1,0 +1,117 @@
+{
+  "user_id": "U-04484",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T17:08:52.309Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "en",
+  "signup_at": "2026-05-26T07:31:14.036Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-17T07:58:45.397Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:58:24.595Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:58:24.595Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T02:58:24.595Z"
+    },
+    "signup_at": {
+      "value": "2026-05-26T07:31:14.036Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-05-26T07:31:14.036Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:d943821c-ab5f-4dfb-90ce-bc371129e261",
+      "received_at": "2026-09-29T17:08:52.309Z",
+      "occurred_at": "2026-09-29T17:08:52.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:23:18.143Z",
+    "deadline": "2026-10-04T15:23:18.143Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:suma-d2:unwatched_episodes",
+      "series_progress:suma-d2:last_watched:2026-09-21T08:37:29.984Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series suma-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "suma-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 48,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-13",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-29"
+  ],
+  "total_plays_started": 21,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-29T17:08:19.482Z",
+  "last_play_started_at": "2026-09-26T17:00:54.676Z",
+  "series_progress": {
+    "suma-d2": {
+      "last_watched_at": "2026-09-21T08:37:29.984Z",
+      "last_episode_id": "suma-d2-s1e1",
+      "completed_episodes": []
+    },
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-26T17:00:54.676Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e2",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1"
+      ]
+    },
+    "piropa-moguti-d2": {
+      "last_watched_at": "2026-09-26T02:33:53.500Z",
+      "last_episode_id": "piropa-moguti-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 9,
+    "Action": 6,
+    "Family": 12,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

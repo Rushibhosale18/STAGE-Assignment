@@ -1,0 +1,98 @@
+{
+  "user_id": "U-01252",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T13:43:27.437Z",
+  "subscription_status": "never",
+  "preferred_dialect": "",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-12T22:07:45.067Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:11:36.252Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:11:36.252Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:11:36.252Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:11:36.252Z"
+    },
+    "signup_at": {
+      "value": "2026-09-12T22:07:45.067Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-12T22:07:45.067Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:4d871c8c-57d7-4b31-a0b6-4680c83e5ebc",
+      "received_at": "2026-09-29T13:43:27.437Z",
+      "occurred_at": "2026-09-29T13:43:25.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 24,
+  "distinct_active_ist_days": [
+    "2026-09-13",
+    "2026-09-18",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-29T13:43:15.093Z",
+  "last_play_started_at": "2026-09-25T06:54:06.394Z",
+  "series_progress": {
+    "lomobha-moni-d3": {
+      "last_watched_at": "2026-09-25T06:54:06.394Z",
+      "last_episode_id": "lomobha-moni-d3-s1e2",
+      "completed_episodes": [
+        "lomobha-moni-d3-s1e1"
+      ]
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-18T17:16:06.292Z",
+      "last_episode_id": "yatite-roloda-d3-s1e1",
+      "completed_episodes": []
+    },
+    "tepa-lagi-d3": {
+      "last_watched_at": "2026-09-23T17:24:02.316Z",
+      "last_episode_id": "tepa-lagi-d3-s1e1",
+      "completed_episodes": [
+        "tepa-lagi-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 6,
+    "Action": 9,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

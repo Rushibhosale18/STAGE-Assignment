@@ -1,0 +1,167 @@
+{
+  "user_id": "U-04682",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-10-01T16:42:03.748Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2025-10-17T12:15:06.858Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-11T20:44:14.654Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:10:02.750Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:10:02.750Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:10:02.750Z"
+    },
+    "signup_at": {
+      "value": "2025-10-17T12:15:06.858Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-10-17T12:15:06.858Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:4f11442c-9427-43dc-8bef-a9499fe0ee4c",
+      "received_at": "2026-10-01T16:42:03.748Z",
+      "occurred_at": "2026-09-28T16:25:01.800Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T18:23:06.336Z",
+    "deadline": "2026-10-04T18:23:06.336Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:yane-tegi-d3:unwatched_episodes",
+      "series_progress:yane-tegi-d3:last_watched:2026-09-23T10:53:42.882Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series yane-tegi-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "yane-tegi-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 78,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-29",
+    "2026-10-01"
+  ],
+  "total_plays_started": 63,
+  "total_episodes_completed": 42,
+  "last_app_open_at": "2026-10-01T16:36:34.831Z",
+  "last_play_started_at": "2026-10-01T16:38:22.256Z",
+  "series_progress": {
+    "yane-tegi-d3": {
+      "last_watched_at": "2026-09-23T10:53:42.882Z",
+      "last_episode_id": "yane-tegi-d3-s1e2",
+      "completed_episodes": [
+        "yane-tegi-d3-s1e1",
+        "yane-tegi-d3-s1e2"
+      ]
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-10-01T16:42:03.748Z",
+      "last_episode_id": "yatite-roloda-d3-s1e8",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1",
+        "yatite-roloda-d3-s1e2",
+        "yatite-roloda-d3-s1e3",
+        "yatite-roloda-d3-s1e4",
+        "yatite-roloda-d3-s1e5",
+        "yatite-roloda-d3-s1e6",
+        "yatite-roloda-d3-s1e7",
+        "yatite-roloda-d3-s1e8"
+      ]
+    },
+    "pima-pana-d3": {
+      "last_watched_at": "2026-09-09T04:39:45.554Z",
+      "last_episode_id": "pima-pana-d3-s1e1",
+      "completed_episodes": []
+    },
+    "gula-tete-d3": {
+      "last_watched_at": "2026-09-21T08:09:58.457Z",
+      "last_episode_id": "gula-tete-d3-s1e2",
+      "completed_episodes": [
+        "gula-tete-d3-s1e1"
+      ]
+    },
+    "pate-kari-d3": {
+      "last_watched_at": "2026-09-29T05:32:55.006Z",
+      "last_episode_id": "pate-kari-d3-s1e2",
+      "completed_episodes": [
+        "pate-kari-d3-s1e1",
+        "pate-kari-d3-s1e2"
+      ]
+    },
+    "rate-java-d3": {
+      "last_watched_at": "2026-09-21T08:26:23.461Z",
+      "last_episode_id": "rate-java-d3-s1e1",
+      "completed_episodes": []
+    },
+    "tepa-lagi-d3": {
+      "last_watched_at": "2026-09-25T08:34:18.970Z",
+      "last_episode_id": "tepa-lagi-d3-s1e1",
+      "completed_episodes": [
+        "tepa-lagi-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 6,
+    "Crime": 6,
+    "Romance": 48,
+    "Action": 12,
+    "Family": 3,
+    "Comedy": 9,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

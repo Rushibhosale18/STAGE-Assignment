@@ -1,0 +1,87 @@
+{
+  "user_id": "U-02491",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-20T03:17:58.914Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-04-30T07:15:08.741Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:04:38.563Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:04:38.563Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:04:38.563Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:04:38.563Z"
+    },
+    "signup_at": {
+      "value": "2025-04-30T07:15:08.741Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-04-30T07:15:08.741Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:7b7b549e-54ed-4b48-8bb8-c53b475876a0",
+      "received_at": "2026-09-20T03:17:58.914Z",
+      "occurred_at": "2026-09-20T03:17:57.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 45,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-11",
+    "2026-09-15",
+    "2026-09-18"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-18T18:00:24.519Z",
+  "last_play_started_at": "2026-09-18T18:01:47.464Z",
+  "series_progress": {
+    "molo-d2": {
+      "last_watched_at": "2026-09-18T18:31:15.075Z",
+      "last_episode_id": "molo-d2-s1e3",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2",
+        "molo-d2-s1e3"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 9,
+    "Romance": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

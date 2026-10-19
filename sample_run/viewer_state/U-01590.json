@@ -1,0 +1,98 @@
+{
+  "user_id": "U-01590",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-16T21:08:42.177Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-04-24T08:34:36.047Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:49:10.453Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:49:10.453Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:49:10.453Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:49:10.453Z"
+    },
+    "signup_at": {
+      "value": "2025-04-24T08:34:36.047Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-04-24T08:34:36.047Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:eccebdac-1443-4758-9322-e55a5a2cb95b",
+      "received_at": "2026-09-16T21:08:42.177Z",
+      "occurred_at": "2026-09-16T06:13:52.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "return_after_absence_7d",
+    "goal_id": "G12",
+    "name": "return_after_absence_7d",
+    "started_at": "2026-10-01T04:45:55.872Z",
+    "deadline": "2026-10-08T04:45:55.872Z",
+    "window_hours": 168,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "state:last_app_open_at:2026-09-16T21:07:37.278Z"
+    ],
+    "assumptions": [
+      "Lapsed viewer has returned; need immediate play hook."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-12",
+    "2026-09-17"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-16T21:07:37.278Z",
+  "last_play_started_at": "2026-09-07T21:31:37.170Z",
+  "series_progress": {
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-07T23:21:59.899Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

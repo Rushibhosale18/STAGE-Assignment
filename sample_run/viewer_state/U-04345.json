@@ -1,0 +1,80 @@
+{
+  "user_id": "U-04345",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-23T03:07:37.436Z",
+  "subscription_status": "never",
+  "preferred_dialect": "",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-20T19:40:44.185Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:07:22.403Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:07:22.403Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:07:22.403Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:07:22.403Z"
+    },
+    "signup_at": {
+      "value": "2026-09-20T19:40:44.185Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-20T19:40:44.185Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:af6ee567-6535-444e-b5e7-ca382fb36476",
+      "received_at": "2026-09-23T03:07:37.436Z",
+      "occurred_at": "2026-09-20T19:45:24.785Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 6,
+  "distinct_active_ist_days": [
+    "2026-09-22",
+    "2026-09-23"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-23T03:03:12.389Z",
+  "last_play_started_at": "2026-09-23T03:04:50.902Z",
+  "series_progress": {
+    "yaka-naka-d5": {
+      "last_watched_at": "2026-09-23T03:07:37.436Z",
+      "last_episode_id": "yaka-naka-d5-s1e1",
+      "completed_episodes": [
+        "yaka-naka-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

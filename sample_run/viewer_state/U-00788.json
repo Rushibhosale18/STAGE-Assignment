@@ -1,0 +1,111 @@
+{
+  "user_id": "U-00788",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T19:12:04.811Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-07-16T23:44:27.260Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-12T01:06:32.143Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:38:52.418Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:38:52.418Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:38:52.418Z"
+    },
+    "signup_at": {
+      "value": "2026-07-16T23:44:27.260Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-07-16T23:44:27.260Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:d79717d9-9138-4bda-b50e-6c6921425fb9",
+      "received_at": "2026-09-29T19:12:04.811Z",
+      "occurred_at": "2026-09-29T19:12:03.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 30,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-11",
+    "2026-09-15",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-27",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 12,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-29T19:10:00.817Z",
+  "last_play_started_at": "2026-09-29T19:12:04.811Z",
+  "series_progress": {
+    "kasu-piva-d4": {
+      "last_watched_at": "2026-09-11T19:52:18.965Z",
+      "last_episode_id": "kasu-piva-d4-s1e1",
+      "completed_episodes": [
+        "kasu-piva-d4-s1e1"
+      ]
+    },
+    "baguti-gida-d4": {
+      "last_watched_at": "2026-09-20T06:05:17.532Z",
+      "last_episode_id": "baguti-gida-d4-s1e1",
+      "completed_episodes": [
+        "baguti-gida-d4-s1e1"
+      ]
+    },
+    "tiko-subava-d4": {
+      "last_watched_at": "2026-09-22T04:25:08.121Z",
+      "last_episode_id": "tiko-subava-d4-s1e1",
+      "completed_episodes": [
+        "tiko-subava-d4-s1e1"
+      ]
+    },
+    "yaha-nava-d4": {
+      "last_watched_at": "2026-09-29T19:12:04.811Z",
+      "last_episode_id": "yaha-nava-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Devotional": 3,
+    "Thriller": 6,
+    "Romance": 3,
+    "Comedy": 6,
+    "Crime": 3,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

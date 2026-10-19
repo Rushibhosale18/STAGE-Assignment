@@ -1,0 +1,149 @@
+{
+  "user_id": "U-03826",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-25T15:59:41.014Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-03-03T18:36:36.623Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-02T23:35:20.842Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:30:21.063Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:30:21.063Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:30:21.063Z"
+    },
+    "signup_at": {
+      "value": "2025-03-03T18:36:36.623Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-03T18:36:36.623Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:c160b8ce-3250-4248-91da-e6f32e06399d",
+      "received_at": "2026-09-25T15:59:41.014Z",
+      "occurred_at": "2026-09-25T15:59:38.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T19:26:25.661Z",
+    "deadline": "2026-10-03T19:26:25.661Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:guka-kosusa-d2:unwatched_episodes",
+      "series_progress:guka-kosusa-d2:last_watched:2026-09-03T07:41:19.232Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series guka-kosusa-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "guka-kosusa-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 45,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-09",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25"
+  ],
+  "total_plays_started": 30,
+  "total_episodes_completed": 18,
+  "last_app_open_at": "2026-09-25T15:58:49.964Z",
+  "last_play_started_at": "2026-09-25T15:56:54.447Z",
+  "series_progress": {
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-03T07:41:19.232Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": []
+    },
+    "bhaja-moguba-d2": {
+      "last_watched_at": "2026-09-18T16:35:36.784Z",
+      "last_episode_id": "bhaja-moguba-d2-s1e2",
+      "completed_episodes": [
+        "bhaja-moguba-d2-s1e1",
+        "bhaja-moguba-d2-s1e2"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-09T08:36:09.296Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": []
+    },
+    "neba-d2": {
+      "last_watched_at": "2026-09-09T14:03:11.271Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": []
+    },
+    "dava-nedi-d2": {
+      "last_watched_at": "2026-09-13T14:21:04.165Z",
+      "last_episode_id": "dava-nedi-d2-s1e1",
+      "completed_episodes": [
+        "dava-nedi-d2-s1e1"
+      ]
+    },
+    "gudha-masamo-d2": {
+      "last_watched_at": "2026-09-22T15:46:51.437Z",
+      "last_episode_id": "gudha-masamo-d2-s1e2",
+      "completed_episodes": [
+        "gudha-masamo-d2-s1e1",
+        "gudha-masamo-d2-s1e2"
+      ]
+    },
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-25T15:59:41.014Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e1",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 6,
+    "Devotional": 6,
+    "Thriller": 18,
+    "Action": 3,
+    "Crime": 3,
+    "Comedy": 3,
+    "Drama": 6,
+    "Family": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,134 @@
+{
+  "user_id": "U-04993",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T19:16:49.327Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d6",
+  "app_dialect": "d6",
+  "preferred_language": "hin",
+  "signup_at": "2025-07-12T10:32:40.146Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-27T19:16:49.327Z"
+    },
+    "preferred_dialect": {
+      "value": "d6",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:41:36.598Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:41:36.598Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:41:36.598Z"
+    },
+    "signup_at": {
+      "value": "2025-07-12T10:32:40.146Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-07-12T10:32:40.146Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:b8ad1c80-fe3c-48e4-beb1-8cd10ebfbebf",
+      "received_at": "2026-09-27T19:16:49.327Z",
+      "occurred_at": "2026-09-27T19:16:46.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:26:12.362Z",
+    "deadline": "2026-10-04T07:26:12.362Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bhari-vagi-d6:unwatched_episodes",
+      "series_progress:bhari-vagi-d6:last_watched:2026-09-18T03:17:48.716Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bhari-vagi-d6 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bhari-vagi-d6"
+  },
+  "goal_history": [],
+  "total_app_opens": 30,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-27"
+  ],
+  "total_plays_started": 18,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-27T09:11:01.306Z",
+  "last_play_started_at": "2026-09-26T13:45:30.081Z",
+  "series_progress": {
+    "lojane-pijasa-d6": {
+      "last_watched_at": "2026-09-26T15:18:23.574Z",
+      "last_episode_id": "lojane-pijasa-d6-s1e1",
+      "completed_episodes": [
+        "lojane-pijasa-d6-s1e1"
+      ]
+    },
+    "labhaya-d6": {
+      "last_watched_at": "2026-09-13T11:19:21.653Z",
+      "last_episode_id": "labhaya-d6-s1e1",
+      "completed_episodes": [
+        "labhaya-d6-s1e1"
+      ]
+    },
+    "bhari-vagi-d6": {
+      "last_watched_at": "2026-09-18T03:17:48.716Z",
+      "last_episode_id": "bhari-vagi-d6-s1e1",
+      "completed_episodes": []
+    },
+    "vaka-vachu-d6": {
+      "last_watched_at": "2026-09-20T08:51:59.086Z",
+      "last_episode_id": "vaka-vachu-d6-s1e1",
+      "completed_episodes": [
+        "vaka-vachu-d6-s1e1"
+      ]
+    },
+    "rasuya-moni-d6": {
+      "last_watched_at": "2026-09-20T13:04:49.424Z",
+      "last_episode_id": "rasuya-moni-d6-s1e1",
+      "completed_episodes": [
+        "rasuya-moni-d6-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 9,
+    "Drama": 12,
+    "Romance": 3,
+    "Family": 3,
+    "Devotional": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

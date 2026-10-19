@@ -1,0 +1,91 @@
+{
+  "user_id": "U-00752",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-22T16:52:38.043Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2024-12-02T13:19:46.852Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-21T01:05:13.301Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:21:57.198Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:21:57.198Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:21:57.198Z"
+    },
+    "signup_at": {
+      "value": "2024-12-02T13:19:46.852Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-02T13:19:46.852Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:5401dbcd-8984-4045-9c8f-2e2466038e66",
+      "received_at": "2026-09-22T16:52:38.043Z",
+      "occurred_at": "2026-09-22T16:52:36.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 54,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-05",
+    "2026-09-09",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22"
+  ],
+  "total_plays_started": 18,
+  "total_episodes_completed": 15,
+  "last_app_open_at": "2026-09-22T16:47:58.833Z",
+  "last_play_started_at": "2026-09-22T16:49:52.868Z",
+  "series_progress": {
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-22T16:52:38.043Z",
+      "last_episode_id": "yatite-roloda-d3-s1e5",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1",
+        "yatite-roloda-d3-s1e2",
+        "yatite-roloda-d3-s1e3",
+        "yatite-roloda-d3-s1e4",
+        "yatite-roloda-d3-s1e5"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 18
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

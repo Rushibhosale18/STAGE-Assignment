@@ -1,0 +1,145 @@
+{
+  "user_id": "U-00946",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T03:43:01.217Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-07-24T08:39:12.154Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-12T04:20:29.097Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:50:54.163Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:50:54.163Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T04:50:54.163Z"
+    },
+    "signup_at": {
+      "value": "2025-07-24T08:39:12.154Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-07-24T08:39:12.154Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:a4ea96e8-5906-440a-a228-497faa77bd26",
+      "received_at": "2026-09-30T03:43:01.217Z",
+      "occurred_at": "2026-09-30T03:28:37.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T15:16:13.991Z",
+    "deadline": "2026-10-04T15:16:13.991Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:nijara-d1:unwatched_episodes",
+      "series_progress:nijara-d1:last_watched:2026-09-01T13:02:51.891Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series nijara-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "nijara-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 63,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 48,
+  "total_episodes_completed": 27,
+  "last_app_open_at": "2026-09-30T01:51:17.502Z",
+  "last_play_started_at": "2026-09-30T01:52:35.678Z",
+  "series_progress": {
+    "nijara-d1": {
+      "last_watched_at": "2026-09-01T13:02:51.891Z",
+      "last_episode_id": "nijara-d1-s1e1",
+      "completed_episodes": []
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-30T03:43:01.217Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-28T17:13:06.102Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    },
+    "hapibha-d1": {
+      "last_watched_at": "2026-09-16T14:11:03.571Z",
+      "last_episode_id": "hapibha-d1-s1e1",
+      "completed_episodes": []
+    },
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-23T18:05:35.147Z",
+      "last_episode_id": "hama-chudibha-d1-s1e1",
+      "completed_episodes": []
+    },
+    "gima-bhadaba-d1": {
+      "last_watched_at": "2026-09-29T09:36:45.674Z",
+      "last_episode_id": "gima-bhadaba-d1-s1e1",
+      "completed_episodes": [
+        "gima-bhadaba-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 15,
+    "Thriller": 33,
+    "Drama": 30,
+    "Action": 9,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

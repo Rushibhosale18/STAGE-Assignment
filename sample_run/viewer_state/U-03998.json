@@ -1,0 +1,140 @@
+{
+  "user_id": "U-03998",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-25T15:55:04.656Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-10-04T16:35:31.759Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-16T12:01:11.397Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:54:14.704Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:54:14.704Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:54:14.704Z"
+    },
+    "signup_at": {
+      "value": "2025-10-04T16:35:31.759Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-10-04T16:35:31.759Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:b5a84911-c7cb-405d-aca1-c0cb170e4cf8",
+      "received_at": "2026-09-25T15:55:04.656Z",
+      "occurred_at": "2026-09-25T15:00:34.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:46:05.824Z",
+    "deadline": "2026-10-04T04:46:05.824Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:dhapipa-gini-d2:unwatched_episodes",
+      "series_progress:dhapipa-gini-d2:last_watched:2026-09-25T15:55:04.656Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series dhapipa-gini-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "dhapipa-gini-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 81,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25"
+  ],
+  "total_plays_started": 54,
+  "total_episodes_completed": 30,
+  "last_app_open_at": "2026-09-25T15:52:45.362Z",
+  "last_play_started_at": "2026-09-25T15:53:15.294Z",
+  "series_progress": {
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-25T15:55:04.656Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e9",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1",
+        "dhapipa-gini-d2-s1e2",
+        "dhapipa-gini-d2-s1e3",
+        "dhapipa-gini-d2-s1e4",
+        "dhapipa-gini-d2-s1e5",
+        "dhapipa-gini-d2-s1e6",
+        "dhapipa-gini-d2-s1e7",
+        "dhapipa-gini-d2-s1e8",
+        "dhapipa-gini-d2-s1e9"
+      ]
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-06T02:53:05.015Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": []
+    },
+    "teja-koriri-d2": {
+      "last_watched_at": "2026-09-06T03:50:59.579Z",
+      "last_episode_id": "teja-koriri-d2-s1e1",
+      "completed_episodes": []
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-22T07:21:32.852Z",
+      "last_episode_id": "molo-d2-s1e2",
+      "completed_episodes": [
+        "molo-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 39,
+    "Romance": 15,
+    "Devotional": 3,
+    "Drama": 3,
+    "Action": 12
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

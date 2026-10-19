@@ -1,0 +1,111 @@
+{
+  "user_id": "U-04122",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-23T06:30:17.238Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-02-28T17:43:01.220Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:46:30.696Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:46:30.696Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:46:30.696Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:46:30.696Z"
+    },
+    "signup_at": {
+      "value": "2026-02-28T17:43:01.220Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-02-28T17:43:01.220Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:302fe43c-78f0-4a71-b98d-d641643e91ab",
+      "received_at": "2026-09-23T06:30:17.238Z",
+      "occurred_at": "2026-09-23T06:30:17.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:48:34.092Z",
+    "deadline": "2026-10-04T16:48:34.092Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:gineni-d4:unwatched_episodes",
+      "series_progress:gineni-d4:last_watched:2026-09-18T16:51:21.345Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series gineni-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "gineni-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 39,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-23"
+  ],
+  "total_plays_started": 15,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-23T06:29:57.447Z",
+  "last_play_started_at": "2026-09-18T16:51:21.345Z",
+  "series_progress": {
+    "gineni-d4": {
+      "last_watched_at": "2026-09-18T16:51:21.345Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "kasu-piva-d4": {
+      "last_watched_at": "2026-09-16T06:05:18.148Z",
+      "last_episode_id": "kasu-piva-d4-s1e1",
+      "completed_episodes": [
+        "kasu-piva-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 12,
+    "Family": 12,
+    "Devotional": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

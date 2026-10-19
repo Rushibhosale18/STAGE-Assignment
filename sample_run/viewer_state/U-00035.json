@@ -1,0 +1,119 @@
+{
+  "user_id": "U-00035",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T00:32:42.203Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2025-12-22T16:48:17.383Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-08T00:44:07.789Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:46:07.547Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:46:07.547Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:46:07.547Z"
+    },
+    "signup_at": {
+      "value": "2025-12-22T16:48:17.383Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-12-22T16:48:17.383Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:3fb0b2e7-84ba-4ef7-8be1-198a840733ba",
+      "received_at": "2026-09-30T00:32:42.203Z",
+      "occurred_at": "2026-09-30T00:32:41.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:07:05.781Z",
+    "deadline": "2026-10-04T14:07:05.781Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:hate-d1:unwatched_episodes",
+      "series_progress:hate-d1:last_watched:2026-09-21T15:18:47.407Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series hate-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "hate-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 42,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-15",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-27",
+    "2026-09-30"
+  ],
+  "total_plays_started": 18,
+  "total_episodes_completed": 15,
+  "last_app_open_at": "2026-09-30T00:32:23.265Z",
+  "last_play_started_at": "2026-09-21T15:16:58.417Z",
+  "series_progress": {
+    "hate-d1": {
+      "last_watched_at": "2026-09-21T15:18:47.407Z",
+      "last_episode_id": "hate-d1-s1e4",
+      "completed_episodes": [
+        "hate-d1-s1e1",
+        "hate-d1-s1e2",
+        "hate-d1-s1e3",
+        "hate-d1-s1e4"
+      ]
+    },
+    "raja-badi-d1": {
+      "last_watched_at": "2026-09-15T08:22:02.453Z",
+      "last_episode_id": "raja-badi-d1-s1e1",
+      "completed_episodes": [
+        "raja-badi-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Comedy": 15,
+    "Devotional": 18,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

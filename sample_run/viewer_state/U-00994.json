@@ -1,0 +1,93 @@
+{
+  "user_id": "U-00994",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-25T11:38:05.175Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-05-11T01:43:17.921Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-05T23:17:59.028Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:58:09.701Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:58:09.701Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:58:09.701Z"
+    },
+    "signup_at": {
+      "value": "2026-05-11T01:43:17.921Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-05-11T01:43:17.921Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:f3866d9e-49b5-448e-a6e6-a473d3e5edaf",
+      "received_at": "2026-09-25T11:38:05.175Z",
+      "occurred_at": "2026-09-25T11:38:04.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 45,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-11",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-24",
+    "2026-09-25"
+  ],
+  "total_plays_started": 21,
+  "total_episodes_completed": 18,
+  "last_app_open_at": "2026-09-25T11:34:33.879Z",
+  "last_play_started_at": "2026-09-25T11:36:15.167Z",
+  "series_progress": {
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-25T11:38:05.175Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e6",
+      "completed_episodes": [
+        "gubava-gihaya-d5-s1e1",
+        "gubava-gihaya-d5-s1e2",
+        "gubava-gihaya-d5-s1e4",
+        "gubava-gihaya-d5-s1e3",
+        "gubava-gihaya-d5-s1e5",
+        "gubava-gihaya-d5-s1e6"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 21
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

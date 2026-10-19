@@ -1,0 +1,154 @@
+{
+  "user_id": "U-04698",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T07:41:27.577Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2025-02-17T05:56:37.997Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-29T15:45:51.775Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:50:10.616Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:50:10.616Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:50:10.616Z"
+    },
+    "signup_at": {
+      "value": "2025-02-17T05:56:37.997Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-02-17T05:56:37.997Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:fca8e52f-298e-4174-9ce5-972dce836978",
+      "received_at": "2026-09-30T07:41:27.577Z",
+      "occurred_at": "2026-09-30T07:41:27.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T12:21:37.324Z",
+    "deadline": "2026-10-04T12:21:37.324Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:subha-gumo-d4:unwatched_episodes",
+      "series_progress:subha-gumo-d4:last_watched:2026-09-05T15:03:58.644Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series subha-gumo-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "subha-gumo-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 87,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 48,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-30T07:39:02.152Z",
+  "last_play_started_at": "2026-09-30T07:41:27.577Z",
+  "series_progress": {
+    "subha-gumo-d4": {
+      "last_watched_at": "2026-09-05T15:03:58.644Z",
+      "last_episode_id": "subha-gumo-d4-s1e1",
+      "completed_episodes": []
+    },
+    "raja-d4": {
+      "last_watched_at": "2026-09-06T05:12:08.319Z",
+      "last_episode_id": "raja-d4-s1e1",
+      "completed_episodes": []
+    },
+    "subha-riti-d4": {
+      "last_watched_at": "2026-09-08T15:49:05.533Z",
+      "last_episode_id": "subha-riti-d4-s1e1",
+      "completed_episodes": []
+    },
+    "riya-gune-d4": {
+      "last_watched_at": "2026-09-10T10:01:02.049Z",
+      "last_episode_id": "riya-gune-d4-s1e1",
+      "completed_episodes": [
+        "riya-gune-d4-s1e1"
+      ]
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-30T04:26:09.644Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": [
+        "gineni-d4-s1e1"
+      ]
+    },
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-30T07:41:27.577Z",
+      "last_episode_id": "bagi-baya-d4-s1e4",
+      "completed_episodes": [
+        "bagi-baya-d4-s1e1",
+        "bagi-baya-d4-s1e2",
+        "bagi-baya-d4-s1e3"
+      ]
+    },
+    "hada-maloni-d4": {
+      "last_watched_at": "2026-09-22T02:23:11.332Z",
+      "last_episode_id": "hada-maloni-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 6,
+    "Crime": 6,
+    "Romance": 24,
+    "Thriller": 3,
+    "Family": 21,
+    "Drama": 15
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

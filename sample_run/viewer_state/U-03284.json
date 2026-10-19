@@ -1,0 +1,135 @@
+{
+  "user_id": "U-03284",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T19:28:52.470Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d5",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-10T19:03:36.405Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-06T21:34:08.719Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:48:22.338Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:48:22.338Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:48:22.338Z"
+    },
+    "signup_at": {
+      "value": "2026-09-10T19:03:36.405Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-10T19:03:36.405Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:6e65ab81-eeff-4748-a988-7d3b12d818d1",
+      "received_at": "2026-09-29T19:28:52.470Z",
+      "occurred_at": "2026-09-29T19:28:52.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:55:50.638Z",
+    "deadline": "2026-10-04T04:55:50.638Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:rimo-koni-d1:unwatched_episodes",
+      "series_progress:rimo-koni-d1:last_watched:2026-09-26T14:19:26.823Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series rimo-koni-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "rimo-koni-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 63,
+  "distinct_active_ist_days": [
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-29"
+  ],
+  "total_plays_started": 42,
+  "total_episodes_completed": 24,
+  "last_app_open_at": "2026-09-29T18:26:45.598Z",
+  "last_play_started_at": "2026-09-29T18:28:53.041Z",
+  "series_progress": {
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-29T18:54:39.547Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "rimo-koni-d1": {
+      "last_watched_at": "2026-09-26T14:19:26.823Z",
+      "last_episode_id": "rimo-koni-d1-s1e6",
+      "completed_episodes": [
+        "rimo-koni-d1-s1e1",
+        "rimo-koni-d1-s1e2",
+        "rimo-koni-d1-s1e3",
+        "rimo-koni-d1-s1e4",
+        "rimo-koni-d1-s1e5"
+      ]
+    },
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-24T08:48:17.530Z",
+      "last_episode_id": "hama-chudibha-d1-s1e1",
+      "completed_episodes": []
+    },
+    "bagugu-gigupi-d1": {
+      "last_watched_at": "2026-09-27T07:33:43.763Z",
+      "last_episode_id": "bagugu-gigupi-d1-s1e1",
+      "completed_episodes": [
+        "bagugu-gigupi-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 18,
+    "Thriller": 39,
+    "Devotional": 21,
+    "Comedy": 3,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

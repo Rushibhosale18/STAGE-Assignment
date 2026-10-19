@@ -1,0 +1,138 @@
+{
+  "user_id": "U-00629",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T07:26:24.897Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-05-13T03:44:27.427Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-15T01:19:21.589Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:58:48.326Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:58:48.326Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:58:48.326Z"
+    },
+    "signup_at": {
+      "value": "2026-05-13T03:44:27.427Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-05-13T03:44:27.427Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:b4e9b985-cfbe-4278-9ae6-154e76363e5c",
+      "received_at": "2026-09-30T07:26:24.897Z",
+      "occurred_at": "2026-09-30T07:26:22.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:31:12.016Z",
+    "deadline": "2026-10-04T05:31:12.016Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:guka-kosusa-d2:unwatched_episodes",
+      "series_progress:guka-kosusa-d2:last_watched:2026-09-14T13:06:46.974Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series guka-kosusa-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "guka-kosusa-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 63,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-03",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 30,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-30T07:26:11.449Z",
+  "last_play_started_at": "2026-09-30T06:34:29.842Z",
+  "series_progress": {
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-14T13:06:46.974Z",
+      "last_episode_id": "guka-kosusa-d2-s1e1",
+      "completed_episodes": []
+    },
+    "guneba-guba-d2": {
+      "last_watched_at": "2026-09-09T11:44:53.814Z",
+      "last_episode_id": "guneba-guba-d2-s1e1",
+      "completed_episodes": []
+    },
+    "neba-d2": {
+      "last_watched_at": "2026-09-09T15:26:50.813Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": []
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-11T02:50:12.572Z",
+      "last_episode_id": "molo-d2-s1e1",
+      "completed_episodes": []
+    },
+    "dava-nedi-d2": {
+      "last_watched_at": "2026-09-11T17:36:37.671Z",
+      "last_episode_id": "dava-nedi-d2-s1e1",
+      "completed_episodes": []
+    },
+    "rigu-dhadi-d2": {
+      "last_watched_at": "2026-09-30T06:34:29.842Z",
+      "last_episode_id": "rigu-dhadi-d2-s1e3",
+      "completed_episodes": [
+        "rigu-dhadi-d2-s1e1",
+        "rigu-dhadi-d2-s1e2"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 12,
+    "Devotional": 9,
+    "Action": 18,
+    "Crime": 3,
+    "Comedy": 15,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

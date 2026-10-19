@@ -1,0 +1,81 @@
+{
+  "user_id": "U-02172",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T16:04:31.377Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-14T13:45:22.428Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:03:00.440Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:03:00.440Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:03:00.440Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:03:00.440Z"
+    },
+    "signup_at": {
+      "value": "2026-09-14T13:45:22.428Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-14T13:45:22.428Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:c0801eed-bc66-4c2b-8a55-ada4373265a0",
+      "received_at": "2026-09-29T16:04:31.377Z",
+      "occurred_at": "2026-09-29T16:04:29.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-14",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-29"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-29T16:04:31.377Z",
+  "last_play_started_at": "2026-09-19T17:22:14.646Z",
+  "series_progress": {
+    "kova-sako-d5": {
+      "last_watched_at": "2026-09-19T17:22:14.646Z",
+      "last_episode_id": "kova-sako-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Family": 3,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

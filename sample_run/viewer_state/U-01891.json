@@ -1,0 +1,55 @@
+{
+  "user_id": "U-01891",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T08:13:20.922Z",
+  "subscription_status": "never",
+  "preferred_dialect": null,
+  "app_dialect": "d1",
+  "preferred_language": null,
+  "signup_at": "2026-09-30T04:32:54.831Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": null,
+  "facts": {
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:3ef0034d-2b2e-458b-8ab2-eccee20a9d0a",
+      "received_at": "2026-09-30T08:13:20.922Z",
+      "occurred_at": "2026-09-30T08:13:19.000Z"
+    },
+    "signup_at": {
+      "value": "2026-09-30T04:32:54.831Z",
+      "source": "event:a2294af4-3eec-4112-b9e9-1c39b2a0c810:signup_completed",
+      "received_at": "2026-09-30T04:32:54.831Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 9,
+  "distinct_active_ist_days": [
+    "2026-09-30"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-30T07:05:52.890Z",
+  "last_play_started_at": "2026-09-30T07:08:50.084Z",
+  "series_progress": {
+    "raloja-d1": {
+      "last_watched_at": "2026-09-30T07:08:50.084Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 6,
+    "Action": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

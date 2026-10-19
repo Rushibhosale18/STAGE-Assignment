@@ -1,0 +1,98 @@
+{
+  "user_id": "U-03822",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T14:08:30.549Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-01-03T09:00:22.536Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:27:55.449Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:27:55.449Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:27:55.449Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T08:27:55.449Z"
+    },
+    "signup_at": {
+      "value": "2026-01-03T09:00:22.536Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-01-03T09:00:22.536Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:d5e0d7ef-06c4-4db2-9c44-1cd0987212fb",
+      "received_at": "2026-09-30T14:08:30.549Z",
+      "occurred_at": "2026-09-30T14:08:29.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_paid_7d",
+    "goal_id": "G05",
+    "name": "first_paid_7d",
+    "started_at": "2026-10-01T17:50:04.776Z",
+    "deadline": "2026-10-08T17:50:04.776Z",
+    "window_hours": 168,
+    "success_event": "purchase_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "state:subscription_status:never"
+    ],
+    "assumptions": [
+      "Free user requires high-intent conversion prompt."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-10",
+    "2026-09-21",
+    "2026-09-24",
+    "2026-09-30"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-30T14:08:30.549Z",
+  "last_play_started_at": "2026-09-30T07:34:55.784Z",
+  "series_progress": {
+    "neba-d2": {
+      "last_watched_at": "2026-09-30T09:04:10.002Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": [
+        "neba-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Crime": 3,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

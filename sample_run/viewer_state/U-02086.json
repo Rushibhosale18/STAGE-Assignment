@@ -1,0 +1,88 @@
+{
+  "user_id": "U-02086",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-26T14:33:47.716Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-08-27T09:41:20.805Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:42:46.013Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:42:46.013Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:42:46.013Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:42:46.013Z"
+    },
+    "signup_at": {
+      "value": "2026-08-27T09:41:20.805Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-27T09:41:20.805Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:1c815e6f-d1ca-4ffd-ac4f-49f2f696d587",
+      "received_at": "2026-09-26T14:33:47.716Z",
+      "occurred_at": "2026-09-26T14:33:47.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-26"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-26T14:03:31.858Z",
+  "last_play_started_at": "2026-09-26T14:04:21.478Z",
+  "series_progress": {
+    "neba-d2": {
+      "last_watched_at": "2026-09-20T15:39:59.288Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": []
+    },
+    "chugu-d2": {
+      "last_watched_at": "2026-09-26T14:33:47.716Z",
+      "last_episode_id": "chugu-d2-s1e1",
+      "completed_episodes": [
+        "chugu-d2-s1e2",
+        "chugu-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Crime": 9,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

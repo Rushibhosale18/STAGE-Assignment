@@ -1,0 +1,144 @@
+{
+  "user_id": "U-00441",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T15:44:18.294Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "en",
+  "signup_at": "2026-01-29T15:52:51.652Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-18T21:34:57.585Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:43:22.551Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:43:22.551Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T22:43:22.551Z"
+    },
+    "signup_at": {
+      "value": "2026-01-29T15:52:51.652Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-01-29T15:52:51.652Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:b7b0615b-95d5-4de4-8d52-26509f18ba9f",
+      "received_at": "2026-09-30T15:44:18.294Z",
+      "occurred_at": "2026-09-30T15:44:17.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:16:40.715Z",
+    "deadline": "2026-10-04T05:16:40.715Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:rigu-d5:unwatched_episodes",
+      "series_progress:rigu-d5:last_watched:2026-09-10T13:38:04.325Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series rigu-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "rigu-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 72,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30"
+  ],
+  "total_plays_started": 45,
+  "total_episodes_completed": 27,
+  "last_app_open_at": "2026-09-30T15:40:30.184Z",
+  "last_play_started_at": "2026-09-30T15:42:27.653Z",
+  "series_progress": {
+    "kova-sako-d5": {
+      "last_watched_at": "2026-09-29T14:43:56.324Z",
+      "last_episode_id": "kova-sako-d5-s1e3",
+      "completed_episodes": [
+        "kova-sako-d5-s1e1",
+        "kova-sako-d5-s1e2"
+      ]
+    },
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-30T15:44:18.294Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e6",
+      "completed_episodes": [
+        "gubava-gihaya-d5-s1e1",
+        "gubava-gihaya-d5-s1e2",
+        "gubava-gihaya-d5-s1e4",
+        "gubava-gihaya-d5-s1e3",
+        "gubava-gihaya-d5-s1e5",
+        "gubava-gihaya-d5-s1e6"
+      ]
+    },
+    "rigu-d5": {
+      "last_watched_at": "2026-09-10T13:38:04.325Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": []
+    },
+    "kone-dhapa-d5": {
+      "last_watched_at": "2026-09-14T09:17:04.401Z",
+      "last_episode_id": "kone-dhapa-d5-s1e1",
+      "completed_episodes": []
+    },
+    "haya-kani-d5": {
+      "last_watched_at": "2026-09-18T04:32:19.723Z",
+      "last_episode_id": "haya-kani-d5-s1e1",
+      "completed_episodes": [
+        "haya-kani-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 18,
+    "Devotional": 39,
+    "Comedy": 3,
+    "Drama": 3,
+    "Romance": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

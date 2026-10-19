@@ -1,0 +1,82 @@
+{
+  "user_id": "U-00026",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-15T18:28:25.264Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2025-05-25T15:01:16.408Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:13:41.089Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:13:41.089Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:13:41.089Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:13:41.089Z"
+    },
+    "signup_at": {
+      "value": "2025-05-25T15:01:16.408Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-05-25T15:01:16.408Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:d38f2572-b591-49f7-8178-32e9f0559481",
+      "received_at": "2026-09-15T18:28:25.264Z",
+      "occurred_at": "2026-09-15T18:28:22.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-11",
+    "2026-09-15"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-15T17:05:08.089Z",
+  "last_play_started_at": "2026-09-15T16:16:49.988Z",
+  "series_progress": {
+    "dava-nedi-d2": {
+      "last_watched_at": "2026-09-15T18:28:25.264Z",
+      "last_episode_id": "dava-nedi-d2-s1e1",
+      "completed_episodes": [
+        "dava-nedi-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

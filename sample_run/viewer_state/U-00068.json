@@ -1,0 +1,144 @@
+{
+  "user_id": "U-00068",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T18:11:41.215Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-08-12T23:06:33.859Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-25T14:18:35.742Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:35:43.044Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:35:43.044Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T14:35:43.044Z"
+    },
+    "signup_at": {
+      "value": "2026-08-12T23:06:33.859Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-08-12T23:06:33.859Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:0a6f10b6-a68f-44da-96cf-9542704f672e",
+      "received_at": "2026-09-30T18:11:41.215Z",
+      "occurred_at": "2026-10-01T21:43:24.980Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T09:55:41.292Z",
+    "deadline": "2026-10-04T09:55:41.292Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bagi-baya-d4:unwatched_episodes",
+      "series_progress:bagi-baya-d4:last_watched:2026-09-01T04:32:30.536Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bagi-baya-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bagi-baya-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 42,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-30T17:33:21.879Z",
+  "last_play_started_at": "2026-09-30T17:34:53.413Z",
+  "series_progress": {
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-01T04:32:30.536Z",
+      "last_episode_id": "bagi-baya-d4-s1e1",
+      "completed_episodes": []
+    },
+    "vapa-kalasa-d4": {
+      "last_watched_at": "2026-09-01T20:43:11.767Z",
+      "last_episode_id": "vapa-kalasa-d4-s1e1",
+      "completed_episodes": []
+    },
+    "kasu-piva-d4": {
+      "last_watched_at": "2026-09-23T03:18:24.819Z",
+      "last_episode_id": "kasu-piva-d4-s1e1",
+      "completed_episodes": [
+        "kasu-piva-d4-s1e1"
+      ]
+    },
+    "suha-d4": {
+      "last_watched_at": "2026-09-30T18:11:41.215Z",
+      "last_episode_id": "suha-d4-s1e5",
+      "completed_episodes": [
+        "suha-d4-s1e1",
+        "suha-d4-s1e2",
+        "suha-d4-s1e4",
+        "suha-d4-s1e3",
+        "suha-d4-s1e5"
+      ]
+    },
+    "nisu-sapapa-d4": {
+      "last_watched_at": "2026-09-27T01:21:07.956Z",
+      "last_episode_id": "nisu-sapapa-d4-s1e1",
+      "completed_episodes": []
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-30T13:31:25.119Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Romance": 21,
+    "Action": 3,
+    "Devotional": 30,
+    "Thriller": 9,
+    "Crime": 3,
+    "Family": 9,
+    "Drama": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

@@ -1,0 +1,129 @@
+{
+  "user_id": "U-00614",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T09:22:30.305Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d7",
+  "preferred_language": "en",
+  "signup_at": "2025-02-07T03:10:46.451Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-13T01:42:36.856Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:43:27.683Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:43:27.683Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T09:43:27.683Z"
+    },
+    "signup_at": {
+      "value": "2025-02-07T03:10:46.451Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-02-07T03:10:46.451Z"
+    },
+    "app_dialect": {
+      "value": "d7",
+      "source": "event:aebaa87d-83fc-41af-b627-9105a81a823a",
+      "received_at": "2026-09-29T09:22:30.305Z",
+      "occurred_at": "2026-09-29T09:22:29.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T16:55:36.048Z",
+    "deadline": "2026-10-04T16:55:36.048Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:tero-koja-d2:unwatched_episodes",
+      "series_progress:tero-koja-d2:last_watched:2026-09-25T17:34:34.399Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series tero-koja-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "tero-koja-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 57,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-20",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 48,
+  "total_episodes_completed": 24,
+  "last_app_open_at": "2026-09-29T09:22:30.305Z",
+  "last_play_started_at": "2026-09-28T14:49:36.140Z",
+  "series_progress": {
+    "tero-koja-d2": {
+      "last_watched_at": "2026-09-25T17:34:34.399Z",
+      "last_episode_id": "tero-koja-d2-s1e3",
+      "completed_episodes": [
+        "tero-koja-d2-s1e1",
+        "tero-koja-d2-s1e2",
+        "tero-koja-d2-s1e3"
+      ]
+    },
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-28T14:52:22.239Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e5",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1",
+        "dhapipa-gini-d2-s1e2",
+        "dhapipa-gini-d2-s1e3",
+        "dhapipa-gini-d2-s1e4",
+        "dhapipa-gini-d2-s1e5"
+      ]
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-11T13:44:20.722Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Crime": 12,
+    "Family": 45,
+    "Drama": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

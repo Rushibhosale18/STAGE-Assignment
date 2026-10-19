@@ -1,0 +1,137 @@
+{
+  "user_id": "U-03684",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T16:22:24.319Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2026-04-15T22:35:51.313Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-24T06:08:07.857Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:17:41.899Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:17:41.899Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T19:17:41.899Z"
+    },
+    "signup_at": {
+      "value": "2026-04-15T22:35:51.313Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-04-15T22:35:51.313Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:0ccaaabe-4770-4b08-8385-7116b2c3da43",
+      "received_at": "2026-09-27T16:22:24.319Z",
+      "occurred_at": "2026-09-27T16:22:23.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:07:54.652Z",
+    "deadline": "2026-10-04T07:07:54.652Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:hada-maloni-d4:unwatched_episodes",
+      "series_progress:hada-maloni-d4:last_watched:2026-09-01T08:26:59.542Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series hada-maloni-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "hada-maloni-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 63,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-27"
+  ],
+  "total_plays_started": 45,
+  "total_episodes_completed": 18,
+  "last_app_open_at": "2026-09-27T15:25:35.820Z",
+  "last_play_started_at": "2026-09-27T15:26:54.882Z",
+  "series_progress": {
+    "hada-maloni-d4": {
+      "last_watched_at": "2026-09-01T08:26:59.542Z",
+      "last_episode_id": "hada-maloni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-27T06:38:02.778Z",
+      "last_episode_id": "bagi-baya-d4-s1e6",
+      "completed_episodes": [
+        "bagi-baya-d4-s1e1",
+        "bagi-baya-d4-s1e2",
+        "bagi-baya-d4-s1e3",
+        "bagi-baya-d4-s1e4",
+        "bagi-baya-d4-s1e5"
+      ]
+    },
+    "radi-d4": {
+      "last_watched_at": "2026-09-08T03:58:09.560Z",
+      "last_episode_id": "radi-d4-s1e1",
+      "completed_episodes": []
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-27T15:26:54.882Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    },
+    "hane-d4": {
+      "last_watched_at": "2026-09-21T09:19:20.410Z",
+      "last_episode_id": "hane-d4-s1e1",
+      "completed_episodes": [
+        "hane-d4-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 39,
+    "Family": 9,
+    "Drama": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

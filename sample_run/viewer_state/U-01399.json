@@ -1,0 +1,134 @@
+{
+  "user_id": "U-01399",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T16:28:31.444Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2025-12-02T06:38:02.375Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-21T17:58:12.318Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:03:18.963Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:03:18.963Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:03:18.963Z"
+    },
+    "signup_at": {
+      "value": "2025-12-02T06:38:02.375Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-12-02T06:38:02.375Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:331b68ce-f8ca-4cf9-a5cb-a11b26df2826",
+      "received_at": "2026-09-28T16:28:31.444Z",
+      "occurred_at": "2026-09-20T11:56:04.400Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:17:48.821Z",
+    "deadline": "2026-10-04T06:17:48.821Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:haya-kani-d5:unwatched_episodes",
+      "series_progress:haya-kani-d5:last_watched:2026-09-04T15:00:52.605Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series haya-kani-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "haya-kani-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 60,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-17",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-27",
+    "2026-09-28"
+  ],
+  "total_plays_started": 24,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-28T16:24:27.283Z",
+  "last_play_started_at": "2026-09-28T16:26:41.741Z",
+  "series_progress": {
+    "haya-kani-d5": {
+      "last_watched_at": "2026-09-04T15:00:52.605Z",
+      "last_episode_id": "haya-kani-d5-s1e1",
+      "completed_episodes": []
+    },
+    "suchu-dagu-d5": {
+      "last_watched_at": "2026-09-09T19:08:02.676Z",
+      "last_episode_id": "suchu-dagu-d5-s1e1",
+      "completed_episodes": []
+    },
+    "jamo-hasa-d5": {
+      "last_watched_at": "2026-09-17T14:12:57.857Z",
+      "last_episode_id": "jamo-hasa-d5-s1e1",
+      "completed_episodes": []
+    },
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-24T13:32:47.870Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e1",
+      "completed_episodes": [
+        "gubava-gihaya-d5-s1e1"
+      ]
+    },
+    "yava-teka-d5": {
+      "last_watched_at": "2026-09-28T16:28:31.444Z",
+      "last_episode_id": "yava-teka-d5-s1e1",
+      "completed_episodes": [
+        "yava-teka-d5-s1e2",
+        "yava-teka-d5-s1e3",
+        "yava-teka-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 9,
+    "Devotional": 21,
+    "Action": 12,
+    "Crime": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

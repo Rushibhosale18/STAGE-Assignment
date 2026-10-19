@@ -1,0 +1,143 @@
+{
+  "user_id": "U-03470",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T06:03:07.867Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "en",
+  "signup_at": "2025-07-20T21:48:28.563Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-11T14:12:55.252Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:28:48.486Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:28:48.486Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:28:48.486Z"
+    },
+    "signup_at": {
+      "value": "2025-07-20T21:48:28.563Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-07-20T21:48:28.563Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:191cd3d5-7b27-4975-8e83-48ec8a26f518",
+      "received_at": "2026-09-30T06:03:07.867Z",
+      "occurred_at": "2026-09-28T11:59:06.800Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T01:49:30.011Z",
+    "deadline": "2026-10-04T01:49:30.011Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:gima-bhadaba-d1:unwatched_episodes",
+      "series_progress:gima-bhadaba-d1:last_watched:2026-09-23T07:09:20.400Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series gima-bhadaba-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "gima-bhadaba-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 75,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-30"
+  ],
+  "total_plays_started": 48,
+  "total_episodes_completed": 27,
+  "last_app_open_at": "2026-09-30T04:03:11.836Z",
+  "last_play_started_at": "2026-09-30T04:04:27.865Z",
+  "series_progress": {
+    "gima-bhadaba-d1": {
+      "last_watched_at": "2026-09-23T07:09:20.400Z",
+      "last_episode_id": "gima-bhadaba-d1-s1e3",
+      "completed_episodes": [
+        "gima-bhadaba-d1-s1e1",
+        "gima-bhadaba-d1-s1e2",
+        "gima-bhadaba-d1-s1e3"
+      ]
+    },
+    "raloja-d1": {
+      "last_watched_at": "2026-09-30T06:03:07.867Z",
+      "last_episode_id": "raloja-d1-s1e1",
+      "completed_episodes": [
+        "raloja-d1-s1e1"
+      ]
+    },
+    "hama-chudibha-d1": {
+      "last_watched_at": "2026-09-06T14:29:28.036Z",
+      "last_episode_id": "hama-chudibha-d1-s1e1",
+      "completed_episodes": []
+    },
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-13T05:23:53.322Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "naha-d1": {
+      "last_watched_at": "2026-09-25T13:34:57.910Z",
+      "last_episode_id": "naha-d1-s1e1",
+      "completed_episodes": [
+        "naha-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 36,
+    "Action": 15,
+    "Comedy": 3,
+    "Thriller": 9,
+    "Drama": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

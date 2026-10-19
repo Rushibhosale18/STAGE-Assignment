@@ -1,0 +1,100 @@
+{
+  "user_id": "U-00680",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-19T01:42:05.393Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "NA",
+  "preferred_language": "hin",
+  "signup_at": "2025-03-06T16:26:08.380Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:32:42.041Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:32:42.041Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:32:42.041Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:32:42.041Z"
+    },
+    "signup_at": {
+      "value": "2025-03-06T16:26:08.380Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-06T16:26:08.380Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:22074048-b2af-4b14-aca9-3241166959f2",
+      "received_at": "2026-09-19T01:42:05.393Z",
+      "occurred_at": "2026-09-19T01:42:04.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:45:02.591Z",
+    "deadline": "2026-10-04T04:45:02.591Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:hate-d1:unwatched_episodes",
+      "series_progress:hate-d1:last_watched:2026-09-17T14:06:50.878Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series hate-d1 and would benefit from next episode prompt."
+    ],
+    "target_slug": "hate-d1"
+  },
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-12",
+    "2026-09-17",
+    "2026-09-19"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-19T01:40:54.401Z",
+  "last_play_started_at": "2026-09-17T14:03:10.974Z",
+  "series_progress": {
+    "hate-d1": {
+      "last_watched_at": "2026-09-17T14:06:50.878Z",
+      "last_episode_id": "hate-d1-s1e1",
+      "completed_episodes": [
+        "hate-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

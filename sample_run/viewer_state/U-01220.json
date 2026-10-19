@@ -1,0 +1,129 @@
+{
+  "user_id": "U-01220",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T18:23:49.939Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2025-11-03T23:33:34.671Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-02T06:59:46.676Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:41:54.316Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:41:54.316Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:41:54.316Z"
+    },
+    "signup_at": {
+      "value": "2025-11-03T23:33:34.671Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-11-03T23:33:34.671Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:29540822-819c-419e-895e-45f68dd0d021",
+      "received_at": "2026-09-30T18:23:49.939Z",
+      "occurred_at": "2026-09-30T18:23:49.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:15:05.299Z",
+    "deadline": "2026-10-04T07:15:05.299Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:yatite-roloda-d3:unwatched_episodes",
+      "series_progress:yatite-roloda-d3:last_watched:2026-09-27T17:18:19.352Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series yatite-roloda-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "yatite-roloda-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 69,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-05",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-30"
+  ],
+  "total_plays_started": 39,
+  "total_episodes_completed": 18,
+  "last_app_open_at": "2026-09-30T18:22:58.343Z",
+  "last_play_started_at": "2026-09-27T17:18:19.352Z",
+  "series_progress": {
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-27T17:18:19.352Z",
+      "last_episode_id": "yatite-roloda-d3-s1e6",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1",
+        "yatite-roloda-d3-s1e2",
+        "yatite-roloda-d3-s1e3",
+        "yatite-roloda-d3-s1e4",
+        "yatite-roloda-d3-s1e5"
+      ]
+    },
+    "haja-d3": {
+      "last_watched_at": "2026-09-18T01:12:31.708Z",
+      "last_episode_id": "haja-d3-s1e1",
+      "completed_episodes": []
+    },
+    "pima-pana-d3": {
+      "last_watched_at": "2026-09-21T16:24:02.651Z",
+      "last_episode_id": "pima-pana-d3-s1e1",
+      "completed_episodes": [
+        "pima-pana-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 30,
+    "Family": 9,
+    "Action": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

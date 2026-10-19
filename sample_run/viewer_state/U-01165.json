@@ -1,0 +1,58 @@
+{
+  "user_id": "U-01165",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T14:58:05.371Z",
+  "subscription_status": "active",
+  "preferred_dialect": null,
+  "app_dialect": "d1",
+  "preferred_language": null,
+  "signup_at": "2026-09-30T01:11:53.747Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": null,
+  "facts": {
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:4e20281e-c4d5-4970-a44b-ad22e5a408b9",
+      "received_at": "2026-09-30T14:58:05.371Z",
+      "occurred_at": "2026-09-30T14:58:04.000Z"
+    },
+    "signup_at": {
+      "value": "2026-09-30T01:11:53.747Z",
+      "source": "event:7cdea119-6d56-4099-8e1c-b0657bf011e3:signup_completed",
+      "received_at": "2026-09-30T01:11:53.747Z"
+    },
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-30T01:17:51.574Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 6,
+  "distinct_active_ist_days": [
+    "2026-09-30"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-30T14:57:48.008Z",
+  "last_play_started_at": "2026-09-30T01:14:49.194Z",
+  "series_progress": {
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-30T01:14:49.194Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Drama": 3,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

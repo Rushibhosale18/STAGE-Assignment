@@ -1,0 +1,154 @@
+{
+  "user_id": "U-04146",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T17:12:08.470Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-01-19T02:45:32.668Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-02T12:52:39.701Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:19:54.549Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:19:54.549Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T21:19:54.549Z"
+    },
+    "signup_at": {
+      "value": "2026-01-19T02:45:32.668Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-01-19T02:45:32.668Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:4e438617-6d7a-44a4-b33c-647990ffa953",
+      "received_at": "2026-09-30T17:12:08.470Z",
+      "occurred_at": "2026-09-30T17:12:08.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T14:36:20.657Z",
+    "deadline": "2026-10-04T14:36:20.657Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:dhapipa-gini-d2:unwatched_episodes",
+      "series_progress:dhapipa-gini-d2:last_watched:2026-09-27T09:07:56.218Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series dhapipa-gini-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "dhapipa-gini-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 72,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-04",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-30"
+  ],
+  "total_plays_started": 51,
+  "total_episodes_completed": 30,
+  "last_app_open_at": "2026-09-30T17:11:55.925Z",
+  "last_play_started_at": "2026-09-27T15:53:38.346Z",
+  "series_progress": {
+    "dhapipa-gini-d2": {
+      "last_watched_at": "2026-09-27T09:07:56.218Z",
+      "last_episode_id": "dhapipa-gini-d2-s1e2",
+      "completed_episodes": [
+        "dhapipa-gini-d2-s1e1"
+      ]
+    },
+    "molo-d2": {
+      "last_watched_at": "2026-09-27T16:17:35.084Z",
+      "last_episode_id": "molo-d2-s1e7",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e2",
+        "molo-d2-s1e3",
+        "molo-d2-s1e4",
+        "molo-d2-s1e5",
+        "molo-d2-s1e6",
+        "molo-d2-s1e7"
+      ]
+    },
+    "neba-d2": {
+      "last_watched_at": "2026-09-07T19:08:23.786Z",
+      "last_episode_id": "neba-d2-s1e1",
+      "completed_episodes": [
+        "neba-d2-s1e1"
+      ]
+    },
+    "moditi-d2": {
+      "last_watched_at": "2026-09-12T02:38:54.925Z",
+      "last_episode_id": "moditi-d2-s1e1",
+      "completed_episodes": []
+    },
+    "bhaja-moguba-d2": {
+      "last_watched_at": "2026-09-17T11:32:34.213Z",
+      "last_episode_id": "bhaja-moguba-d2-s1e1",
+      "completed_episodes": []
+    },
+    "dira-kova-d2": {
+      "last_watched_at": "2026-09-24T16:45:29.895Z",
+      "last_episode_id": "dira-kova-d2-s1e1",
+      "completed_episodes": [
+        "dira-kova-d2-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Family": 9,
+    "Action": 33,
+    "Romance": 30,
+    "Crime": 3,
+    "Devotional": 3,
+    "Thriller": 3,
+    "Comedy": 3,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

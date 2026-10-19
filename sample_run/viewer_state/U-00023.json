@@ -1,0 +1,112 @@
+{
+  "user_id": "U-00023",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T16:01:59.539Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "en",
+  "signup_at": "2026-03-20T22:59:52.968Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:32:57.402Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:32:57.402Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:32:57.402Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T06:32:57.402Z"
+    },
+    "signup_at": {
+      "value": "2026-03-20T22:59:52.968Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-03-20T22:59:52.968Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:aa2ea92d-0ad2-4146-9c99-0d1c37ccb35c",
+      "received_at": "2026-09-30T16:01:59.539Z",
+      "occurred_at": "2026-09-30T16:01:59.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T02:12:27.469Z",
+    "deadline": "2026-10-04T02:12:27.469Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:gula-tete-d3:unwatched_episodes",
+      "series_progress:gula-tete-d3:last_watched:2026-09-08T09:05:29.505Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series gula-tete-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "gula-tete-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 36,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-12",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-30"
+  ],
+  "total_plays_started": 9,
+  "total_episodes_completed": 9,
+  "last_app_open_at": "2026-09-30T16:01:06.755Z",
+  "last_play_started_at": "2026-09-08T09:03:38.254Z",
+  "series_progress": {
+    "gula-tete-d3": {
+      "last_watched_at": "2026-09-08T09:05:29.505Z",
+      "last_episode_id": "gula-tete-d3-s1e2",
+      "completed_episodes": [
+        "gula-tete-d3-s1e1",
+        "gula-tete-d3-s1e2"
+      ]
+    },
+    "lomobha-moni-d3": {
+      "last_watched_at": "2026-09-07T15:08:08.213Z",
+      "last_episode_id": "lomobha-moni-d3-s1e1",
+      "completed_episodes": [
+        "lomobha-moni-d3-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Romance": 6,
+    "Action": 9,
+    "Thriller": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

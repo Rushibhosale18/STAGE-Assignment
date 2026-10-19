@@ -1,0 +1,104 @@
+{
+  "user_id": "U-04694",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T15:27:38.373Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d1",
+  "preferred_language": "hin",
+  "signup_at": "2024-12-07T17:42:34.338Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-19T20:05:57.688Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:13:50.526Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:13:50.526Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T17:13:50.526Z"
+    },
+    "signup_at": {
+      "value": "2024-12-07T17:42:34.338Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-07T17:42:34.338Z"
+    },
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:84ee4c7f-3ee8-49cd-bf4e-a5a035e5cc04",
+      "received_at": "2026-09-28T15:27:38.373Z",
+      "occurred_at": "2026-09-28T15:27:36.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 45,
+  "distinct_active_ist_days": [
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-16",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28"
+  ],
+  "total_plays_started": 27,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-28T15:05:45.530Z",
+  "last_play_started_at": "2026-09-28T15:07:38.505Z",
+  "series_progress": {
+    "rava-baya-d1": {
+      "last_watched_at": "2026-09-14T17:39:38.463Z",
+      "last_episode_id": "rava-baya-d1-s1e1",
+      "completed_episodes": [
+        "rava-baya-d1-s1e1"
+      ]
+    },
+    "hapibha-d1": {
+      "last_watched_at": "2026-09-21T11:04:04.628Z",
+      "last_episode_id": "hapibha-d1-s1e2",
+      "completed_episodes": [
+        "hapibha-d1-s1e1"
+      ]
+    },
+    "bagugu-gigupi-d1": {
+      "last_watched_at": "2026-09-28T15:07:38.505Z",
+      "last_episode_id": "bagugu-gigupi-d1-s1e2",
+      "completed_episodes": [
+        "bagugu-gigupi-d1-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Drama": 27,
+    "Thriller": 6,
+    "Romance": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

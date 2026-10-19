@@ -1,0 +1,56 @@
+{
+  "user_id": "U-02249",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-22T14:41:56.946Z",
+  "subscription_status": "never",
+  "preferred_dialect": null,
+  "app_dialect": "d1",
+  "preferred_language": null,
+  "signup_at": null,
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": null,
+  "facts": {
+    "app_dialect": {
+      "value": "d1",
+      "source": "event:ee714590-e370-4cd5-9dd7-2bb6ffca6351",
+      "received_at": "2026-09-22T14:41:56.946Z",
+      "occurred_at": "2026-09-22T14:41:54.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T13:07:51.583Z",
+    "deadline": "2026-10-04T13:07:51.583Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 12,
+  "distinct_active_ist_days": [
+    "2026-09-12",
+    "2026-09-17",
+    "2026-09-22"
+  ],
+  "total_plays_started": 0,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-22T14:41:56.946Z",
+  "last_play_started_at": null,
+  "series_progress": {},
+  "genres_watched": {},
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

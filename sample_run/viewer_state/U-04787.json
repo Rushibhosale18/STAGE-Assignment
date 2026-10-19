@@ -1,0 +1,125 @@
+{
+  "user_id": "U-04787",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T18:53:43.929Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2025-03-25T10:45:36.045Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-30T18:53:43.929Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:42:24.092Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:42:24.092Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T10:42:24.092Z"
+    },
+    "signup_at": {
+      "value": "2025-03-25T10:45:36.045Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-03-25T10:45:36.045Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:a4aef9be-2978-4ba3-81b7-a00278563a1a",
+      "received_at": "2026-09-30T18:53:43.929Z",
+      "occurred_at": "2026-09-30T18:53:43.929Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-09-30T18:51:56.335Z",
+    "deadline": "2026-10-03T18:51:56.335Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:pate-kari-d3:unwatched_episodes",
+      "series_progress:pate-kari-d3:last_watched:2026-09-03T02:10:07.418Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series pate-kari-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "pate-kari-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 42,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-12",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-27"
+  ],
+  "total_plays_started": 24,
+  "total_episodes_completed": 12,
+  "last_app_open_at": "2026-09-27T02:29:43.475Z",
+  "last_play_started_at": "2026-09-27T02:30:27.774Z",
+  "series_progress": {
+    "pate-kari-d3": {
+      "last_watched_at": "2026-09-03T02:10:07.418Z",
+      "last_episode_id": "pate-kari-d3-s1e1",
+      "completed_episodes": []
+    },
+    "digi-mone-d3": {
+      "last_watched_at": "2026-09-23T08:35:47.848Z",
+      "last_episode_id": "digi-mone-d3-s1e2",
+      "completed_episodes": [
+        "digi-mone-d3-s1e1",
+        "digi-mone-d3-s1e2"
+      ]
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-27T02:32:19.015Z",
+      "last_episode_id": "yatite-roloda-d3-s1e2",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1",
+        "yatite-roloda-d3-s1e2"
+      ]
+    },
+    "rate-java-d3": {
+      "last_watched_at": "2026-09-18T01:57:27.491Z",
+      "last_episode_id": "rate-java-d3-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 6,
+    "Romance": 21,
+    "Drama": 9
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

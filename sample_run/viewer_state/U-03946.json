@@ -1,0 +1,132 @@
+{
+  "user_id": "U-03946",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T21:27:15.550Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d1",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2026-03-04T23:04:55.169Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-18T18:01:56.319Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:30:09.686Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:30:09.686Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T16:30:09.686Z"
+    },
+    "signup_at": {
+      "value": "2026-03-04T23:04:55.169Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-03-04T23:04:55.169Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:70cefe4d-6a97-40c6-942a-194ff3f6edfb",
+      "received_at": "2026-09-29T21:27:15.550Z",
+      "occurred_at": "2026-09-29T21:27:15.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T06:50:51.709Z",
+    "deadline": "2026-10-04T06:50:51.709Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:dava-nedi-d2:unwatched_episodes",
+      "series_progress:dava-nedi-d2:last_watched:2026-09-09T12:18:55.677Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series dava-nedi-d2 and would benefit from next episode prompt."
+    ],
+    "target_slug": "dava-nedi-d2"
+  },
+  "goal_history": [],
+  "total_app_opens": 63,
+  "distinct_active_ist_days": [
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-09-30"
+  ],
+  "total_plays_started": 51,
+  "total_episodes_completed": 33,
+  "last_app_open_at": "2026-09-29T21:26:07.071Z",
+  "last_play_started_at": "2026-09-29T21:27:15.550Z",
+  "series_progress": {
+    "molo-d2": {
+      "last_watched_at": "2026-09-29T21:27:15.550Z",
+      "last_episode_id": "molo-d2-s1e7",
+      "completed_episodes": [
+        "molo-d2-s1e1",
+        "molo-d2-s1e3",
+        "molo-d2-s1e4",
+        "molo-d2-s1e5",
+        "molo-d2-s1e2",
+        "molo-d2-s1e6"
+      ]
+    },
+    "dava-nedi-d2": {
+      "last_watched_at": "2026-09-09T12:18:55.677Z",
+      "last_episode_id": "dava-nedi-d2-s1e1",
+      "completed_episodes": []
+    },
+    "guka-kosusa-d2": {
+      "last_watched_at": "2026-09-13T08:40:28.067Z",
+      "last_episode_id": "guka-kosusa-d2-s1e5",
+      "completed_episodes": [
+        "guka-kosusa-d2-s1e2",
+        "guka-kosusa-d2-s1e1",
+        "guka-kosusa-d2-s1e3",
+        "guka-kosusa-d2-s1e4",
+        "guka-kosusa-d2-s1e5"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Action": 30,
+    "Romance": 48,
+    "Comedy": 3,
+    "Thriller": 3,
+    "Devotional": 18
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

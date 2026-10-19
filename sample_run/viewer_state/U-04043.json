@@ -1,0 +1,151 @@
+{
+  "user_id": "U-04043",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T18:16:32.694Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d3",
+  "app_dialect": "d3",
+  "preferred_language": "hin",
+  "signup_at": "2025-05-09T09:40:02.302Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:purchase_completed",
+      "received_at": "2026-09-03T16:54:27.483Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:33:37.985Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:33:37.985Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T05:33:37.985Z"
+    },
+    "signup_at": {
+      "value": "2025-05-09T09:40:02.302Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-05-09T09:40:02.302Z"
+    },
+    "app_dialect": {
+      "value": "d3",
+      "source": "event:e499fbc4-fc7e-4a6e-9036-4f5ae2038c49",
+      "received_at": "2026-09-29T18:16:32.694Z",
+      "occurred_at": "2026-09-29T18:16:32.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T08:02:45.950Z",
+    "deadline": "2026-10-04T08:02:45.950Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:pima-pana-d3:unwatched_episodes",
+      "series_progress:pima-pana-d3:last_watched:2026-09-11T05:55:35.232Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series pima-pana-d3 and would benefit from next episode prompt."
+    ],
+    "target_slug": "pima-pana-d3"
+  },
+  "goal_history": [],
+  "total_app_opens": 72,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-09",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 36,
+  "total_episodes_completed": 21,
+  "last_app_open_at": "2026-09-29T17:51:38.370Z",
+  "last_play_started_at": "2026-09-29T17:54:04.868Z",
+  "series_progress": {
+    "pima-pana-d3": {
+      "last_watched_at": "2026-09-11T05:55:35.232Z",
+      "last_episode_id": "pima-pana-d3-s1e1",
+      "completed_episodes": []
+    },
+    "ririgi-d3": {
+      "last_watched_at": "2026-09-29T17:54:04.868Z",
+      "last_episode_id": "ririgi-d3-s1e2",
+      "completed_episodes": [
+        "ririgi-d3-s1e1"
+      ]
+    },
+    "yatite-roloda-d3": {
+      "last_watched_at": "2026-09-28T16:19:41.524Z",
+      "last_episode_id": "yatite-roloda-d3-s1e2",
+      "completed_episodes": [
+        "yatite-roloda-d3-s1e1",
+        "yatite-roloda-d3-s1e2"
+      ]
+    },
+    "lomobha-moni-d3": {
+      "last_watched_at": "2026-09-16T00:26:25.724Z",
+      "last_episode_id": "lomobha-moni-d3-s1e1",
+      "completed_episodes": [
+        "lomobha-moni-d3-s1e1"
+      ]
+    },
+    "pate-kari-d3": {
+      "last_watched_at": "2026-09-27T04:46:11.863Z",
+      "last_episode_id": "pate-kari-d3-s1e2",
+      "completed_episodes": [
+        "pate-kari-d3-s1e1",
+        "pate-kari-d3-s1e3",
+        "pate-kari-d3-s1e2"
+      ]
+    },
+    "digi-mone-d3": {
+      "last_watched_at": "2026-09-25T10:17:36.676Z",
+      "last_episode_id": "digi-mone-d3-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 6,
+    "Family": 3,
+    "Devotional": 9,
+    "Romance": 21,
+    "Thriller": 3,
+    "Comedy": 9,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

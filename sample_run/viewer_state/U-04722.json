@@ -1,0 +1,82 @@
+{
+  "user_id": "U-04722",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-30T14:39:02.687Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2025-11-23T16:32:34.300Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:05:43.956Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:05:43.956Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:05:43.956Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:05:43.956Z"
+    },
+    "signup_at": {
+      "value": "2025-11-23T16:32:34.300Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-11-23T16:32:34.300Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:6e1d5e08-8fba-42fa-9b9a-0e7176148998",
+      "received_at": "2026-09-30T14:39:02.687Z",
+      "occurred_at": "2026-09-30T14:39:02.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 18,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-15",
+    "2026-09-30"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-30T14:38:06.390Z",
+  "last_play_started_at": "2026-09-15T17:07:33.120Z",
+  "series_progress": {
+    "baguti-gida-d4": {
+      "last_watched_at": "2026-09-15T17:07:33.120Z",
+      "last_episode_id": "baguti-gida-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Romance": 3,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

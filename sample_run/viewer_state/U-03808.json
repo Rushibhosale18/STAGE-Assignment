@@ -1,0 +1,88 @@
+{
+  "user_id": "U-03808",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-28T15:25:56.429Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d2",
+  "app_dialect": "d2",
+  "preferred_language": "hin",
+  "signup_at": "2024-11-30T04:12:18.820Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:23:39.167Z"
+    },
+    "preferred_dialect": {
+      "value": "d2",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:23:39.167Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:23:39.167Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T13:23:39.167Z"
+    },
+    "signup_at": {
+      "value": "2024-11-30T04:12:18.820Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-11-30T04:12:18.820Z"
+    },
+    "app_dialect": {
+      "value": "d2",
+      "source": "event:99db0190-147a-48c7-afdc-447c7e7d4137",
+      "received_at": "2026-09-28T15:25:56.429Z",
+      "occurred_at": "2026-09-28T15:25:55.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-11",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-28"
+  ],
+  "total_plays_started": 6,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-28T15:24:51.939Z",
+  "last_play_started_at": "2026-09-21T06:59:16.682Z",
+  "series_progress": {
+    "tidisa-teva-d2": {
+      "last_watched_at": "2026-09-11T12:34:00.744Z",
+      "last_episode_id": "tidisa-teva-d2-s1e1",
+      "completed_episodes": []
+    },
+    "piropa-moguti-d2": {
+      "last_watched_at": "2026-09-21T06:59:16.682Z",
+      "last_episode_id": "piropa-moguti-d2-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Romance": 3,
+    "Devotional": 3,
+    "Comedy": 3,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

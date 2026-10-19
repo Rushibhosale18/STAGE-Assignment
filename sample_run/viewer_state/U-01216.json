@@ -1,0 +1,100 @@
+{
+  "user_id": "U-01216",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-25T07:05:29.246Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d7",
+  "app_dialect": "NA",
+  "preferred_language": "hin",
+  "signup_at": "2026-01-11T08:26:01.991Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-01T20:40:49.265Z"
+    },
+    "preferred_dialect": {
+      "value": "d7",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:11:16.969Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:11:16.969Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T03:11:16.969Z"
+    },
+    "signup_at": {
+      "value": "2026-01-11T08:26:01.991Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-01-11T08:26:01.991Z"
+    },
+    "app_dialect": {
+      "value": "d7",
+      "source": "event:d154eaa7-88fe-41c0-97c7-8385e250ee64",
+      "received_at": "2026-09-25T07:05:29.246Z",
+      "occurred_at": "2026-09-25T07:05:29.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "first_full_episode_3d",
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "started_at": "2026-10-01T15:05:18.160Z",
+    "deadline": "2026-10-04T15:05:18.160Z",
+    "window_hours": 72,
+    "success_event": "episode_completed",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "events:total_episodes_completed:0"
+    ],
+    "assumptions": [
+      "Viewer needs a compelling episode hook to complete their first show."
+    ]
+  },
+  "goal_history": [],
+  "total_app_opens": 39,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-21",
+    "2026-09-25"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-25T07:05:29.246Z",
+  "last_play_started_at": "2026-09-08T12:22:14.764Z",
+  "series_progress": {
+    "ladi-chuba-d1": {
+      "last_watched_at": "2026-09-08T12:22:14.764Z",
+      "last_episode_id": "ladi-chuba-d1-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 3,
+    "Devotional": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

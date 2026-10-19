@@ -1,0 +1,81 @@
+{
+  "user_id": "U-00457",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-27T14:43:49.199Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d3",
+  "app_dialect": "d6",
+  "preferred_language": "hin",
+  "signup_at": "2026-03-03T18:39:47.118Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:08:02.479Z"
+    },
+    "preferred_dialect": {
+      "value": "d3",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:08:02.479Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:08:02.479Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T00:08:02.479Z"
+    },
+    "signup_at": {
+      "value": "2026-03-03T18:39:47.118Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-03-03T18:39:47.118Z"
+    },
+    "app_dialect": {
+      "value": "d6",
+      "source": "event:33f5bb09-4b84-45af-8136-c5fc936f0635",
+      "received_at": "2026-09-27T14:43:49.199Z",
+      "occurred_at": "2026-09-27T14:43:48.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-17",
+    "2026-09-27"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-27T14:43:33.708Z",
+  "last_play_started_at": "2026-09-05T17:00:57.520Z",
+  "series_progress": {
+    "losubha-rima-d6": {
+      "last_watched_at": "2026-09-05T17:00:57.520Z",
+      "last_episode_id": "losubha-rima-d6-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Family": 3,
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

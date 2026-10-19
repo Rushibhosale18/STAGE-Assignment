@@ -1,0 +1,150 @@
+{
+  "user_id": "U-00795",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-10-01T02:46:51.048Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "en",
+  "signup_at": "2025-11-19T04:55:10.711Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-25T08:45:10.590Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:24:50.722Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:24:50.722Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T20:24:50.722Z"
+    },
+    "signup_at": {
+      "value": "2025-11-19T04:55:10.711Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-11-19T04:55:10.711Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:cbdff78f-e4eb-4678-b182-4b92a38380a3",
+      "received_at": "2026-10-01T02:46:51.048Z",
+      "occurred_at": "2026-09-26T06:41:33.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T05:59:09.405Z",
+    "deadline": "2026-10-04T05:59:09.405Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:gubava-gihaya-d5:unwatched_episodes",
+      "series_progress:gubava-gihaya-d5:last_watched:2026-09-23T19:51:44.410Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series gubava-gihaya-d5 and would benefit from next episode prompt."
+    ],
+    "target_slug": "gubava-gihaya-d5"
+  },
+  "goal_history": [],
+  "total_app_opens": 105,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-22",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
+  ],
+  "total_plays_started": 36,
+  "total_episodes_completed": 18,
+  "last_app_open_at": "2026-10-01T02:42:04.884Z",
+  "last_play_started_at": "2026-10-01T02:44:05.408Z",
+  "series_progress": {
+    "gubava-gihaya-d5": {
+      "last_watched_at": "2026-09-23T19:51:44.410Z",
+      "last_episode_id": "gubava-gihaya-d5-s1e3",
+      "completed_episodes": [
+        "gubava-gihaya-d5-s1e1",
+        "gubava-gihaya-d5-s1e2"
+      ]
+    },
+    "pana-mobako-d5": {
+      "last_watched_at": "2026-09-14T14:53:29.824Z",
+      "last_episode_id": "pana-mobako-d5-s1e1",
+      "completed_episodes": [
+        "pana-mobako-d5-s1e1"
+      ]
+    },
+    "diti-kochu-d5": {
+      "last_watched_at": "2026-09-27T17:37:12.874Z",
+      "last_episode_id": "diti-kochu-d5-s1e2",
+      "completed_episodes": [
+        "diti-kochu-d5-s1e1",
+        "diti-kochu-d5-s1e2"
+      ]
+    },
+    "gudha-bati-d5": {
+      "last_watched_at": "2026-09-25T13:30:30.767Z",
+      "last_episode_id": "gudha-bati-d5-s1e1",
+      "completed_episodes": []
+    },
+    "jamo-hasa-d5": {
+      "last_watched_at": "2026-10-01T02:46:51.048Z",
+      "last_episode_id": "jamo-hasa-d5-s1e1",
+      "completed_episodes": [
+        "jamo-hasa-d5-s1e1"
+      ]
+    }
+  },
+  "genres_watched": {
+    "Devotional": 21,
+    "Romance": 9,
+    "Family": 3,
+    "Action": 6,
+    "Crime": 9,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

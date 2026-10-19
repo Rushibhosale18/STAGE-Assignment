@@ -1,0 +1,130 @@
+{
+  "user_id": "U-03348",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-29T14:59:59.270Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "en",
+  "signup_at": "2024-11-04T10:45:53.553Z",
+  "notifications_opt_in": false,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-09T04:15:12.349Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:23:01.403Z"
+    },
+    "notifications_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:23:01.403Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T12:23:01.403Z"
+    },
+    "signup_at": {
+      "value": "2024-11-04T10:45:53.553Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-11-04T10:45:53.553Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:2e8bba19-e272-46b0-948b-49fd9561d424",
+      "received_at": "2026-09-29T14:59:59.270Z",
+      "occurred_at": "2026-09-29T14:56:21.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T04:46:06.859Z",
+    "deadline": "2026-10-04T04:46:06.859Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:bagi-baya-d4:unwatched_episodes",
+      "series_progress:bagi-baya-d4:last_watched:2026-09-03T17:29:33.116Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series bagi-baya-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "bagi-baya-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 48,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-07",
+    "2026-09-09",
+    "2026-09-11",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29"
+  ],
+  "total_plays_started": 27,
+  "total_episodes_completed": 3,
+  "last_app_open_at": "2026-09-29T14:02:10.788Z",
+  "last_play_started_at": "2026-09-29T14:04:27.803Z",
+  "series_progress": {
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-09-03T17:29:33.116Z",
+      "last_episode_id": "bagi-baya-d4-s1e1",
+      "completed_episodes": []
+    },
+    "riya-gune-d4": {
+      "last_watched_at": "2026-09-07T16:48:06.730Z",
+      "last_episode_id": "riya-gune-d4-s1e1",
+      "completed_episodes": []
+    },
+    "tidaka-koni-d4": {
+      "last_watched_at": "2026-09-11T13:26:20.788Z",
+      "last_episode_id": "tidaka-koni-d4-s1e1",
+      "completed_episodes": [
+        "tidaka-koni-d4-s1e1"
+      ]
+    },
+    "lapa-mavada-d4": {
+      "last_watched_at": "2026-09-18T06:12:51.058Z",
+      "last_episode_id": "lapa-mavada-d4-s1e1",
+      "completed_episodes": []
+    },
+    "gineni-d4": {
+      "last_watched_at": "2026-09-29T14:04:27.803Z",
+      "last_episode_id": "gineni-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Romance": 3,
+    "Family": 15,
+    "Crime": 9,
+    "Action": 6,
+    "Drama": 15
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

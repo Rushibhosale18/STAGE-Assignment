@@ -1,0 +1,77 @@
+{
+  "user_id": "U-01347",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-25T17:56:59.216Z",
+  "subscription_status": "active",
+  "preferred_dialect": "",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-25T01:11:21.775Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-03T05:50:36.550Z"
+    },
+    "preferred_dialect": {
+      "value": "",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:03:10.247Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:03:10.247Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-28T18:03:10.247Z"
+    },
+    "signup_at": {
+      "value": "2026-09-25T01:11:21.775Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-25T01:11:21.775Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:ff5be69d-b7bf-4d8f-ac9b-217a34bad1a3",
+      "received_at": "2026-09-25T17:56:59.216Z",
+      "occurred_at": "2026-09-25T17:56:59.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 6,
+  "distinct_active_ist_days": [
+    "2026-09-25"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-25T17:56:59.216Z",
+  "last_play_started_at": "2026-09-25T01:12:47.700Z",
+  "series_progress": {
+    "nigi-risa-d5": {
+      "last_watched_at": "2026-09-25T01:12:47.700Z",
+      "last_episode_id": "nigi-risa-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Drama": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

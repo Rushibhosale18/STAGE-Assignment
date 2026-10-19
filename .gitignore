@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Temporary downloads
+assignment_brief.pdf
+data_pack.zip
+pdf_text.txt
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,102 @@
+{
+  "user_id": "U-03867",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-23T15:58:51.415Z",
+  "subscription_status": "active",
+  "preferred_dialect": "d5",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2024-12-21T18:55:22.556Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "ios",
+  "facts": {
+    "subscription_status": {
+      "value": "active",
+      "source": "events:subscription_renewed",
+      "received_at": "2026-09-02T06:36:23.375Z"
+    },
+    "preferred_dialect": {
+      "value": "d5",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:18:19.000Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:18:19.000Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T01:18:19.000Z"
+    },
+    "signup_at": {
+      "value": "2024-12-21T18:55:22.556Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2024-12-21T18:55:22.556Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:75c5bf24-1edc-44c9-a476-dfb32b16af1f",
+      "received_at": "2026-09-23T15:58:51.415Z",
+      "occurred_at": "2026-09-23T15:58:49.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 45,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-06",
+    "2026-09-08",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-14",
+    "2026-09-18",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-23"
+  ],
+  "total_plays_started": 15,
+  "total_episodes_completed": 6,
+  "last_app_open_at": "2026-09-23T15:58:13.355Z",
+  "last_play_started_at": "2026-09-19T22:19:04.441Z",
+  "series_progress": {
+    "rigu-d5": {
+      "last_watched_at": "2026-09-06T15:05:42.834Z",
+      "last_episode_id": "rigu-d5-s1e1",
+      "completed_episodes": []
+    },
+    "labha-pako-d5": {
+      "last_watched_at": "2026-09-14T09:12:13.294Z",
+      "last_episode_id": "labha-pako-d5-s1e2",
+      "completed_episodes": [
+        "labha-pako-d5-s1e1",
+        "labha-pako-d5-s1e2"
+      ]
+    },
+    "diti-kochu-d5": {
+      "last_watched_at": "2026-09-19T22:19:04.441Z",
+      "last_episode_id": "diti-kochu-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3,
+    "Devotional": 6,
+    "Drama": 6,
+    "Action": 6,
+    "Crime": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

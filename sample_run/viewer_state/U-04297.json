@@ -1,0 +1,81 @@
+{
+  "user_id": "U-04297",
+  "arm": "holdout",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-09-23T06:47:54.251Z",
+  "subscription_status": "never",
+  "preferred_dialect": "d1",
+  "app_dialect": "d5",
+  "preferred_language": "hin",
+  "signup_at": "2026-09-03T13:15:18.156Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": false,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "never",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:11:26.851Z"
+    },
+    "preferred_dialect": {
+      "value": "d1",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:11:26.851Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:11:26.851Z"
+    },
+    "whatsapp_opt_in": {
+      "value": false,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T11:11:26.851Z"
+    },
+    "signup_at": {
+      "value": "2026-09-03T13:15:18.156Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-03T13:15:18.156Z"
+    },
+    "app_dialect": {
+      "value": "d5",
+      "source": "event:c0874c7a-7f1c-4394-b983-5446022f6ce6",
+      "received_at": "2026-09-23T06:47:54.251Z",
+      "occurred_at": "2026-09-23T06:47:54.000Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": null,
+  "goal_history": [],
+  "total_app_opens": 15,
+  "distinct_active_ist_days": [
+    "2026-09-03",
+    "2026-09-12",
+    "2026-09-18",
+    "2026-09-22",
+    "2026-09-23"
+  ],
+  "total_plays_started": 3,
+  "total_episodes_completed": 0,
+  "last_app_open_at": "2026-09-23T06:47:54.251Z",
+  "last_play_started_at": "2026-09-18T13:17:48.758Z",
+  "series_progress": {
+    "guko-lorina-d5": {
+      "last_watched_at": "2026-09-18T13:17:48.758Z",
+      "last_episode_id": "guko-lorina-d5-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Comedy": 3
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}

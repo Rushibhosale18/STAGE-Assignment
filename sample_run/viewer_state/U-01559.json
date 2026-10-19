@@ -1,0 +1,149 @@
+{
+  "user_id": "U-01559",
+  "arm": "agent",
+  "created_at": "2026-09-01T00:00:00.000Z",
+  "updated_at": "2026-10-01T16:23:50.649Z",
+  "subscription_status": "lapsed",
+  "preferred_dialect": "d4",
+  "app_dialect": "d4",
+  "preferred_language": "hin",
+  "signup_at": "2025-10-22T16:46:38.458Z",
+  "notifications_opt_in": true,
+  "whatsapp_opt_in": true,
+  "opted_out_channels": [],
+  "platform": "android",
+  "facts": {
+    "subscription_status": {
+      "value": "lapsed",
+      "source": "events:subscription_lapsed",
+      "received_at": "2026-09-21T00:05:56.845Z"
+    },
+    "preferred_dialect": {
+      "value": "d4",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:01:28.766Z"
+    },
+    "notifications_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:01:28.766Z"
+    },
+    "whatsapp_opt_in": {
+      "value": true,
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2026-09-29T15:01:28.766Z"
+    },
+    "signup_at": {
+      "value": "2025-10-22T16:46:38.458Z",
+      "source": "data/profiles_snapshot.csv",
+      "received_at": "2026-09-30T00:00:00.000Z",
+      "occurred_at": "2025-10-22T16:46:38.458Z"
+    },
+    "app_dialect": {
+      "value": "d4",
+      "source": "event:6b071e4f-c2b9-41a5-b5f4-012bd8f669f7",
+      "received_at": "2026-10-01T16:23:50.649Z",
+      "occurred_at": "2026-09-29T08:18:20.600Z"
+    }
+  },
+  "conflicts_detected": [],
+  "active_goal": {
+    "id": "resume_series_3d",
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "started_at": "2026-10-01T07:30:10.402Z",
+    "deadline": "2026-10-04T07:30:10.402Z",
+    "window_hours": 72,
+    "success_event": "play_started",
+    "rule_version": "2026-09-30",
+    "evidence": [
+      "series_progress:nada-sada-d4:unwatched_episodes",
+      "series_progress:nada-sada-d4:last_watched:2026-09-01T21:09:54.596Z"
+    ],
+    "assumptions": [
+      "Viewer abandoned series nada-sada-d4 and would benefit from next episode prompt."
+    ],
+    "target_slug": "nada-sada-d4"
+  },
+  "goal_history": [],
+  "total_app_opens": 81,
+  "distinct_active_ist_days": [
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01"
+  ],
+  "total_plays_started": 48,
+  "total_episodes_completed": 27,
+  "last_app_open_at": "2026-10-01T16:19:36.607Z",
+  "last_play_started_at": "2026-10-01T16:21:05.147Z",
+  "series_progress": {
+    "nada-sada-d4": {
+      "last_watched_at": "2026-09-01T21:09:54.596Z",
+      "last_episode_id": "nada-sada-d4-s1e1",
+      "completed_episodes": []
+    },
+    "bagi-baya-d4": {
+      "last_watched_at": "2026-10-01T16:23:50.649Z",
+      "last_episode_id": "bagi-baya-d4-s1e4",
+      "completed_episodes": [
+        "bagi-baya-d4-s1e1",
+        "bagi-baya-d4-s1e2",
+        "bagi-baya-d4-s1e3",
+        "bagi-baya-d4-s1e4"
+      ]
+    },
+    "tiko-subava-d4": {
+      "last_watched_at": "2026-09-28T02:07:08.496Z",
+      "last_episode_id": "tiko-subava-d4-s1e4",
+      "completed_episodes": [
+        "tiko-subava-d4-s1e1",
+        "tiko-subava-d4-s1e2",
+        "tiko-subava-d4-s1e3",
+        "tiko-subava-d4-s1e4"
+      ]
+    },
+    "dapi-sari-d4": {
+      "last_watched_at": "2026-09-09T07:34:26.151Z",
+      "last_episode_id": "dapi-sari-d4-s1e1",
+      "completed_episodes": [
+        "dapi-sari-d4-s1e1"
+      ]
+    },
+    "kasu-piva-d4": {
+      "last_watched_at": "2026-09-15T18:11:50.146Z",
+      "last_episode_id": "kasu-piva-d4-s1e1",
+      "completed_episodes": []
+    },
+    "royadha-niko-d4": {
+      "last_watched_at": "2026-09-28T16:53:19.217Z",
+      "last_episode_id": "royadha-niko-d4-s1e1",
+      "completed_episodes": []
+    }
+  },
+  "genres_watched": {
+    "Action": 6,
+    "Romance": 21,
+    "Thriller": 18,
+    "Crime": 18,
+    "Family": 3,
+    "Devotional": 6
+  },
+  "messages_sent": [],
+  "decisions_count": 0,
+  "learnings": []
+}
